@@ -1,0 +1,126 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS menu_initial
+PASS viewport_640_360
+PASS native_tilemap
+PASS resources_loaded
+PASS input_map_keyboard_gamepad
+PASS intro_open
+PASS dialogue_freezes_player
+PASS movement
+PASS facing
+PASS diagonal_normalized
+PASS water_collision
+PASS dash_wall_collision
+PASS light_three_hits / ["light_1", "light_2", "light_3"]
+PASS heavy_three_hits / ["heavy_1", "heavy_2", "heavy_3"]
+PASS branch_to_heavy_finisher
+PASS expired_buffer_rejected
+PASS real_area_hitbox_damage / HP=37.0
+PASS confirmed_hit_energy
+PASS single_hit_protection
+PASS no_energy_on_rejected_hit
+PASS dash_iframes
+PASS perfect_dodge_reward
+PASS perfect_dodge_once
+PASS dash_cooldown
+PASS magic_no_energy
+PASS magic_cost
+PASS projectile_actual_hit / HP=34.0
+PASS seal_damage_stagger
+PASS seal_cost
+PASS hurt_state
+PASS post_hit_iframes
+PASS death_state
+PASS cannot_attack_dead
+PASS respawn_full_health
+PASS respawn_group_reset
+PASS pause_modal
+PASS controls_modal
+PASS swordsman_resource
+PASS swordsman_telegraph
+PASS swordsman_attack
+PASS swordsman_recovery
+PASS swordsman_resistance
+PASS swordsman_stagger
+PASS swordsman_death_releases_token
+PASS swordsman_cleanup
+PASS runner_resource
+PASS runner_telegraph
+PASS runner_attack
+PASS runner_recovery
+PASS runner_resistance
+PASS runner_stagger
+PASS runner_death_releases_token
+PASS runner_cleanup
+PASS heavy_resource
+PASS heavy_telegraph
+PASS heavy_attack
+PASS heavy_recovery
+PASS heavy_resistance
+PASS heavy_stagger
+PASS heavy_death_releases_token
+PASS heavy_cleanup
+PASS archer_resource
+PASS archer_telegraph
+PASS archer_attack
+PASS archer_recovery
+PASS archer_resistance
+PASS archer_stagger
+PASS archer_death_releases_token
+PASS archer_cleanup
+PASS seal_resource
+PASS seal_telegraph
+PASS seal_attack
+PASS seal_recovery
+PASS seal_resistance
+PASS seal_stagger
+PASS seal_death_releases_token
+PASS seal_cleanup
+PASS group_slots_["swordsman", "swordsman"]
+PASS group_cleanup_["swordsman", "swordsman"]
+PASS group_slots_["swordsman", "runner"]
+PASS group_cleanup_["swordsman", "runner"]
+PASS group_slots_["swordsman", "archer"]
+PASS group_cleanup_["swordsman", "archer"]
+PASS group_slots_["heavy", "archer"]
+PASS group_cleanup_["heavy", "archer"]
+PASS group_slots_["heavy", "runner", "archer", "seal"]
+PASS group_cleanup_["heavy", "runner", "archer", "seal"]
+PASS boss_telegraph_combo
+PASS boss_active_combo
+PASS boss_recovery_combo
+PASS boss_telegraph_charge
+PASS boss_active_charge
+PASS boss_recovery_charge
+PASS boss_telegraph_wide
+PASS boss_active_wide
+PASS boss_recovery_wide
+PASS boss_telegraph_spirit
+PASS boss_active_spirit
+PASS boss_recovery_spirit
+PASS boss_telegraph_radial
+PASS boss_active_radial
+PASS boss_recovery_radial
+PASS boss_telegraph_summon
+PASS boss_active_summon
+PASS boss_recovery_summon
+PASS boss_summon_limit
+PASS boss_summon_limit_repeat
+PASS boss_half_transition
+PASS boss_transition_unique
+PASS boss_reset_health_phase
+PASS boss_reset_projectiles_gate
+PASS checkpoint_restore_stats
+PASS upgrade_not_duplicated
+PASS save_write_v2
+PASS save_read_fields
+PASS save_backup_recovery
+PASS invalid_content_rejected
+PASS continue_roundtrip
+PASS menu_cancels_death_timer
+PASS new_game_clears_upgrades
+PASS options_focus
+PASS checkpoint_route
+PASS shortcut_route
+PHASE_QA 123 PASS / 0 FAIL

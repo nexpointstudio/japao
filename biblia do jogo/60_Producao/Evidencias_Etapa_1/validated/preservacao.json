@@ -1,0 +1,10 @@
+{
+  "checked": 457,
+  "changed": [
+    "Amahara_Godot/scripts/game.gd",
+    "Amahara_Godot/tests/foundation_suite.gd",
+    "Amahara_Godot/scripts/foundation/game_session.gd"
+  ],
+  "qa_userdata_restored": true,
+  "source_project_untouched": false
+}

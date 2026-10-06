@@ -24,9 +24,11 @@ var path_timer: float = 0
 var knock := Vector2.ZERO
 var clock: float = 0
 var target_point := Vector2.ZERO
+var combat_target: Node2D
 var poses: Array[Texture2D] = []
 
 func _ready() -> void:
+	game.targets.register(self, CombatFactions.Team.ENEMY)
 	data = load("res://data/enemy_"+kind+".tres")
 	hp = data.hp
 	max_hp = hp
@@ -72,7 +74,8 @@ func _physics_process(dt: float) -> void:
 	invuln = maxf(0,invuln-dt)
 	queue_redraw()
 	if dead or game.hitstop > 0: return
-	if game.player.dead:
+	combat_target = game.targets.nearest(self)
+	if not is_instance_valid(combat_target):
 		cancel_attack()
 		state = "idle"
 		return
@@ -87,7 +90,7 @@ func _physics_process(dt: float) -> void:
 			state = "recover"
 			timer = .3
 		return
-	var distance := global_position.distance_to(game.player.global_position)
+	var distance := global_position.distance_to(combat_target.global_position)
 	match state:
 		"idle":
 			if distance < data.detection: state = "chase"
@@ -97,13 +100,13 @@ func _physics_process(dt: float) -> void:
 			elif distance < data.preferred_distance and line_of_sight() and game.director.request(self):
 				state = "telegraph"
 				timer = data.windup
-				facing = global_position.direction_to(game.player.global_position)
-				target_point = game.player.position
+				facing = global_position.direction_to(combat_target.global_position)
+				target_point = combat_target.position
 				game.audio.sfx("warn")
 			elif kind in ["archer","seal"] and distance < 100:
-				walk_towards(position-position.direction_to(game.player.position)*60,data.speed,dt)
+				walk_towards(position-position.direction_to(combat_target.position)*60,data.speed,dt)
 			else:
-				var target: Vector2 = game.player.position
+				var target: Vector2 = combat_target.position
 				if kind == "runner" and distance > 95: target += Vector2(0,48 if get_instance_id()%2 == 0 else -48)
 				walk_towards(target,data.speed,dt)
 		"return":
@@ -129,7 +132,7 @@ func _physics_process(dt: float) -> void:
 				timer = data.recovery
 		"recover":
 			if distance < 32 and kind == "swordsman":
-				velocity = -position.direction_to(game.player.position)*22
+				velocity = -position.direction_to(combat_target.position)*22
 				move_and_slide()
 			if timer <= 0: state = "chase"
 	sprite.texture = poses[2 if state == "telegraph" else 3 if state == "attack" else 1 if state in ["chase","return"] and int(clock*7)%2 else 0]
@@ -137,7 +140,9 @@ func _physics_process(dt: float) -> void:
 	sprite.position.y = -23 + (round(sin(clock*10)) if state == "chase" else 0)
 
 func line_of_sight() -> bool:
-	var query := PhysicsRayQueryParameters2D.create(position+Vector2(0,-8),game.player.position+Vector2(0,-8),1)
+	combat_target = game.targets.nearest(self)
+	if not is_instance_valid(combat_target): return false
+	var query := PhysicsRayQueryParameters2D.create(position+Vector2(0,-8),combat_target.position+Vector2(0,-8),1)
 	return get_world_2d().direct_space_state.intersect_ray(query).is_empty()
 
 func cancel_attack() -> void:
@@ -161,11 +166,18 @@ func walk_towards(target: Vector2, speed: float, _dt: float) -> void:
 	move_and_slide()
 
 func receive_hit(amount: float, source: Node2D, force: float, posture_damage: float) -> bool:
+	return receive_combat_hit(CombatHit.create(source,self,amount,force,posture_damage))
+
+func receive_combat_hit(hit: CombatHit) -> bool:
+	if not hit.valid() or hit.target != self: return false
+	var amount := hit.damage
+	var force := hit.knockback
+	var posture_damage := hit.stagger
 	if dead or invuln > 0: return false
 	hp = maxf(0,hp-amount)
 	posture -= posture_damage
 	invuln = .08
-	knock = source.global_position.direction_to(global_position)*force
+	knock = hit.direction*force
 	if hp <= 0:
 		cancel_attack()
 		dead = true

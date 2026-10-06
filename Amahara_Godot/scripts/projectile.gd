@@ -31,7 +31,9 @@ func _physics_process(dt: float) -> void:
 func _hit(area: Area2D) -> void:
 	if spent: return
 	if area is HurtboxComponent:
-		if area.actor.receive_hit(game.player.magics[0].damage,game.player,70,game.player.magics[0].stagger):
+		var hit := CombatHit.create(game.player,area.actor,game.player.magics[0].damage,70,game.player.magics[0].stagger,"magic.celestial:%d" % get_instance_id())
+		hit.source_kind = &"magic_projectile"
+		if hit.apply():
 			game.fx.burst(global_position,Color("baefd6"),15)
 			game.fx.word(area.actor.global_position,"24",Color("baefd6"))
 			game.audio.sfx("hit")

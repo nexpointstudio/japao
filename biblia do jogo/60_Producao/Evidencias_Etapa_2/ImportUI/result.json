@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "count": 9,
+  "checks": [
+    "sheet_import_dialog",
+    "sequence_import_dialog",
+    "sequence_preview",
+    "event_remove_button",
+    "replace_art_creates_revision",
+    "distinct_art_versions_A_B",
+    "frame_pivot_override_dialog",
+    "source_pngs_untouched",
+    "graceful_close"
+  ]
+}

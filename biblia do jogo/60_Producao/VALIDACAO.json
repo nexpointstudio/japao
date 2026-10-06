@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-06",
+  "result": "PASS",
+  "scope": "document validation only; gameplay not executed",
+  "markdown_notes": 70,
+  "active_notes": 68,
+  "resolved_wikilinks": 279,
+  "reachable_active_notes": 68,
+  "isolated": [],
+  "duplicate_large_paragraphs": [],
+  "index_words": 203,
+  "ai_context_words": 211,
+  "largest_note_words": 255,
+  "boss_main_final": 7,
+  "boss_optional": 4,
+  "magic_notes": 4,
+  "preexisting_files_checked": 295,
+  "preexisting_changed_entrypoints": [
+    "README.md",
+    "biblia do jogo/Bem-vindo.md"
+  ],
+  "other_preexisting_changes": [],
+  "entrypoint_original_copies": "identical SHA256",
+  "errors": [],
+  "manual_review": [
+    "conditional vs approved decisions",
+    "canon vs prototype separation",
+    "all requested domains",
+    "open definitions explicitly marked"
+  ],
+  "obsidian_gui": "not executed",
+  "game_tests": "not executed"
+}

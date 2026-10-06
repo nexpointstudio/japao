@@ -39,6 +39,7 @@ var knock := Vector2.ZERO
 var attacks_performed: Array[String] = []
 
 func _ready() -> void:
+	game.targets.register(self, CombatFactions.Team.PLAYER)
 	collision_layer = 2
 	collision_mask = 1
 	motion_mode = CharacterBody2D.MOTION_MODE_FLOATING
@@ -223,11 +224,19 @@ func cast(slot: int) -> bool:
 		game.fx.burst(global_position,Color("deb977"),24)
 		for enemy in game.combat_targets():
 			if is_instance_valid(enemy) and not enemy.dead and global_position.distance_to(enemy.global_position) < magic.radius:
-				enemy.receive_hit(magic.damage,self,95,magic.stagger)
+				var hit := CombatHit.create(self,enemy,magic.damage,95,magic.stagger,"magic.rupture")
+				hit.source_kind = &"magic"
+				hit.apply()
 	game.audio.sfx("magic1" if slot == 0 else "magic2")
 	return true
 
-func receive_hit(amount: float, source: Node2D, force: float, _posture_damage: float) -> bool:
+func receive_hit(amount: float, source: Node2D, force: float, posture_damage: float) -> bool:
+	return receive_combat_hit(CombatHit.create(source,self,amount,force,posture_damage))
+
+func receive_combat_hit(hit: CombatHit) -> bool:
+	if not hit.valid() or hit.target != self: return false
+	var amount := hit.damage
+	var force := hit.knockback
 	if dead: return false
 	if invuln > 0:
 		if state == "dash" and dash_elapsed <= .09 and not rewarded_dodge:
@@ -242,7 +251,7 @@ func receive_hit(amount: float, source: Node2D, force: float, _posture_damage: f
 	invuln = .62
 	hitbox.finish()
 	combo_buffer = ""
-	knock = source.global_position.direction_to(global_position)*force
+	knock = hit.direction*force
 	game.fx.burst(global_position+Vector2(0,-12),Color("d78b76"),12)
 	game.audio.sfx("hurt")
 	game.camera_bump(3)

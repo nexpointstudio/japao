@@ -1,0 +1,16 @@
+{
+  "command": [
+    "D:/NexStudio/tools/godot-4.6.1/Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "D:\\NexStudio\\projetos\\japao\\.git\\etapas_1_2_final\\Amahara_Godot",
+    "--script",
+    "D:\\NexStudio\\projetos\\japao\\.git\\contract_interop_probe.gd",
+    "--",
+    "D:\\ver anima\u00e7ao\\Cache\\Animation2DQA\\UIRuns\\1791328716142895400\\fixture_marker\\character.anim.json",
+    "D:\\ver anima\u00e7ao\\Cache\\Animation2DQA\\ImportRuns\\1791328727606629200\\library\\fixture_import\\character.anim.json"
+  ],
+  "exit": 0,
+  "packages": 2,
+  "kind": "metadata validation only; no importer"
+}

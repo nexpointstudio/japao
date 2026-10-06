@@ -1,0 +1,43 @@
+{
+  "checked": 3339,
+  "changed": [
+    "D:\\ver anima\u00e7ao\\App\\library\\processing.py",
+    "D:\\ver anima\u00e7ao\\App\\ui\\nex_window.py"
+  ],
+  "missing": [],
+  "expected_code_changes_only": true,
+  "previously_protected_sources": 3272,
+  "protected_source_changes": [],
+  "production_database_logical_equal": true,
+  "production_table_counts": {
+    "migrations": 1,
+    "settings": 14,
+    "skeletons": 1761,
+    "rig_profiles": 1759,
+    "bone_mappings": 42216,
+    "animations": 3103,
+    "animation_metadata": 0,
+    "markers": 0,
+    "validation_results": 3103,
+    "combos": 0,
+    "combo_clips": 0,
+    "tasks": 18,
+    "character_profiles": 1,
+    "combat_moves": 0,
+    "combat_poses": 0,
+    "continuity_migrations": 1,
+    "pose_snapshots": 0,
+    "derived_animations": 0,
+    "animation_lineage": 0,
+    "combo_revisions": 0,
+    "combo_drafts": 0,
+    "combo_transitions": 0,
+    "animation_sequences": 0,
+    "character_animation_templates": 1,
+    "character_animation_groups": 8,
+    "character_animation_slots": 38,
+    "character_animation_assignments": 0,
+    "continuity_analysis": 0
+  },
+  "verified_after_final_3d_window_test": true
+}

@@ -1,0 +1,17 @@
+{
+  "stage": 1,
+  "status": "PASS",
+  "distinct_checks": 208,
+  "old_checks": 158,
+  "foundation_checks": 50,
+  "both_project_and_export": true,
+  "playthrough_and_reopen_both": true,
+  "foundation_reopen_both": true,
+  "known_baseline_issue": "forced --quit-after cleanup diagnostic; graceful suites clean",
+  "resolved_issues": [
+    "probe type annotation fixed",
+    "export does not run standalone --script; verified via existing QA dispatcher --verify-save --verify-world"
+  ],
+  "next_stage_allowed": 2,
+  "export_sha256": "3aabca7665801e459c593529f0417a21eedeb115006d0451bddfe9d6a9e97151"
+}

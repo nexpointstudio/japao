@@ -1,0 +1,19 @@
+{
+  "checked_preexisting": 367,
+  "changed_only_authorized_documentation": [
+    "biblia do jogo/00_INDEX.md",
+    "biblia do jogo/01_ESTADO_ATUAL.md",
+    "biblia do jogo/CHANGELOG.md",
+    "biblia do jogo/60_Producao/README.md"
+  ],
+  "unexpected_changes": [],
+  "runtime_and_builds_unchanged": true,
+  "test_copy_source_files_verified": 76,
+  "test_copy_differences": [],
+  "new_export": {
+    "local_path": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe",
+    "bytes": 113776800,
+    "sha256": "5811bf7138f36fc1c4e316b14ffe658b8c88120f0c8567447750b284b965917d"
+  },
+  "no_gameplay_changes": true
+}

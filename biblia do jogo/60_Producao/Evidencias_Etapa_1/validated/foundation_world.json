@@ -1,0 +1,20 @@
+{
+	"checkpoint": "checkpoint.fixture.start",
+	"completed": [
+		"boss.fixture.one"
+	],
+	"flags": {
+		"flag.fixture.seen": true
+	},
+	"namespace": "dark.kuroyomi",
+	"progress": {
+		"story.fixture": 2.0
+	},
+	"unlocked": [
+		"magic.fixture.one"
+	],
+	"upgrades": [
+		"upgrade.fixture.one"
+	],
+	"version": 3
+}

@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "count": 5,
+  "checks": [
+    "fresh_application_reopens_exact_metadata",
+    "fresh_application_lists_versions",
+    "fresh_application_renders_both_versions",
+    "fresh_application_png_hashes",
+    "graceful_close"
+  ]
+}

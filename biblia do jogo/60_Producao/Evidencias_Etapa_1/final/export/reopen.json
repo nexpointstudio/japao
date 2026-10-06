@@ -1,0 +1,10 @@
+{
+	"max_energy": 125.0,
+	"method": "New operating-system process reading save left by playthrough",
+	"pass": true,
+	"stage": 6,
+	"upgrades": [
+		"memorial",
+		"altar"
+	]
+}

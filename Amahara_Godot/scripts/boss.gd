@@ -4,6 +4,7 @@ extends CharacterBody2D
 signal died
 signal phase_changed(phase: int)
 var game
+var combat_target: Node2D
 var hp: float = 480
 var max_hp: float = 480
 var posture: float = 100
@@ -28,6 +29,7 @@ var summons: Array = []
 var performed: Array[String] = []
 
 func _ready() -> void:
+	game.targets.register(self, CombatFactions.Team.ENEMY)
 	collision_layer = 16
 	collision_mask = 1
 	motion_mode = CharacterBody2D.MOTION_MODE_FLOATING
@@ -60,7 +62,8 @@ func awaken() -> void:
 func _physics_process(dt: float) -> void:
 	queue_redraw()
 	invuln = maxf(0,invuln-dt)
-	if dead or state == "dormant" or game.player.dead or game.hitstop > 0: return
+	combat_target = game.targets.nearest(self)
+	if dead or state == "dormant" or not is_instance_valid(combat_target) or game.hitstop > 0: return
 	timer -= dt
 	if phase == 1 and hp <= max_hp*.5:
 		phase = 2
@@ -81,8 +84,8 @@ func _physics_process(dt: float) -> void:
 				state = "recover"
 				timer = .6
 		"chase":
-			facing = position.direction_to(game.player.position)
-			if position.distance_to(game.player.position) > 48:
+			facing = position.direction_to(combat_target.position)
+			if position.distance_to(combat_target.position) > 48:
 				velocity = facing*(49 if phase == 1 else 58)
 				move_and_slide()
 			if timer <= 0:
@@ -98,7 +101,7 @@ func _physics_process(dt: float) -> void:
 				move_and_slide()
 			if pattern.id == "combo" and elapsed > (combo_step+1)*.22 and combo_step < 2:
 				combo_step += 1
-				facing = position.direction_to(game.player.position)
+				facing = position.direction_to(combat_target.position)
 				hitbox.begin(attack,facing)
 				game.fx.slash(position,facing,combo_step == 2,combo_step == 1)
 				sprite.texture = poses[2 if combo_step < 2 else 4]
@@ -116,17 +119,19 @@ func _physics_process(dt: float) -> void:
 	sprite.modulate = Color("fff1ce") if invuln > 0 else Color.WHITE
 
 func begin_pattern(id: String) -> void:
+	combat_target = game.targets.nearest(self)
+	if not is_instance_valid(combat_target): return
 	pattern = patterns[id]
 	performed.append(id)
 	state = "telegraph"
 	timer = pattern.windup
-	facing = position.direction_to(game.player.position)
+	facing = position.direction_to(combat_target.position)
 	sprite.texture = poses[pattern.pose]
 	game.audio.sfx("warn")
 	if id == "spirit":
-		game.hazard(self,game.player.position,42,pattern.damage,pattern.windup+.3)
+		game.hazard(self,combat_target.position,42,pattern.damage,pattern.windup+.3)
 		if phase == 2:
-			game.hazard(self,game.player.position+Vector2(55,0),34,pattern.damage,pattern.windup+.55)
+			game.hazard(self,combat_target.position+Vector2(55,0),34,pattern.damage,pattern.windup+.55)
 
 func activate() -> void:
 	state = "attack"
@@ -155,7 +160,13 @@ func activate() -> void:
 				summons.append(game.spawn_enemy(at,"swordsman"))
 	game.audio.sfx("heavy")
 
-func receive_hit(amount: float, _source: Node2D, _force: float, posture_damage: float) -> bool:
+func receive_hit(amount: float, source: Node2D, force: float, posture_damage: float) -> bool:
+	return receive_combat_hit(CombatHit.create(source,self,amount,force,posture_damage))
+
+func receive_combat_hit(hit: CombatHit) -> bool:
+	if not hit.valid() or hit.target != self: return false
+	var amount := hit.damage
+	var posture_damage := hit.stagger
 	if dead or invuln > 0 or state in ["dormant","transition"]: return false
 	hp = maxf(0,hp-amount)
 	invuln = .07

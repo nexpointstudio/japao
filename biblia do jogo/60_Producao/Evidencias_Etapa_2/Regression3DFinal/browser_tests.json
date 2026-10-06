@@ -1,0 +1,240 @@
+[
+  {
+    "id": "T01",
+    "name": "Clique real em hand_r + seleção na árvore",
+    "status": "PASS"
+  },
+  {
+    "id": "T02",
+    "name": "Transform numérico e gizmo local",
+    "status": "PASS"
+  },
+  {
+    "id": "T03",
+    "name": "Inserir key selecionada",
+    "status": "PASS"
+  },
+  {
+    "id": "T04",
+    "name": "Avançar frame na timeline",
+    "status": "PASS"
+  },
+  {
+    "id": "T05",
+    "name": "Segunda pose e key",
+    "status": "PASS"
+  },
+  {
+    "id": "T06",
+    "name": "Interpolação real e playback",
+    "status": "PASS"
+  },
+  {
+    "id": "T07",
+    "name": "Auto Key",
+    "status": "PASS"
+  },
+  {
+    "id": "T08",
+    "name": "Seleção múltipla e keys",
+    "status": "PASS"
+  },
+  {
+    "id": "T09",
+    "name": "Dope Sheet com canais reais",
+    "status": "PASS"
+  },
+  {
+    "id": "T10",
+    "name": "Arrastar keys na Dope Sheet",
+    "status": "PASS"
+  },
+  {
+    "id": "T11",
+    "name": "Duplicar keys",
+    "status": "PASS"
+  },
+  {
+    "id": "T12",
+    "name": "Escalar timing 30 para 24 frames",
+    "status": "PASS"
+  },
+  {
+    "id": "T13",
+    "name": "Graph Editor e F-curves",
+    "status": "PASS"
+  },
+  {
+    "id": "T14",
+    "name": "Tangente altera interpolação",
+    "status": "PASS"
+  },
+  {
+    "id": "T15",
+    "name": "Interpolação constante",
+    "status": "PASS"
+  },
+  {
+    "id": "T16",
+    "name": "Interpolação linear",
+    "status": "PASS"
+  },
+  {
+    "id": "T17",
+    "name": "Bezier + handles auto/vector/free/aligned",
+    "status": "PASS"
+  },
+  {
+    "id": "T18",
+    "name": "Salvar e aplicar pose",
+    "status": "PASS"
+  },
+  {
+    "id": "T19",
+    "name": "Espelhar pose preservando referência",
+    "status": "PASS"
+  },
+  {
+    "id": "T20",
+    "name": "Pose parcial e blend",
+    "status": "PASS"
+  },
+  {
+    "id": "T21",
+    "name": "IK braço com pole e comprimento fixo",
+    "status": "PASS"
+  },
+  {
+    "id": "T22",
+    "name": "IK perna",
+    "status": "PASS"
+  },
+  {
+    "id": "T23",
+    "name": "Match IK/FK sem salto",
+    "status": "PASS"
+  },
+  {
+    "id": "T24",
+    "name": "Foot lock em intervalo",
+    "status": "PASS"
+  },
+  {
+    "id": "T25",
+    "name": "Editar raiz por canal",
+    "status": "PASS"
+  },
+  {
+    "id": "T26",
+    "name": "Gerar in-place",
+    "status": "PASS"
+  },
+  {
+    "id": "T27",
+    "name": "Camada aditiva weight/mute/solo",
+    "status": "PASS"
+  },
+  {
+    "id": "T28",
+    "name": "Ghost ±1/2",
+    "status": "PASS"
+  },
+  {
+    "id": "T29",
+    "name": "Motion trail",
+    "status": "PASS"
+  },
+  {
+    "id": "T30",
+    "name": "Startup/active/recovery",
+    "status": "PASS"
+  },
+  {
+    "id": "T31",
+    "name": "Hitbox no intervalo",
+    "status": "PASS"
+  },
+  {
+    "id": "T32",
+    "name": "Dummy distância/altura/agachado",
+    "status": "PASS"
+  },
+  {
+    "id": "T33",
+    "name": "Undo transforms/keys/markers/layers",
+    "status": "PASS"
+  },
+  {
+    "id": "T34",
+    "name": "Redo",
+    "status": "PASS"
+  },
+  {
+    "id": "T35",
+    "name": "Autosave agendado pelo editor",
+    "status": "PASS",
+    "detail": {
+      "session": "11cab6a990ec4316a6bad46df46fea65"
+    }
+  },
+  {
+    "id": "T38",
+    "name": "Entrada base imutável",
+    "status": "PASS"
+  },
+  {
+    "id": "E01",
+    "name": "Custom F-curves editáveis",
+    "status": "PASS"
+  },
+  {
+    "id": "E02",
+    "name": "Space switch mantém pose",
+    "status": "PASS"
+  },
+  {
+    "id": "E03",
+    "name": "Bake parcial preserva fora do intervalo",
+    "status": "PASS"
+  },
+  {
+    "id": "E04",
+    "name": "Working pose recuperável sem key",
+    "status": "PASS"
+  },
+  {
+    "id": "E05",
+    "name": "Export range/FPS/root e valores finitos",
+    "status": "PASS"
+  },
+  {
+    "id": "E06",
+    "name": "Keys IK e AutoKey de controle preservam movimento",
+    "status": "PASS"
+  },
+  {
+    "id": "E07",
+    "name": "Volume usa metros, independente da escala do rig",
+    "status": "PASS"
+  },
+  {
+    "id": "E08",
+    "name": "Constraint e máscara de camada",
+    "status": "PASS"
+  },
+  {
+    "id": "E11",
+    "name": "Curvas IK e influência no Graph/Dope",
+    "status": "PASS"
+  },
+  {
+    "id": "E12",
+    "name": "In-place pelvis e eixos em metros globais",
+    "status": "PASS"
+  },
+  {
+    "id": "E13",
+    "name": "Influence zero de limite preserva pose",
+    "status": "PASS"
+  }
+]

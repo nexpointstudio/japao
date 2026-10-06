@@ -1,0 +1,18 @@
+{
+  "protected_files": 86,
+  "protected_changed": [],
+  "existing_files_changed": [
+    "Amahara_Godot/export_presets.cfg",
+    "Amahara_Godot/scripts/boss.gd",
+    "Amahara_Godot/scripts/enemy.gd",
+    "Amahara_Godot/scripts/game.gd",
+    "Amahara_Godot/scripts/hitbox.gd",
+    "Amahara_Godot/scripts/hostile_effect.gd",
+    "Amahara_Godot/scripts/player.gd",
+    "Amahara_Godot/scripts/projectile.gd",
+    "Amahara_Godot/scripts/save_store.gd",
+    "Amahara_Godot/tests/persistence_probe.gd"
+  ],
+  "source_before_copy": "D:\\NexStudio\\projetos\\japao\\.git\\etapa1_baseline\\Amahara_Godot",
+  "no_original_art_or_balance_change": true
+}

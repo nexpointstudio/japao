@@ -1,0 +1,9 @@
+{
+  "command": [
+    "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+    "-c",
+    "from pathlib import Path; p=Path('Tools/native_window_qa.py').resolve(); s=p.read_text('utf8').replace('Reports/AnimationEditorRecovery/NativeQA','Reports/Animation2D/Regression3DFinal'); exec(compile(s,str(p),'exec'),{'__file__':str(p),'__name__':'__main__'})"
+  ],
+  "exit": 0,
+  "seconds": 14.953257499997562
+}

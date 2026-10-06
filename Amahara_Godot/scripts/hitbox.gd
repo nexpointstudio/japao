@@ -6,6 +6,7 @@ var attack: AttackData
 var struck: Dictionary = {}
 var enabled: bool = false
 var collider: CollisionShape2D
+var attack_serial: int = 0
 
 func setup(who: CharacterBody2D, target_layer: int) -> void:
 	actor = who
@@ -17,6 +18,7 @@ func setup(who: CharacterBody2D, target_layer: int) -> void:
 	add_child(collider)
 
 func begin(data: AttackData, direction: Vector2) -> void:
+	attack_serial += 1
 	attack = data
 	struck.clear()
 	position = direction * attack.reach + Vector2(0, -9)
@@ -31,7 +33,8 @@ func sample() -> void:
 		if area is HurtboxComponent and not struck.has(area.actor.get_instance_id()):
 			var target = area.actor
 			struck[target.get_instance_id()] = true
-			if target.receive_hit(attack.damage, actor, attack.knockback, attack.stagger):
+			var hit := CombatHit.create(actor, target, attack.damage, attack.knockback, attack.stagger, "%s:%d:%d" % [attack.id,get_instance_id(),attack_serial])
+			if hit.apply():
 				actor.confirm_hit(target, attack)
 
 func finish() -> void:

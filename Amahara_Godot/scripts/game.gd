@@ -12,6 +12,8 @@ var projectiles: Node2D
 var yuna: Node2D
 var story := StoryProgression.new()
 var director := EncounterDirector.new()
+var targets := CombatTargetRegistry.new()
+var session: GameSession
 var hitstop: float = 0
 var shake: float = 0
 var running := false
@@ -39,7 +41,7 @@ func _ready() -> void:
 	var args := OS.get_cmdline_user_args()
 	for arg in args:
 		if arg.begins_with("--evidence-dir="): evidence_dir = arg.trim_prefix("--evidence-dir=")
-	qa_mode = "--qa" in args or "--capture" in args or "--playthrough" in args or "--advanced" in args or "--verify-save" in args or "--settings-qa" in args
+	qa_mode = "--qa" in args or "--capture" in args or "--playthrough" in args or "--advanced" in args or "--verify-save" in args or "--settings-qa" in args or "--foundation-qa" in args
 	if qa_mode: SaveStore.override_path = "user://amahara_phase_qa.json"
 	director.game = self
 	audio = AmaharaAudio.new()
@@ -49,10 +51,11 @@ func _ready() -> void:
 	audio.set_music_volume(float(settings.get("music",.55)))
 	audio.sfx_volume = float(settings.get("sfx",.65))
 	if settings.get("fullscreen",false) and not qa_mode: DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
-	death_timer = Timer.new()
-	death_timer.one_shot = true
-	death_timer.timeout.connect(respawn)
-	add_child(death_timer)
+	session = GameSession.new()
+	add_child(session)
+	session.respawn_requested.connect(respawn)
+	session.reset_requested.connect(reset_enemies)
+	death_timer = session.death_timer
 	toast_timer = Timer.new()
 	toast_timer.one_shot = true
 	toast_timer.timeout.connect(func(): ui.toast_label.hide())
@@ -68,6 +71,7 @@ func _ready() -> void:
 	elif "--advanced" in args: call_deferred("run_suite","advanced_suite")
 	elif "--verify-save" in args: call_deferred("run_suite","persistence_probe")
 	elif "--settings-qa" in args: call_deferred("run_suite","settings_suite")
+	elif "--foundation-qa" in args: call_deferred("run_suite","foundation_suite")
 
 func create_world() -> void:
 	world = VillageWorld.new()
@@ -109,9 +113,8 @@ func start_sample(continue_save: bool = false) -> void:
 	deaths = 0
 	apply_upgrades()
 	checkpoint = story.checkpoint_position()
-	player.restore(checkpoint)
+	session.start(player, "checkpoint.amahara."+story.checkpoint, checkpoint)
 	camera.position = checkpoint
-	reset_enemies()
 	running = true
 	get_tree().paused = false
 	sync_progress()
@@ -124,8 +127,8 @@ func start_sample(continue_save: bool = false) -> void:
 	elif SaveStore.recovered_backup: toast("O registro foi recuperado pela cópia de segurança.")
 
 func cancel_events() -> void:
-	generation += 1
-	death_timer.stop()
+	session.invalidate()
+	generation = session.generation
 	toast_timer.stop()
 	dialogue.clear()
 	dialogue_done = Callable()
@@ -300,6 +303,7 @@ func apply_upgrades() -> void:
 	player.max_energy = 100+upgrade.energy_bonus if "altar" in story.upgrades else 100
 
 func sync_progress() -> void:
+	session.set_checkpoint("checkpoint.amahara."+story.checkpoint,story.checkpoint_position())
 	objective = story.objective()
 	world.set_gate("village",story.stage < 2)
 	world.set_gate("shortcut",not story.shortcut)
@@ -377,15 +381,14 @@ func toast(text: String) -> void:
 func on_player_death() -> void:
 	deaths += 1
 	objective = "O juramento ainda não terminou."
-	death_timer.start(1.1)
+	session.mark_dead(1.1)
 	ui.fade.color.a = .55
 
 func respawn() -> void:
 	cancel_events()
 	get_tree().paused = false
 	checkpoint = story.checkpoint_position()
-	player.restore(checkpoint)
-	reset_enemies()
+	session.respawn_at("checkpoint.amahara."+story.checkpoint, checkpoint)
 	ui.fade.color.a = 0
 	sync_progress()
 	audio.change_track("village")
@@ -395,6 +398,7 @@ func set_paused(value: bool) -> void: get_tree().paused = value
 
 func return_menu() -> void:
 	cancel_events()
+	session.end()
 	ui.clear_modal()
 	ui.hud.hide()
 	ui.toast_label.hide()

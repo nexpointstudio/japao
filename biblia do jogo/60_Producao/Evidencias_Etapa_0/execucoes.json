@@ -1,0 +1,307 @@
+{
+  "environment": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "engine": "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+    "date": "2026-10-06"
+  },
+  "runs": [
+    {
+      "name": "version",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--version"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 1.33,
+      "diagnostics": []
+    },
+    {
+      "name": "import",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--import"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 10.86,
+      "diagnostics": []
+    },
+    {
+      "name": "boot",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--quit-after",
+        "10"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 1.0,
+      "diagnostics": [
+        "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+        "ERROR: 1 resources still in use at exit (run with --verbose for details)."
+      ]
+    },
+    {
+      "name": "phase",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--",
+        "--qa",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 39.09,
+      "diagnostics": [
+        "PHASE_QA 123 PASS / 0 FAIL"
+      ]
+    },
+    {
+      "name": "advanced",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--",
+        "--advanced",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 17.41,
+      "diagnostics": [
+        "ADVANCED_QA 29 PASS / 0 FAIL"
+      ]
+    },
+    {
+      "name": "settings",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--",
+        "--settings-qa",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 0.93,
+      "diagnostics": [
+        "SETTINGS_QA 6 PASS / 0 FAIL"
+      ]
+    },
+    {
+      "name": "playthrough",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--",
+        "--playthrough",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 41.61,
+      "diagnostics": []
+    },
+    {
+      "name": "reopen",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--",
+        "--verify-save",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 0.93,
+      "diagnostics": []
+    },
+    {
+      "name": "audio_cleanup",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--script",
+        "res://tests/audio_cleanup.gd"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 1.02,
+      "diagnostics": []
+    },
+    {
+      "name": "export",
+      "command": [
+        "D:\\NexStudio\\tools\\godot-4.6.1\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+        "--export-release",
+        "Windows Desktop",
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 5.87,
+      "diagnostics": []
+    },
+    {
+      "name": "export_phase",
+      "command": [
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe",
+        "--headless",
+        "--",
+        "--qa",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0\\export"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 39.21,
+      "diagnostics": [
+        "PHASE_QA 123 PASS / 0 FAIL"
+      ]
+    },
+    {
+      "name": "export_advanced",
+      "command": [
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe",
+        "--headless",
+        "--",
+        "--advanced",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0\\export"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 17.28,
+      "diagnostics": [
+        "ADVANCED_QA 29 PASS / 0 FAIL"
+      ]
+    },
+    {
+      "name": "export_settings",
+      "command": [
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe",
+        "--headless",
+        "--",
+        "--settings-qa",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0\\export"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 0.81,
+      "diagnostics": [
+        "SETTINGS_QA 6 PASS / 0 FAIL"
+      ]
+    },
+    {
+      "name": "export_playthrough",
+      "command": [
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe",
+        "--headless",
+        "--",
+        "--playthrough",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0\\export"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 42.59,
+      "diagnostics": []
+    },
+    {
+      "name": "export_reopen",
+      "command": [
+        "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Baseline.exe",
+        "--headless",
+        "--",
+        "--verify-save",
+        "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_0\\export"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao\\.git\\etapa0\\Amahara_Godot",
+      "exit": 0,
+      "seconds": 0.81,
+      "diagnostics": []
+    },
+    {
+      "name": "preservation",
+      "command": [
+        "C:\\Users\\ruben\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "D:\\NexStudio\\projetos\\japao\\Amahara_Godot\\tools\\audit_sources.py"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao",
+      "exit": 0,
+      "seconds": 0.08,
+      "diagnostics": []
+    },
+    {
+      "name": "legacy_logic_suite",
+      "command": [
+        "node",
+        "D:\\NexStudio\\projetos\\japao\\amahara_vertical_slice\\tests\\logic_suite.js"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao",
+      "exit": 1,
+      "seconds": 0.36,
+      "classification": "BLOCKED if chromium ENOENT; not a gameplay test result",
+      "diagnostics": [
+        "  path: 'chromium',",
+        "  spawnargs: [",
+        "    '--headless=new',",
+        "    '--disable-gpu',",
+        "    '--no-sandbox',",
+        "    '--remote-debugging-port=9777',",
+        "    '--user-data-dir=/tmp/amahara-logic',",
+        "    'about:blank'",
+        "  ]",
+        "}",
+        "",
+        "Node.js v24.19.0"
+      ]
+    },
+    {
+      "name": "legacy_cdp_smoke",
+      "command": [
+        "node",
+        "D:\\NexStudio\\projetos\\japao\\amahara_vertical_slice\\tests\\cdp_smoke.js"
+      ],
+      "cwd": "D:\\NexStudio\\projetos\\japao",
+      "exit": 1,
+      "seconds": 0.05,
+      "classification": "BLOCKED if chromium ENOENT; not a gameplay test result",
+      "diagnostics": [
+        "  path: 'chromium',",
+        "  spawnargs: [",
+        "    '--headless=new',",
+        "    '--disable-gpu',",
+        "    '--no-sandbox',",
+        "    '--remote-debugging-port=9333',",
+        "    '--user-data-dir=/tmp/amahara-chrome-test',",
+        "    'about:blank'",
+        "  ]",
+        "}",
+        "",
+        "Node.js v24.19.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2718 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 66,
+    "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 325,
+    "sha256": "fe74fdf660b0392a73529ddbeff8140b260fbd039a5988b334c206db9b44de12"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 615,
+    "sha256": "54d0b5708eb1315d249a9ff07a068852b92413e345030cb37b866c2df5da8c48"
+  },
+  {
+    "path": "AMAHARA_BIBLIA_MESTRA_COMPLETA.md",
+    "bytes": 184156,
+    "sha256": "98a0426cc985489a30437085464410adb960d28dde0e657c6aaaf91ba3b63825"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2108,
+    "sha256": "7beeaa890bdb835149df580f4577b71bcad1d45c7171f61cf64920f64f63a3da"
+  },
+  {
+    "path": "Amahara_Godot/export_presets.cfg",
+    "bytes": 921,
+    "sha256": "3869dc7f2699c8e0b0abb541fc5b6fa426ab831d62bc9b56dfedd636b7b4b1c9"
+  },
+  {
+    "path": "Amahara_Godot/project.godot",
+    "bytes": 804,
+    "sha256": "71678bcf248a7d53875c04d72dcad14cd6953de8a325c2518d54259d94e3d668"
+  },
+  {
+    "path": "Amahara_Godot/README.md",
+    "bytes": 3236,
+    "sha256": "b01569e3ca704d863281534c3045e1acc35747790bbaf3c3ee557adb40ef1b92"
+  },
+  {
+    "path": "amahara_vertical_slice/index.html",
+    "bytes": 2868,
+    "sha256": "c6f57b03d27e531a06a8ad786d3226d86bf4cb7fd84ebf41555d066e6829a661"
+  },
+  {
+    "path": "amahara_vertical_slice/README.md",
+    "bytes": 1651,
+    "sha256": "9c65405335a79067fbf41cc854ee08b0e5ebd49e60b6e289941dcacdff56b961"
+  },
+  {
+    "path": "amahara_vertical_slice/run.bat",
+    "bytes": 233,
+    "sha256": "ab4499b3c8cf04e0a7053c067c2a378d7263316b31645dcea32ed49ed27d0f62"
+  },
+  {
+    "path": "amahara_vertical_slice/style.css",
+    "bytes": 2769,
+    "sha256": "00e30801c7cb3e712911769419323c922c928a33165157146d42503ceba81484"
+  },
+  {
+    "path": "biblia do jogo/00_INDEX.md",
+    "bytes": 1762,
+    "sha256": "86de7212028486e39defc26c18620b00e3ee4148ffba5d77f8451c440b660cf8"
+  },
+  {
+    "path": "biblia do jogo/01_ESTADO_ATUAL.md",
+    "bytes": 1684,
+    "sha256": "c32ceab7f4d8032a5ed4c733fe54d8528ffebd4a8d8f505a846fd496fe8fd566"
+  },
+  {
+    "path": "biblia do jogo/02_VISAO_DO_JOGO.md",
+    "bytes": 1129,
+    "sha256": "17bf3868f8e5507aa774964e34e1644f0608978a14b0589f97995f7fc2424afd"
+  },
+  {
+    "path": "biblia do jogo/AI_CONTEXT.md",
+    "bytes": 1712,
+    "sha256": "b116a456210d6c7fcdfa12f1644cc8cb97066a6a711390b9bd86a04d9640be6a"
+  },
+  {
+    "path": "biblia do jogo/Bem-vindo.md",
+    "bytes": 348,
+    "sha256": "2c91fb756e92f5a8630712abbddba262e2591c8da9615fb3fce43b3dba97b859"
+  },
+  {
+    "path": "biblia do jogo/CHANGELOG.md",
+    "bytes": 1705,
+    "sha256": "c9670e95f9c24766d08251eab3235fc19798a71dce388c37319c1db4b8b955d7"
+  },
+  {
+    "path": "biblia do jogo/README.md",
+    "bytes": 1600,
+    "sha256": "5501a0b1720ee73b5386687c92d0dd623df0ea98fc4f01cf606f70009a4aabd0"
+  },
+  {
+    "path": "Jogar/Amahara.exe",
+    "bytes": 113776800,
+    "sha256": "529b2ed1ff3f61037331a4434d3f1f4444433c94413b661dac8873e677443bc4"
+  },
+  {
+    "path": "Jogar/Amahara_Amostra.exe",
+    "bytes": 109599848,
+    "sha256": "8e0dfaf61dab4e2f426d80a5130ee1fa6f81b0de64fee003247b40d906ff84f5"
+  },
+  {
+    "path": "Jogar/LEIA-ME.txt",
+    "bytes": 1167,
+    "sha256": "bab6f58b1133ed67321847e345eabe1234dbafcd03978663f9852fb430d5b0c1"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/app.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/appearance.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/core-plugins.json",
+    "bytes": 696,
+    "sha256": "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/graph.json",
+    "bytes": 493,
+    "sha256": "89b1b8c279c3229a13509a0fad866ef90a7a70a6536f78d542e9c0960aec3d77"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/workspace.json",
+    "bytes": 5554,
+    "sha256": "4e65192b18a8b85c3dd6c76bf480914af80fabba8a702a636456893d976eb068"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Antagonista.md",
+    "bytes": 788,
+    "sha256": "c267bcf3f197827788a1bd6863d38c2e43ad2c8172586a9bf344d7a49224e8c4"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Kuroyomi.md",
+    "bytes": 960,
+    "sha256": "011ab4cc2a552cbb53725139e2b5ad155eae8097eca51994949f3b0f6f9fba0c"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Linha_do_Tempo.md",
+    "bytes": 836,
+    "sha256": "b1cfd96a29010832bcfa6457f4c4c7204c75e2e80ffaffe84cce5c82a8272d21"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Passado_da_Vila.md",
+    "bytes": 793,
+    "sha256": "1c843aaa1253b20e13a91f435478b8b8d0efadf349b2b63a049cb130f5dadeb3"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Premissa.md",
+    "bytes": 858,
+    "sha256": "4ee735bacc8b48b5b4f16ce6182a36cbdc5183a2aef997abac1f5a837a636c08"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/README.md",
+    "bytes": 538,
+    "sha256": "b50f7c0d33c8877c1944a37e7d9d3bcd04082a90adf7482e2e9b6df8a0fb1926"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Ren.md",
+    "bytes": 670,
+    "sha256": "b9f42dbb9969c6f1549465ce341ca3ce67c34a0599e92366870b1cd45a398f6a"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Temas.md",
+    "bytes": 610,
+    "sha256": "af873781d304430d85d824ec6292565c5afb04d60a907a4dcc0acfdf90c4eb10"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Arco.md",
+    "bytes": 810,
+    "sha256": "3f13e3272d52549ab4f3e671735ee48664fc468fa7b6b3c7417624ed4f9d2884"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Combate_Core.md",
+    "bytes": 814,
+    "sha256": "746b212f08c719af9db4885ce3e60619c4fdbdde41d1439e7556c1573f6ae338"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Controles.md",
+    "bytes": 1133,
+    "sha256": "c64ee0d0a21f44f97ef0a958ff110f81abdcf8fdf5380a6e2d27ae1ba1370ea9"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Dash_Perfect_Dodge.md",
+    "bytes": 697,
+    "sha256": "e09c738c11ca61bfd02e64187383bbb07092c335166d64c89a95b90fec61cb5e"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Katana.md",
+    "bytes": 1166,
+    "sha256": "cf2d9e23626c7794f16a1fbacec30a03dbcf0aed31dd72642d65fc06817e2dcd"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias.md",
+    "bytes": 859,
+    "sha256": "bbf104c5cfc28936167ba5af40e97218f1aa02371e03300f2d84f620c192d2eb"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Mana.md",
+    "bytes": 658,
+    "sha256": "d9ef4fb1b30b98f57cc4c453d705d2201d71926550859d8c5c469129f963f182"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Morte_Checkpoints_Save.md",
+    "bytes": 1097,
+    "sha256": "25af68bcb4cc22a167d1bc2bb22dab635100f892fe0b8a78edd055439764f6c1"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Progressao.md",
+    "bytes": 789,
+    "sha256": "97fd41f554f3d36352de0d459defb50951439c291111321a93b80632956c921a"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Ambientacao.md",
+    "bytes": 660,
+    "sha256": "a8a2b701714d8cfa5a2067195f84d0a3d4044c1ab07f0fabbd609930ece4238e"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Estrutura.md",
+    "bytes": 814,
+    "sha256": "c41d48a81b29dd1cc2af0932bf7db81968d0a02d6a409838ebe52e199c59ccb4"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Exploracao.md",
+    "bytes": 653,
+    "sha256": "b4e2afa51367cb394f6b34377c340cba4f39e0ee2d9913d6832d48cd9e8cb1bf"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Mapa.md",
+    "bytes": 802,
+    "sha256": "3ffee1ce68aba11d9d7ba5b20faa9054705a6e24d8c1d87ee307d7493590de11"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/README.md",
+    "bytes": 461,
+    "sha256": "e5aacc98d64f4165a7c95f2e66f48d0de5de57568449cee65e19e59980c3fc4f"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Regioes_e_Fases.md",
+    "bytes": 820,
+    "sha256": "4db4a3e49b2d659ba01baa74c4cdfdf749478ef6ca657de74a57ad601a718e3e"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Inimigos.md",
+    "bytes": 662,
+    "sha256": "6d7159962f88600b20bf42d2c5e207eaf8d8942e38cc2a0dcd4d38d4182c360e"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Missoes_Secundarias.md",
+    "bytes": 682,
+    "sha256": "fd12723c2a7682c7584fac8108c496ddd15936fc50bd3bcc7bb4aef43c645e98"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/NPCs.md",
+    "bytes": 590,
+    "sha256": "44abbd99e142c0ef7554bf1f4ab78640f3df0e96dcb242112503815d1d71f2c3"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/README.md",
+    "bytes": 556,
+    "sha256": "dfbcddb2807ea3d38ce1ec8ba8a04f62eb970875f86f5700c0a59ad6f64949d7"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/Audio.md",
+    "bytes": 691,
+    "sha256": "9f7df97e7db5051fa1fef8923e4a59284e6aa6844ea394dc3c1bc26433af6508"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/Direcao_Artistica.md",
+    "bytes": 778,
+    "sha256": "274e55e23381aeb79ab1c62cf38979110f693778d11ab0249058bd85dc05130f"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/README.md",
+    "bytes": 444,
+    "sha256": "cf5da80a011c473080998133b1b37a38c9a404e3e47bd94c776059a64789c87a"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/UI_HUD.md",
+    "bytes": 877,
+    "sha256": "15832d474d3b0df52bc98f6ed431b1ec0f691d5deddb491341638e0d9958b647"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Auditoria_Documental.md",
+    "bytes": 2160,
+    "sha256": "d7de3440df4f3021610d073623119c1c75d1c437d182781ed0aa97ec388cb1ee"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Auditoria_Etapa_0.md",
+    "bytes": 20221,
+    "sha256": "8abf226c5dc88977eeb8e910fd220a8dba1736315255118fb05863ae69e1e6c5"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Baseline_Etapa_0.md",
+    "bytes": 8979,
+    "sha256": "b5bb8c664f071c99741d71a877254e3cb5c7b2b21f994386af01be046c9be2d3"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Escopo.md",
+    "bytes": 923,
+    "sha256": "6c2d61a13a28f0098f8a455e0ebf9c3a620bb561a7590cf2ea326fe786232e86"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Estado_do_Prototipo.md",
+    "bytes": 1673,
+    "sha256": "73b3c9417ca44a73d7f6d8e17d3da8b309a30142152051c17a6946e92890bdd1"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Inventario_Etapa_0.md",
+    "bytes": 7312,
+    "sha256": "fedcba12fe839352856e74919f60946d2624ad1ba279cf25bc03ac1a75444b77"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Matriz_Reaproveitamento.md",
+    "bytes": 8139,
+    "sha256": "10ebce1760d5a226d00403c38e98b3d123d414ad595b8bee82d625bd813b02ca"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/NexMotion_2D_Requisitos.md",
+    "bytes": 6065,
+    "sha256": "90d22a168ecad4a163b2cd917f0e81db3809a9a49b520733b2bd55dd98694d8d"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Plano_Migracao.md",
+    "bytes": 9176,
+    "sha256": "63d1533a1a49e6912bee9da146e9b81e54032aaf918e1e616e50e99706877f98"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/README.md",
+    "bytes": 1001,
+    "sha256": "e4e44d8229b106d8429982741888b08cbef045ec55dfe6a7467ae0310bdd2950"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/VALIDACAO.json",
+    "bytes": 919,
+    "sha256": "cd02c6b121356b32a63876cc6327995b412041fb7d3735c5e2a04ccbb1fe9bac"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Validacao_Documental.md",
+    "bytes": 1160,
+    "sha256": "bceb7e6d1c9522531badbbc749c23c7770d799a7810cf7f28adde4ea7082fa05"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D001_Identidade_e_Canon.md",
+    "bytes": 745,
+    "sha256": "f8a74423f7b5a4db0a48722ebaf9bc108971f4adb135f73492b7c0a76148c098"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D002_Combate_e_Progressao.md",
+    "bytes": 760,
+    "sha256": "38d6af5a8af8a0ab81fe900237aa8e0d217fd60180106bb5bdb8543cd87aa59a"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D003_Narrativa_e_Bosses.md",
+    "bytes": 791,
+    "sha256": "c4e78665aae958c101bdd3288d2f4868424c22c201c2ca7613eab564fe9ae2f5"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D004_Memoria_Modular.md",
+    "bytes": 750,
+    "sha256": "339130b0c7df4ef1bcd0bd42fea800f616b2d67b67d2e9615932572769845826"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/README.md",
+    "bytes": 614,
+    "sha256": "04cce1384e11b4e8f207614c987d37baf22fc203ce4a1f4c53a67d2412834656"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/Bem-vindo_Original.md",
+    "bytes": 195,
+    "sha256": "cb0bd207f599e50bacf54c2accb059be7c4bad5708b38d1ff95a8d9b3e167387"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/README.md",
+    "bytes": 2171,
+    "sha256": "1a80bf83def0da862ca477ee91dc780762a07872db63707a71d0c2554a8eb11a"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/README_Repositorio_Amahara.md",
+    "bytes": 4302,
+    "sha256": "f82b0a6845078cd964f43d294463526435496ede53d0cf76b9b274e16be025f2"
+  },
+  {
+    "path": "biblia do jogo/Pesquisa/README.md",
+    "bytes": 572,
+    "sha256": "0713819fc871b9a7ca79695a2d5b3aaa7c9632d6e8da5c52592f6c8895249e11"
+  },
+  {
+    "path": "biblia do jogo/Pesquisa/Referencias_Culturais.md",
+    "bytes": 897,
+    "sha256": "5ed7be91e30de0dec69711d22a6ce024d0b2119e45d7d70c9503e709cc12675d"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/Fontes/Brief_Usuario_2026-10-06.txt",
+    "bytes": 31571,
+    "sha256": "c36d5ee16e01505109cb78a65c1d162ded8fca5c388906a6963e7fd0e08d9e6a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/advanced.log",
+    "bytes": 962,
+    "sha256": "7f5a35cff4c3a00f23bb2b850d927303a93edd98476e9d69d296ab9cfa8bfff7"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/audio_cleanup.log",
+    "bytes": 75,
+    "sha256": "4b724f3610c5e863fe6e9287e78d4a0bce5252238f69f3c92b8d02f1f1f31a8d"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/boot.log",
+    "bytes": 315,
+    "sha256": "65a1fa3d6333ffba04d2d0d1257d2f7ecb8d9cd58d96b196f70e282dbdaee3da"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/classificacao_arquivos.json",
+    "bytes": 53945,
+    "sha256": "0a5dcf46032bf4e62dc8c43bd984a906d46897568410dc8869eae7d116277384"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/execucoes.json",
+    "bytes": 9981,
+    "sha256": "90645b778e5d0f246d9b634a83cebb0cbc6e0a1dd6ae6d7c141ff07ca1fb06e1"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export.log",
+    "bytes": 17533,
+    "sha256": "753b0671170a5166f8bfe82cff2530369532bc2fbe0a3619ca6f33e1b19e3003"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export_advanced.log",
+    "bytes": 962,
+    "sha256": "7f5a35cff4c3a00f23bb2b850d927303a93edd98476e9d69d296ab9cfa8bfff7"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export_phase.log",
+    "bytes": 3410,
+    "sha256": "0950ab96aa99a85ac3e80d21e6686a4c8c0633575650ce333d9002d04a25051e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export_playthrough.log",
+    "bytes": 1310,
+    "sha256": "de7762ecfa3cf887170962c41b63ac163ef196b44ab55269497e4a3c3ea2ccfd"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export_reopen.log",
+    "bytes": 96,
+    "sha256": "8ddf7a9a8ea8fbeef2e4e22c6cc9d2a969ab3987f47fc38ecae5e61f094d147b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export_settings.log",
+    "bytes": 104,
+    "sha256": "72b45e28a03a8efc2a69377fbf48982cf248a57aff4d0262912b6299e27e2c68"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/import.log",
+    "bytes": 8100,
+    "sha256": "abb380569107e4c0841b255b03a69ef7236673ca82a2b639862d843a11030fb8"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/inventario.json",
+    "bytes": 65149,
+    "sha256": "8faa3ce7f908a4153e98284728a4afde39a41efd471de3752fe8e9ad32645cf1"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/legacy_cdp_smoke.log",
+    "bytes": 882,
+    "sha256": "60e5dc7a5d13bb95a10dc262f0f7efccebe04e1517e2128c688a5c8f82326b56"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/legacy_logic_suite.log",
+    "bytes": 876,
+    "sha256": "b90435c0148232ac7e0cf4ed0875646a4c349fa818de45212b1ed80e4e733c10"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/phase.log",
+    "bytes": 3410,
+    "sha256": "0950ab96aa99a85ac3e80d21e6686a4c8c0633575650ce333d9002d04a25051e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/playthrough.json",
+    "bytes": 3300,
+    "sha256": "c866c6c062e75457efdbc6aa1ce20df69e24003a63ca3a201ce8a9b4f99ecc2e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/playthrough.log",
+    "bytes": 1310,
+    "sha256": "ad92d8f99d5dee596eb6126af479bdc8034cc97c61f48181014e68b1d33167eb"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/preservacao.json",
+    "bytes": 110,
+    "sha256": "1000a8a281234bdd8edd00ae6d85dbad7a0d6be474803ef3c5880b08f738da80"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/preservacao_final.json",
+    "bytes": 640,
+    "sha256": "85fd2ea97a92c3359e52be874e14297523b9640230cd1e8b95fef89c6268b34b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/preservation.log",
+    "bytes": 48,
+    "sha256": "44ba8fb4b166640145c1f2654b84d6b446f4b667ebeca66cb97591d96a1d488a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/reopen.log",
+    "bytes": 96,
+    "sha256": "8ddf7a9a8ea8fbeef2e4e22c6cc9d2a969ab3987f47fc38ecae5e61f094d147b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/settings.log",
+    "bytes": 104,
+    "sha256": "72b45e28a03a8efc2a69377fbf48982cf248a57aff4d0262912b6299e27e2c68"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/validacao_documental.json",
+    "bytes": 242,
+    "sha256": "14d4ae02f4468e450b4a4e36637ef3b10a34a22cc2409076edc9866f87938831"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/version.log",
+    "bytes": 33,
+    "sha256": "fbd717a8ece1da654ec76bcb2210c7bebdb1112c026408c575c67f015988fa24"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/advanced.log",
+    "bytes": 962,
+    "sha256": "7f5a35cff4c3a00f23bb2b850d927303a93edd98476e9d69d296ab9cfa8bfff7"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/audio_cleanup.log",
+    "bytes": 75,
+    "sha256": "4b724f3610c5e863fe6e9287e78d4a0bce5252238f69f3c92b8d02f1f1f31a8d"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/boot.log",
+    "bytes": 315,
+    "sha256": "65a1fa3d6333ffba04d2d0d1257d2f7ecb8d9cd58d96b196f70e282dbdaee3da"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/execucoes.json",
+    "bytes": 8837,
+    "sha256": "dd7f97fe43a658e98cd7d6ae4f06b57c3fbd56cd141eace6283f3a3b1ae6722e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export.log",
+    "bytes": 17533,
+    "sha256": "753b0671170a5166f8bfe82cff2530369532bc2fbe0a3619ca6f33e1b19e3003"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export_advanced.log",
+    "bytes": 962,
+    "sha256": "7f5a35cff4c3a00f23bb2b850d927303a93edd98476e9d69d296ab9cfa8bfff7"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export_phase.log",
+    "bytes": 3410,
+    "sha256": "0950ab96aa99a85ac3e80d21e6686a4c8c0633575650ce333d9002d04a25051e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export_playthrough.log",
+    "bytes": 1308,
+    "sha256": "33deee28b09c5db61a00dba35f0df78dda7e6b44542516072fda4d2c86a7c7fc"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export_reopen.log",
+    "bytes": 96,
+    "sha256": "8ddf7a9a8ea8fbeef2e4e22c6cc9d2a969ab3987f47fc38ecae5e61f094d147b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export_settings.log",
+    "bytes": 104,
+    "sha256": "72b45e28a03a8efc2a69377fbf48982cf248a57aff4d0262912b6299e27e2c68"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/import.log",
+    "bytes": 8100,
+    "sha256": "abb380569107e4c0841b255b03a69ef7236673ca82a2b639862d843a11030fb8"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/inventario.json",
+    "bytes": 72749,
+    "sha256": "5e7d5aa9415758af1326c16578f7c3aa6697fe0278ff955afe90cb331b5aeb3c"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/phase.log",
+    "bytes": 3410,
+    "sha256": "0950ab96aa99a85ac3e80d21e6686a4c8c0633575650ce333d9002d04a25051e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/playthrough.json",
+    "bytes": 3196,
+    "sha256": "bfac3939ba11a2192acf4a324dd0b832305614de8116ff1c57fa8ebb73fb4c2a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/playthrough.log",
+    "bytes": 1254,
+    "sha256": "db37958398a5eef95e9fbb234bc85f2d74b56cc8dc1f4fd1276de5e51dd67bd9"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/preservacao.json",
+    "bytes": 110,
+    "sha256": "4c75b44fa88fe2c5a50cf5434b6cf5847f6446e32e86ba58b692807fb1513a9b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/preservation.log",
+    "bytes": 48,
+    "sha256": "44ba8fb4b166640145c1f2654b84d6b446f4b667ebeca66cb97591d96a1d488a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/reopen.log",
+    "bytes": 96,
+    "sha256": "8ddf7a9a8ea8fbeef2e4e22c6cc9d2a969ab3987f47fc38ecae5e61f094d147b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/settings.log",
+    "bytes": 104,
+    "sha256": "72b45e28a03a8efc2a69377fbf48982cf248a57aff4d0262912b6299e27e2c68"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/version.log",
+    "bytes": 33,
+    "sha256": "fbd717a8ece1da654ec76bcb2210c7bebdb1112c026408c575c67f015988fa24"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/development/foundation_qa.json",
+    "bytes": 2810,
+    "sha256": "ab3a069cc8d1adfbba1c4ed7b7e8f5fa7d16c16e75cd29af915df828a9ad3c5f"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/development/foundation_world.json",
+    "bytes": 302,
+    "sha256": "3bbb8a00c21021eb66e5f8f154fa266cb2f255f36f92ae59bd95ee840af56896"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/development/foundation_world.json.bak",
+    "bytes": 300,
+    "sha256": "36fa044982d8ea2574830e0c5a0b8adc3937365f29ed7fbfe6c09ce06c913e0c"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/development/legacy_v1.json",
+    "bytes": 125,
+    "sha256": "fa2a455259a91c24deabcc32dacc490100b8309a4920931844bfb352e505b4de"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/advanced.log",
+    "bytes": 962,
+    "sha256": "7f5a35cff4c3a00f23bb2b850d927303a93edd98476e9d69d296ab9cfa8bfff7"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/audio_cleanup.log",
+    "bytes": 75,
+    "sha256": "4b724f3610c5e863fe6e9287e78d4a0bce5252238f69f3c92b8d02f1f1f31a8d"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/boot.log",
+    "bytes": 315,
+    "sha256": "65a1fa3d6333ffba04d2d0d1257d2f7ecb8d9cd58d96b196f70e282dbdaee3da"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/execucoes.json",
+    "bytes": 10089,
+    "sha256": "1282ad900a516e1783770b0995e3898e7d6960b3183a7c4b162787eff02623c5"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export.log",
+    "bytes": 19491,
+    "sha256": "77efb1a7bc75920040524410f944bc47e9391162cc3b243bd8bcf3cae98b4130"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export_advanced.log",
+    "bytes": 962,
+    "sha256": "7f5a35cff4c3a00f23bb2b850d927303a93edd98476e9d69d296ab9cfa8bfff7"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export_foundation.log",
+    "bytes": 1386,
+    "sha256": "825b118d6276ece949a1b7a08982de1697860b814dd5b6333994a858d4f33c07"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export_phase.log",
+    "bytes": 3410,
+    "sha256": "0950ab96aa99a85ac3e80d21e6686a4c8c0633575650ce333d9002d04a25051e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export_playthrough.log",
+    "bytes": 1258,
+    "sha256": "a07c9ab6e5c86fd41334f18a203751b100ad7be468c3ee8c9795d8b69e773524"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export_reopen.log",
+    "bytes": 96,
+    "sha256": "8ddf7a9a8ea8fbeef2e4e22c6cc9d2a969ab3987f47fc38ecae5e61f094d147b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export_settings.log",
+    "bytes": 104,
+    "sha256": "72b45e28a03a8efc2a69377fbf48982cf248a57aff4d0262912b6299e27e2c68"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/foundation.log",
+    "bytes": 1386,
+    "sha256": "825b118d6276ece949a1b7a08982de1697860b814dd5b6333994a858d4f33c07"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/foundation_qa.json",
+    "bytes": 2810,
+    "sha256": "ab3a069cc8d1adfbba1c4ed7b7e8f5fa7d16c16e75cd29af915df828a9ad3c5f"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/foundation_world.json",
+    "bytes": 302,
+    "sha256": "3bbb8a00c21021eb66e5f8f154fa266cb2f255f36f92ae59bd95ee840af56896"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/foundation_world.json.bak",
+    "bytes": 300,
+    "sha256": "36fa044982d8ea2574830e0c5a0b8adc3937365f29ed7fbfe6c09ce06c913e0c"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/import.log",
+    "bytes": 8676,
+    "sha256": "7c59f36f7f73d0aec2c9e2482bc6f11a2a07a0d57385f3af008265dc6b2174c5"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/inventario.json",
+    "bytes": 82555,
+    "sha256": "b7e9ba233bc23860c4b3f5124999f8ce25cb86944a59c622984532b12f06c51c"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/legacy_v1.json",
+    "bytes": 125,
+    "sha256": "fa2a455259a91c24deabcc32dacc490100b8309a4920931844bfb352e505b4de"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/phase.log",
+    "bytes": 3410,
+    "sha256": "0950ab96aa99a85ac3e80d21e6686a4c8c0633575650ce333d9002d04a25051e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/playthrough.json",
+    "bytes": 3317,
+    "sha256": "196e654d208628196c5ef17d38ec7c6e8a2a92e7b86bc8a5b2eb2d6085a1ec49"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/playthrough.log",
+    "bytes": 1308,
+    "sha256": "943c06c6671eb7df09d58f8364bbc9fb21a4a7124eb63e11b6742d77312829ef"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/preservacao.json",
+    "bytes": 257,
+    "sha256": "7384f48e2ecc1acdb68b4b81d88aaf9f476fcc6d5849ed9fa21968834657c8fa"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/preservation.log",
+    "bytes": 48,
+    "sha256": "44ba8fb4b166640145c1f2654b84d6b446f4b667ebeca66cb97591d96a1d488a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/reopen.log",
+    "bytes": 96,
+    "sha256": "8ddf7a9a8ea8fbeef2e4e22c6cc9d2a969ab3987f47fc38ecae5e61f094d147b"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/settings.log",
+    "bytes": 104,
+    "sha256": "72b45e28a03a8efc2a69377fbf48982cf248a57aff4d0262912b6299e27e2c68"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/version.log",
+    "bytes": 33,
+    "sha256": "fbd717a8ece1da654ec76bcb2210c7bebdb1112c026408c575c67f015988fa24"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/foundation_qa.json",
+    "bytes": 2810,
+    "sha256": "ab3a069cc8d1adfbba1c4ed7b7e8f5fa7d16c16e75cd29af915df828a9ad3c5f"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/foundation_world.json",
+    "bytes": 302,
+    "sha256": "3bbb8a00c21021eb66e5f8f154fa266cb2f255f36f92ae59bd95ee840af56896"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/foundation_world.json.bak",
+    "bytes": 300,
+    "sha256": "36fa044982d8ea2574830e0c5a0b8adc3937365f29ed7fbfe6c09ce06c913e0c"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/legacy_v1.json",
+    "bytes": 125,
+    "sha256": "fa2a455259a91c24deabcc32dacc490100b8309a4920931844bfb352e505b4de"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/playthrough.json",
+    "bytes": 3188,
+    "sha256": "f11869a63d7db35bf6d0a38b7a608f6916ecc56602dd54991ca4893788bf49ca"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/validated/export/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export/playthrough.json",
+    "bytes": 3285,
+    "sha256": "9aadd34d3c7fd5f746c96ea8074e6f0ff635f88d5f1088d66f40e7f4258c67bf"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_1/baseline/export/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export/playthrough.json",
+    "bytes": 3319,
+    "sha256": "c7ab6044866e11390deeb60ae70fc49944fe8a3fe8828c09b6dee8dadabad88e"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Evidencias_Etapa_0/export/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B01_Chefe_da_Vila.md",
+    "bytes": 728,
+    "sha256": "f588ed1b63ffc7a5bd64e88e11f3d9608cc149097634c78f200a5b08bb9283ca"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B02_Musico.md",
+    "bytes": 805,
+    "sha256": "23a18ccff4b6bd0538a6f26e8badd23b01548f667084db4ea83e384f651d6d79"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B03_Assassino_do_Pai.md",
+    "bytes": 803,
+    "sha256": "e4fcb0e9a994be1f8be1ab34588686f12753a0755d1dc88105064f258a4d670c"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B04_Arqueiro.md",
+    "bytes": 662,
+    "sha256": "3b10746610a6c716dd44e96ecf0dae49f6e4c49516504b2071615b9373474283"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B05_Tigre.md",
+    "bytes": 755,
+    "sha256": "fdf23b0faa711c0690a362703f5fb533f958c20a0bf7da23ed6d56c02a7dc3a2"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B06_Pai.md",
+    "bytes": 1034,
+    "sha256": "39cc5aab36ce4ab9f030d2a8ee965d6543af400c04bb0b618cf07c059edf24cf"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B07_Final.md",
+    "bytes": 996,
+    "sha256": "97234e1d93169f02cdb468aff9d182dd5798ec9247652a42f22db067d35a1e16"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/README.md",
+    "bytes": 948,
+    "sha256": "8eba52aec388fc4971c939c6ddb7030ab13871c325b661255e4fb0501e2faf71"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Cristal.md",
+    "bytes": 651,
+    "sha256": "902ea40c31fa62660884a7b8708fb8ff4ab0351de0d057fe711a652399086724"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Javali.md",
+    "bytes": 825,
+    "sha256": "c58977452e269db6fd90943e13ca01b4e49496c2362885c2f354a6ce88e8e99c"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Madeira.md",
+    "bytes": 655,
+    "sha256": "fb95fc12706711e1715a0d3c6d173075ae178c1447a8f6894e2e2e9bcd5f9a71"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Raio.md",
+    "bytes": 717,
+    "sha256": "4fc473a5ad5d7e9ea17a52853293c3cbe4d7fdb23342a87155c19f113e9e115a"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/README.md",
+    "bytes": 880,
+    "sha256": "d6c9d36d56da4d310220fb8f89f82854d270e3af26845da355866cabd43d16da"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Clones.md",
+    "bytes": 623,
+    "sha256": "cb2cd229201255bffc3d5dff1533998f1d90f32abbcd729a75203e722c2e783f"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Fogo_Azul.md",
+    "bytes": 669,
+    "sha256": "53664d1b942a43396a49c5155cd5af88af4eaf01338c161e74bcea59eabc5f96"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Onda_de_Impacto.md",
+    "bytes": 593,
+    "sha256": "662060702dad41a0685314ac0b74be2aa3e3c36587eae7af423c832d822d38f3"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Tornado.md",
+    "bytes": 450,
+    "sha256": "6a8b3deb7319cea406c311a14188c1a3ab2d64f8bb2eb081d449dab8922be22b"
+  },
+  {
+    "path": "amahara_vertical_slice/docs/FINAL_REPORT.md",
+    "bytes": 5104,
+    "sha256": "de3f740979fce6692a6523cb5662cad7bb8c1b74d27c0730f5b078cfc7d53280"
+  },
+  {
+    "path": "amahara_vertical_slice/docs/RESEARCH.md",
+    "bytes": 3302,
+    "sha256": "9926958b1f00ba40b3dce6418ea3db3031d9d711df74cb75aa8806294634dc4c"
+  },
+  {
+    "path": "amahara_vertical_slice/docs/TEST_REPORT.md",
+    "bytes": 8875,
+    "sha256": "006685a76638e36f88c9a5c7cd50735e093d45fb9fc445bc7eb9685c97a3d724"
+  },
+  {
+    "path": "amahara_vertical_slice/screenshots/boss.png",
+    "bytes": 13735,
+    "sha256": "01868ed897f4c7d1b5f13ffc4ba34a558c21145ecce88ac5ef95c68de72348b4",
+    "dimensions": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "amahara_vertical_slice/screenshots/village.png",
+    "bytes": 12492,
+    "sha256": "be6383ea5aa379b9771b1e9da14fbd960f0e0845dad924097a6a3d43e1cbeb12",
+    "dimensions": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "amahara_vertical_slice/src/audio.js",
+    "bytes": 2209,
+    "sha256": "56168c7a511882e95e240b0f9da55999af26f079bab815057980fb19ccd9e99b"
+  },
+  {
+    "path": "amahara_vertical_slice/src/combat.js",
+    "bytes": 845,
+    "sha256": "f876d78bd144f91225e761ae56ca56451f1afabd22abf07668c17f7f496a61d8"
+  },
+  {
+    "path": "amahara_vertical_slice/src/game.js",
+    "bytes": 16883,
+    "sha256": "2a8a674446dd96651b3658ea15b143966a160abf7bde66177d03849308575024"
+  },
+  {
+    "path": "amahara_vertical_slice/src/input.js",
+    "bytes": 1836,
+    "sha256": "31e94831a4745f4ef84dafbca43987ef27d67ce710469b635706dc2a4391636d"
+  },
+  {
+    "path": "amahara_vertical_slice/src/main.js",
+    "bytes": 180,
+    "sha256": "471adbecebd52fff040ffa5240e54bcfee12aedba2053d4dd423c692c934641b"
+  },
+  {
+    "path": "amahara_vertical_slice/src/utils.js",
+    "bytes": 605,
+    "sha256": "a53a56dc3387926a537045cea00c4003480d385837350c0f1f1a20c808390e31"
+  },
+  {
+    "path": "amahara_vertical_slice/src/world.js",
+    "bytes": 9251,
+    "sha256": "b525607872bf5293259c6dbe864a7069ed315e67b214ee17bf39470051008221"
+  },
+  {
+    "path": "amahara_vertical_slice/tests/cdp_smoke.js",
+    "bytes": 6362,
+    "sha256": "71fdf29f1bdca59c0871c0b6738ef08aebec2779afb79b63f9d43f3864bbf3fb"
+  },
+  {
+    "path": "amahara_vertical_slice/tests/logic_suite.js",
+    "bytes": 11235,
+    "sha256": "cdf1fc54b429862a8e69a93ba02039c707eb24a17f4287a5f0a9e2c799e957c0"
+  },
+  {
+    "path": "amahara_vertical_slice/src/data/balance.js",
+    "bytes": 1832,
+    "sha256": "d1e7fa1f5ea0b48b47944b39a40117210f8a8ba208052c86b401825bc8b4d80a"
+  },
+  {
+    "path": "amahara_vertical_slice/src/entities/boss.js",
+    "bytes": 4959,
+    "sha256": "1873919e5449330660c07f9ee50a23755628dfec7ddda2fd0d3e2177e9970e09"
+  },
+  {
+    "path": "amahara_vertical_slice/src/entities/enemies.js",
+    "bytes": 4644,
+    "sha256": "4eba0616a37eb84caac79833f442d078bbb956bf4f9166350727fb97e66a561d"
+  },
+  {
+    "path": "amahara_vertical_slice/src/entities/player.js",
+    "bytes": 8114,
+    "sha256": "e346bc8d59f5a24b119b33df39c28acef06228bd0563456535433ce052039076"
+  },
+  {
+    "path": "Amahara_Godot/assets/enemies_atlas.png",
+    "bytes": 1742581,
+    "sha256": "0dcdaa2c84de087dc95aeffb5441135dcd765ed7fe6abe9e9a6f91ad410fec55",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "Amahara_Godot/assets/enemies_atlas.png.import",
+    "bytes": 950,
+    "sha256": "aecc50eb3a792b83817841db842a36dd551849c6da6c8e1a226991ae93b90961"
+  },
+  {
+    "path": "Amahara_Godot/assets/jinzo_atlas.png",
+    "bytes": 1919917,
+    "sha256": "5c7989f773c086d3fa590e4f625b9583e27fb99015bd04cb1421b8f9f129195a",
+    "dimensions": [
+      1774,
+      887
+    ]
+  },
+  {
+    "path": "Amahara_Godot/assets/jinzo_atlas.png.import",
+    "bytes": 944,
+    "sha256": "39face6e8d8b4141bf3dc5174a0965cc80a629c7036a03f9120f9fc3e130b411"
+  },
+  {
+    "path": "Amahara_Godot/assets/props_atlas.png",
+    "bytes": 2157011,
+    "sha256": "d446e15baeb50aaea399575ce5dfeb9eba4e96d8677a6884943bfdbb33a0a8f9",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "Amahara_Godot/assets/props_atlas.png.import",
+    "bytes": 943,
+    "sha256": "46146e3d1c5d064c40811ff2e3d3111641df0c1af621277736518504508c9ca5"
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_actions.png",
+    "bytes": 1292569,
+    "sha256": "8b4739ea25b8016967a74e8423933982a88cbc4aee81cec572159c9895d0d597",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_actions.png.import",
+    "bytes": 943,
+    "sha256": "657038ad548d1a4a0744c481c87bdd6a1d0a658593bc7708422dbff3a1d4119d"
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_atlas.png",
+    "bytes": 1314236,
+    "sha256": "c898dfe95a0761c1442191b53e071c7c965a02aaa668969b9dfc4dc98962a1a1",
+    "dimensions": [
+      1774,
+      887
+    ]
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_atlas.png.import",
+    "bytes": 938,
+    "sha256": "1c237096d708b7cf1636969842209150ee3970bb7569f85aaf934a67ca10328d"
+  },
+  {
+    "path": "Amahara_Godot/assets/title.png",
+    "bytes": 2513424,
+    "sha256": "47c80c20dd6b447a0e481d01bb227354a899f819dfdea22cc84292f457510a31",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "Amahara_Godot/assets/title.png.import",
+    "bytes": 926,
+    "sha256": "53ab3e7feee8e189cf4c66bf889d6011bd8d28f4399e9f991fee9955046e3211"
+  },
+  {
+    "path": "Amahara_Godot/contracts/ANIMATION_2D.md",
+    "bytes": 3759,
+    "sha256": "02ef1b21c4239a9ad77e2c8ae5d7853fac02970135bcb4aaa23a99ef35f44726"
+  },
+  {
+    "path": "Amahara_Godot/contracts/fixture.anim.json",
+    "bytes": 1495,
+    "sha256": "b57f76d318f8f6c943a1a50b3366e5aed3a3131d455321d92940952338327fa4"
+  },
+  {
+    "path": "Amahara_Godot/contracts/nexmotion2d.schema.json",
+    "bytes": 6223,
+    "sha256": "21b82a38d150a88dfc504fd956f20a1ecf70f18d9d642f0839a26948b646a6cc"
+  },
+  {
+    "path": "Amahara_Godot/data/altar.tres",
+    "bytes": 262,
+    "sha256": "20562b621160c4a9e24b00e48c6ebf0a43bed33ab84e0395654b7a818232f297"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_charge.tres",
+    "bytes": 350,
+    "sha256": "e00c330de1348b51fd4e045740a63533eb25edb7bbb8de6e8dd3cb5894cb3d5f"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_combo.tres",
+    "bytes": 347,
+    "sha256": "cf09f5552284f25340ba1e7c1bec68db0fd49ca016c07655a272b184f4e448e6"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_radial.tres",
+    "bytes": 348,
+    "sha256": "334f89fe0a3a25d4534132a75ed11802b1956adb1736663ea4535701a6664d40"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_spirit.tres",
+    "bytes": 349,
+    "sha256": "02339b22672be4539983dfb412b24879c5d2fb089774c9da6edb0de170d2018e"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_summon.tres",
+    "bytes": 353,
+    "sha256": "4f18e0b1666d63640ad1d5f1f5897ba503fa1ca78b2e0bb4ce4bdfce25e69d96"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_wide.tres",
+    "bytes": 347,
+    "sha256": "5c893f4e4a2ae59dca5d9bfbfe85b13f693f9a12224f77e206496d55c90d8421"
+  },
+  {
+    "path": "Amahara_Godot/data/celestial.tres",
+    "bytes": 326,
+    "sha256": "3b949037a13a3751a0c555cbd385f80c3b6f5f363a923747d9cd58f692758e54"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_archer.tres",
+    "bytes": 373,
+    "sha256": "56753c0bd9b7027c8d61dae8476fc654b032cb4d51837e2d59812e720cde7d63"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_heavy.tres",
+    "bytes": 367,
+    "sha256": "48007c1b1411911d65ed4f77644defe69eea1782419b62906a2e48f5bd204d8b"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_runner.tres",
+    "bytes": 370,
+    "sha256": "cd9b7a0e7944e930a88b35600a10a412fffb5b274a355089f8cd5743867f02a2"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_seal.tres",
+    "bytes": 368,
+    "sha256": "b020aa3630f15f0ffa0b4e2df71c67dead34d0958e0d2b3bb86e5ba258199186"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_slash.tres",
+    "bytes": 487,
+    "sha256": "bbb8a53790831bfbb54130b18a6249304d63a8d925edc5c39e1b56f1771dfd2b"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_swordsman.tres",
+    "bytes": 376,
+    "sha256": "76f6a37849e9a25d5fd2d8a18d5915d850f5b207e31fb51dc7153d20fb64c2bc"
+  },
+  {
+    "path": "Amahara_Godot/data/heavy_1.tres",
+    "bytes": 490,
+    "sha256": "79c9aebe8d5d4da42dbf2b30b4790a98637eef9f7a6679e0afeb0e340e308146"
+  },
+  {
+    "path": "Amahara_Godot/data/heavy_2.tres",
+    "bytes": 508,
+    "sha256": "3bad0d475b1c53dae431379d9202ede7630cc3d93f041cc404cc2f64eff780d8"
+  },
+  {
+    "path": "Amahara_Godot/data/heavy_3.tres",
+    "bytes": 492,
+    "sha256": "42f8fe034796fe191f9fb5c93b9ff7882d705a0f86d9b60c576a9274d9822692"
+  },
+  {
+    "path": "Amahara_Godot/data/light_1.tres",
+    "bytes": 492,
+    "sha256": "20c62507989ff90d1dfb220bbfa146d2e06366153b53281e8f3dee9da8ff4f07"
+  },
+  {
+    "path": "Amahara_Godot/data/light_2.tres",
+    "bytes": 498,
+    "sha256": "c51a4814925a6adda8fe4f28142f1ae57a9353c0efa2d0788218078f64ece5ff"
+  },
+  {
+    "path": "Amahara_Godot/data/light_3.tres",
+    "bytes": 488,
+    "sha256": "3ce1a02531ad8c3ade5823b3bd3ea1e90b8e2728020cdfced7948c12f4e6244e"
+  },
+  {
+    "path": "Amahara_Godot/data/memorial.tres",
+    "bytes": 267,
+    "sha256": "f14dcec3e031d4f0f6410743642c509ecc119165ee32fa987fba58e65c79be2f"
+  },
+  {
+    "path": "Amahara_Godot/data/rupture.tres",
+    "bytes": 324,
+    "sha256": "7e97f353b34c2a62b9efcebafe2ff0e810c37511ae94c300ce640b992e887fbd"
+  },
+  {
+    "path": "Amahara_Godot/docs/00_SOURCE_AUDIT.md",
+    "bytes": 4556,
+    "sha256": "ba47be1dced38b5b73f1e675f0c86b03dc4b45df72bc37a693dc8259e40f9846"
+  },
+  {
+    "path": "Amahara_Godot/docs/01_MIGRATION.md",
+    "bytes": 1311,
+    "sha256": "d7fab9c96d4ff7a470e46c04ae753759587ba9ea38fb8cde53df9a52cea003fe"
+  },
+  {
+    "path": "Amahara_Godot/docs/02_RESEARCH.md",
+    "bytes": 3852,
+    "sha256": "84a3ef312e9984122cd4f441bc14920a5a5487852c7db76f6c2fe4231f7200ec"
+  },
+  {
+    "path": "Amahara_Godot/docs/03_GAME_DESIGN.md",
+    "bytes": 1929,
+    "sha256": "ee0bd2e9569c911dbf769163643cfc184b1ecac30f5e452295cbe81648d281bd"
+  },
+  {
+    "path": "Amahara_Godot/docs/04_STORY_AND_LORE.md",
+    "bytes": 1596,
+    "sha256": "95567f98edc0e435ecf941be79bab62f05cc4271105ddb1b45bcef7b00959ed8"
+  },
+  {
+    "path": "Amahara_Godot/docs/05_COMBAT.md",
+    "bytes": 1518,
+    "sha256": "b01bf08cf1d5829825cd7db88c962db763a95d8fb5977b8a1b4eb34ac3a8be55"
+  },
+  {
+    "path": "Amahara_Godot/docs/06_ENEMIES.md",
+    "bytes": 1633,
+    "sha256": "a0de26eb787cd6766d87ca3cd8f78930fc2b332ca3b260d0f9d9209eb0ce43b6"
+  },
+  {
+    "path": "Amahara_Godot/docs/07_LEVEL_01.md",
+    "bytes": 1624,
+    "sha256": "abf5909631e606ed3c4051a3e80569b408ecdbaadc90e12ffb4103ef4190ca2b"
+  },
+  {
+    "path": "Amahara_Godot/docs/08_BOSS.md",
+    "bytes": 1498,
+    "sha256": "e27846bc883db88eae416ddde35529f71901850126b95bfb488d7c6677cc2259"
+  },
+  {
+    "path": "Amahara_Godot/docs/09_ART_DIRECTION.md",
+    "bytes": 1861,
+    "sha256": "9513ccf032b6c634dd15e68cf21cb3593cf590d2463cffdfcd22a92f3adc8591"
+  },
+  {
+    "path": "Amahara_Godot/docs/10_ARCHITECTURE.md",
+    "bytes": 2382,
+    "sha256": "f16478da5489a2bf8f59762bded5f51609b8437d31cd67f0d5ad060042dadfc7"
+  },
+  {
+    "path": "Amahara_Godot/docs/11_TEST_REPORT.md",
+    "bytes": 5203,
+    "sha256": "607aa5e2b556b0d6867e200c545ed4d0117d60ffa3fc6fed947355ba86d24782"
+  },
+  {
+    "path": "Amahara_Godot/docs/12_MILESTONE_REPORT.md",
+    "bytes": 4353,
+    "sha256": "6a7c2d7895af92a9b030558986e259b921e1e083d165d4839b362688a30b347f"
+  },
+  {
+    "path": "Amahara_Godot/docs/ART_PROMPTS.md",
+    "bytes": 7733,
+    "sha256": "d11eee082263d4048c8c7e8692bec1d16a99183f24c1c1bafe4a00831b5a5dbb"
+  },
+  {
+    "path": "Amahara_Godot/docs/FOUNDATION.md",
+    "bytes": 3199,
+    "sha256": "12a530caf565c2981686898a711a77e372a28d2c2129a3f7c51bd4e0708833ed"
+  },
+  {
+    "path": "Amahara_Godot/docs/source_manifest.json",
+    "bytes": 3916,
+    "sha256": "3acf1319b985ab254c235de57069af5eea835aa7032faeb1e0fc9a3394ab05d6"
+  },
+  {
+    "path": "Amahara_Godot/evidence/.gdignore",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Amahara_Godot/evidence/01_menu.png",
+    "bytes": 448314,
+    "sha256": "ab5b5d88c50eebf5acbc773f482d922ef854274fd6b0a2d2564d2303bef8ccdf",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/01_menu.png.import",
+    "bytes": 933,
+    "sha256": "bd12833e72a84df9252233cc93bc16c73686c7b8fef24b76e2a569b6e270d0b4"
+  },
+  {
+    "path": "Amahara_Godot/evidence/02_dialogue.png",
+    "bytes": 230060,
+    "sha256": "0055cf8af7e8f228aa4fcfc83d1964a90f775d4450458f431bc159d3cf1730f0",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/02_dialogue.png.import",
+    "bytes": 946,
+    "sha256": "e1eaf05a5d0f3bde44da8d61a1fe71666e15c0d98c87ac74c63b99b526fbd128"
+  },
+  {
+    "path": "Amahara_Godot/evidence/03_village.png",
+    "bytes": 262303,
+    "sha256": "108a5838930f883aa0bbd0ce3dcdda1787cf8af0d8296097cf5530b8b8e98264",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/03_village.png.import",
+    "bytes": 943,
+    "sha256": "7a1b04eabafca01353a3761c7c54902ee56629ad1c369368e602a49484c98fbe"
+  },
+  {
+    "path": "Amahara_Godot/evidence/04_bridge.png",
+    "bytes": 303016,
+    "sha256": "f7f53917f59b9e9212ffd789f07988cce6a3d570947e7640f9ea2658291294b8",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/04_bridge.png.import",
+    "bytes": 940,
+    "sha256": "47f9abcb7cfdf462e60be1ceb99dcd0665cfe9d324a67ee03cc7549d3cb7523d"
+  },
+  {
+    "path": "Amahara_Godot/evidence/05_combat.png",
+    "bytes": 243065,
+    "sha256": "1ea721e18174a0f30e2c1500f227a5e9b31c0dd6121e4e637942c9ef7e4438e2",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/05_combat.png.import",
+    "bytes": 940,
+    "sha256": "8a38aefe61cde3314044add122a5adcf0044c21df71b23fd8c195383446316e7"
+  },
+  {
+    "path": "Amahara_Godot/evidence/06_controls.png",
+    "bytes": 104157,
+    "sha256": "1d4e16a4ea53de61025d792e150dcd33f1a4248d0ea7e3aaecbe6fe838a785ad",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/06_controls.png.import",
+    "bytes": 946,
+    "sha256": "08bd20b983f31e5c488be48ab8cce96552ce5385328e47ac86c2874c1150e698"
+  },
+  {
+    "path": "Amahara_Godot/evidence/advanced_qa.log",
+    "bytes": 930,
+    "sha256": "a70291eff48236de65ed8c58f073b23da9be3a0d423e00c4d741e56f7f95b6e4"
+  },
+  {
+    "path": "Amahara_Godot/evidence/audio_cleanup.log",
+    "bytes": 3898,
+    "sha256": "4b293db2d7dba293dc143a3231ea676a98328f52020ec1049d66b00008ebb2ea"
+  },
+  {
+    "path": "Amahara_Godot/evidence/capture.log",
+    "bytes": 230,
+    "sha256": "e9bd90fbc0e251abd90c5bcb8a5e54cabb1a36790c815610fbd51ebf34a01bbb"
+  },
+  {
+    "path": "Amahara_Godot/evidence/delivery.json",
+    "bytes": 633,
+    "sha256": "e08516cf37fd43983ca4f407cda985f0c40792d4c0c0d23f429a860f8923f165"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export_release.log",
+    "bytes": 35922,
+    "sha256": "80976bc8cf5c24ea86102fd54b134537772d073cdda97bac574c3678d4a34c92"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_capture.log",
+    "bytes": 376,
+    "sha256": "5536bc29e213505b9f91a0c0851ddc32892bc2d7e1c4f77f5fd6e1cad479b703"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_import.log",
+    "bytes": 4548,
+    "sha256": "9bac367e4bd9e6d9f2b160788585c6359eda3ffe195ffe0f63fc97f1cb0e112a"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_qa.log",
+    "bytes": 3284,
+    "sha256": "7b7ff57fbf2f0dd1db9d60a4c27a9ff89e0324955f60504d80ae4c2c37ed9d49"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_smoke.log",
+    "bytes": 1402,
+    "sha256": "31d4a0a218aae95add5c469e534efc56120c50fed78dcd56ac56800c6e72f143"
+  },
+  {
+    "path": "Amahara_Godot/evidence/playthrough.log",
+    "bytes": 1334,
+    "sha256": "06cb6dae055672452bf1496e7cae2e384f2983d02189f2d331c9aae7d3d00d91"
+  },
+  {
+    "path": "Amahara_Godot/evidence/probe_cleanup.log",
+    "bytes": 94,
+    "sha256": "ab9e0b4bd9bb15dfcf8aa90c3447ff30d50fe06b147e7fdd1dc3dea5dec501dd"
+  },
+  {
+    "path": "Amahara_Godot/evidence/sample_qa.json",
+    "bytes": 4496,
+    "sha256": "a8cfb895ffad03f56c771bff6f9bc23d510e7e0a99acefd19dc3cf5cb79e32cd"
+  },
+  {
+    "path": "Amahara_Godot/evidence/sample_qa.log",
+    "bytes": 1410,
+    "sha256": "4871cf10008f20187d384a4baac714cd6e1671c5b4ec06dfc4178ba6fefb558f"
+  },
+  {
+    "path": "Amahara_Godot/evidence/settings_qa.log",
+    "bytes": 101,
+    "sha256": "ddb23c327af2c0c1ff29d871464a311539bdbf9afcde15ea142292c0c09dbcf3"
+  },
+  {
+    "path": "Amahara_Godot/scenes/Main.tscn",
+    "bytes": 162,
+    "sha256": "69e934017239c3cfeb61c0fd8bc7998940a765979f0d033a4aa2534b4a6db657"
+  },
+  {
+    "path": "Amahara_Godot/scripts/attack_data.gd",
+    "bytes": 743,
+    "sha256": "2af9fdc8bee18add9ea6a468a07709ca5f0bd1e259103dc4a40b6351247ff4d4",
+    "lines": 24
+  },
+  {
+    "path": "Amahara_Godot/scripts/attack_data.gd.uid",
+    "bytes": 19,
+    "sha256": "2731425af6ee7ee392a89863ce8b545f9e4349bd78aa4413817b511bce4dc9ad"
+  },
+  {
+    "path": "Amahara_Godot/scripts/audio_system.gd",
+    "bytes": 1526,
+    "sha256": "b4cc8724f67d7b80b498e8536494ad5bed1607b127a708e9e00fd0ecec2bdaa7",
+    "lines": 56
+  },
+  {
+    "path": "Amahara_Godot/scripts/audio_system.gd.uid",
+    "bytes": 20,
+    "sha256": "c4ebc508b041c6f70e0811a996833f0e965438493d750fb90dd06e1b0281a0e7"
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss.gd",
+    "bytes": 6522,
+    "sha256": "720e323c42e8be8b824660ce3a7ed6231b000d3d9bc6201bc05b88d77b99cf6d",
+    "lines": 204
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss.gd.uid",
+    "bytes": 19,
+    "sha256": "bed745afe570988e36aabf65bfa5743a305dd7727d61280b3fa61e3a85061a02"
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss_attack_data.gd",
+    "bytes": 306,
+    "sha256": "bf31582e6119db6d759f6f530d3d6fd95b045985a2db6821f90aa0aef1e33b0f",
+    "lines": 12
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss_attack_data.gd.uid",
+    "bytes": 19,
+    "sha256": "9abf2d37e8a17ecc59432c69cfa63a9852cd66ea9a7b57bc99fcab96973505d6"
+  },
+  {
+    "path": "Amahara_Godot/scripts/catalog.gd",
+    "bytes": 2153,
+    "sha256": "200cc1f58f03edfcb999dad2d60536af9963a1f39205ed66cb7e5e07e0fd3489",
+    "lines": 48
+  },
+  {
+    "path": "Amahara_Godot/scripts/catalog.gd.uid",
+    "bytes": 20,
+    "sha256": "ce2214ec606a0bcb4f9dc5b6d55bd0691024ccf8bfbc98c01f7200a0914c97cb"
+  },
+  {
+    "path": "Amahara_Godot/scripts/encounters.gd",
+    "bytes": 1970,
+    "sha256": "cfc241726c5ae4c094d344d9ed5940b27810af33687264a4dacd4565e11c4604",
+    "lines": 59
+  },
+  {
+    "path": "Amahara_Godot/scripts/encounters.gd.uid",
+    "bytes": 20,
+    "sha256": "2809c61744c17c6c2f389e21f88380ac38a40c005d4a6fd0101cee059528bf17"
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy.gd",
+    "bytes": 7513,
+    "sha256": "e6193ca21e3c75f51f755b2b82925a816a92f2d831dbb385cd4e830ac5084556",
+    "lines": 217
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy.gd.uid",
+    "bytes": 19,
+    "sha256": "8470470283936dc384f2a6de4636cc3cc737952ec5d0510bfd50e0df35f3c5bd"
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy_data.gd",
+    "bytes": 398,
+    "sha256": "7b88e80e6a16adbc18f185afc86ac7b3e1a703b2f3eedd963def5d3c363258c2",
+    "lines": 15
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy_data.gd.uid",
+    "bytes": 20,
+    "sha256": "b405e51b5ace2ff77a81854bce79f2f6bd44ee3cdae5ffcab9894a271093768d"
+  },
+  {
+    "path": "Amahara_Godot/scripts/fx.gd",
+    "bytes": 2555,
+    "sha256": "33c95803189a8b101b3eb0dd4e7921a0e2ed9b2edaf125d38b1b4cfcd2ee42d2",
+    "lines": 65
+  },
+  {
+    "path": "Amahara_Godot/scripts/fx.gd.uid",
+    "bytes": 19,
+    "sha256": "9284bc7df4da0c53c0bef071185664927c0c2feb4433fc9e6f7a10dedb2edc66"
+  },
+  {
+    "path": "Amahara_Godot/scripts/game.gd",
+    "bytes": 17533,
+    "sha256": "303c7173ee26507f0c348d2c463342f2cc325fbfcbc47cec213454d8033b9e7f",
+    "lines": 449
+  },
+  {
+    "path": "Amahara_Godot/scripts/game.gd.uid",
+    "bytes": 19,
+    "sha256": "65b3b25ac205fa63e9a237de944fe3533513833a811fe1d2e4d4095ad6f40f5b"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hitbox.gd",
+    "bytes": 1252,
+    "sha256": "8f598ea570d79e8e2900ce7f18eebd13370ae9083750a5d64abf00550e49e4b2",
+    "lines": 41
+  },
+  {
+    "path": "Amahara_Godot/scripts/hitbox.gd.uid",
+    "bytes": 20,
+    "sha256": "d6a5b797dfeb4336920caf43659bc32f995db98e7090cdc62a5e6c9f71a989ed"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hostile_effect.gd",
+    "bytes": 1837,
+    "sha256": "d875f7d0063726c65648bee791a06441379cbe0feff3ddab50e3972f65c45312",
+    "lines": 59
+  },
+  {
+    "path": "Amahara_Godot/scripts/hostile_effect.gd.uid",
+    "bytes": 19,
+    "sha256": "a589112aabbdea621b58ebf7d55feef98cc7798fb12b607803848c196b447f45"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hurtbox.gd",
+    "bytes": 390,
+    "sha256": "6bb3152373a2f315c4ab6e7d7ee0a2f970af8c7d0b4bf6512738471a7c4f0fe4",
+    "lines": 16
+  },
+  {
+    "path": "Amahara_Godot/scripts/hurtbox.gd.uid",
+    "bytes": 20,
+    "sha256": "2f3005bf8e1f8b44cf5e10138add71d943de6f7dd164b653bed252450cb7726a"
+  },
+  {
+    "path": "Amahara_Godot/scripts/input_config.gd",
+    "bytes": 1511,
+    "sha256": "10f7ea3b7679626f1fc6ee838a13540cd8d743638863784c109a875ce8e36874",
+    "lines": 35
+  },
+  {
+    "path": "Amahara_Godot/scripts/input_config.gd.uid",
+    "bytes": 19,
+    "sha256": "7113c4a00b3cb3b99db3cf58ba2738aa7bea97a8a1542d66ba4e620fc1a7d074"
+  },
+  {
+    "path": "Amahara_Godot/scripts/interaction.gd",
+    "bytes": 342,
+    "sha256": "56ede376e57a5a3084c41a9a6f650091224c2c141d33da088417446ddce622c1",
+    "lines": 16
+  },
+  {
+    "path": "Amahara_Godot/scripts/interaction.gd.uid",
+    "bytes": 19,
+    "sha256": "2d1425800f0e20b5e0177438233e6a0ff69f64473f371f3f80df35043dcc2f8a"
+  },
+  {
+    "path": "Amahara_Godot/scripts/magic_data.gd",
+    "bytes": 286,
+    "sha256": "8fafcc4b58bbeae1a0b30c49978671bd994ba840919790d8053260dd8b601913",
+    "lines": 11
+  },
+  {
+    "path": "Amahara_Godot/scripts/magic_data.gd.uid",
+    "bytes": 20,
+    "sha256": "5f43f1a129835fae8d521d32fa9023e2e16dec5d1d366703241562f55c7d8266"
+  },
+  {
+    "path": "Amahara_Godot/scripts/player.gd",
+    "bytes": 9196,
+    "sha256": "ff59942183388b1870dcbb27cb129e7929132926d7297fd82192520762a73d50",
+    "lines": 304
+  },
+  {
+    "path": "Amahara_Godot/scripts/player.gd.uid",
+    "bytes": 20,
+    "sha256": "d7b96e6648170f978badff5831fc98780a583cf87dfb0d8776dea3250e130b70"
+  },
+  {
+    "path": "Amahara_Godot/scripts/progression.gd",
+    "bytes": 1326,
+    "sha256": "ce8e39f0c06a92fd779d012249081b1f66facce1c0066ee8721880abd09da17d",
+    "lines": 38
+  },
+  {
+    "path": "Amahara_Godot/scripts/progression.gd.uid",
+    "bytes": 19,
+    "sha256": "4e395a57a2d32364877b98726a1588621476013faf69f4c974b1cebd5019db0d"
+  },
+  {
+    "path": "Amahara_Godot/scripts/projectile.gd",
+    "bytes": 1407,
+    "sha256": "b82e9699f8a4ac6a75fb0a3435b7e1f55768cca39b5dcbabc7b1e09df9786c2c",
+    "lines": 48
+  },
+  {
+    "path": "Amahara_Godot/scripts/projectile.gd.uid",
+    "bytes": 20,
+    "sha256": "0ae35ec81853ae2675470db1027f7c103993cb8fe2862811fc7d891205f258e7"
+  },
+  {
+    "path": "Amahara_Godot/scripts/save_store.gd",
+    "bytes": 4039,
+    "sha256": "b1683c362c260cba67f37557f3bf6cb7518ba35b4c75b166fd8b4c4388f6354e",
+    "lines": 88
+  },
+  {
+    "path": "Amahara_Godot/scripts/save_store.gd.uid",
+    "bytes": 20,
+    "sha256": "5c7df065db06846f56c602257d5b59d5bb9fd10d77a466e01a592f272f27234c"
+  },
+  {
+    "path": "Amahara_Godot/scripts/ui.gd",
+    "bytes": 11479,
+    "sha256": "ec12890bd5342636331190136005851843b3d0e45a7750d04aeecdc7016b7b0d",
+    "lines": 276
+  },
+  {
+    "path": "Amahara_Godot/scripts/ui.gd.uid",
+    "bytes": 20,
+    "sha256": "f697a0b8afc703587b68a8bfac7f9a7d9cbec5c85f212a3b7554783b58daa360"
+  },
+  {
+    "path": "Amahara_Godot/scripts/upgrade_data.gd",
+    "bytes": 164,
+    "sha256": "1bf35fe71e62a6eebad9d5333cff45eda46ed220080e064358d45ade61b916a6",
+    "lines": 7
+  },
+  {
+    "path": "Amahara_Godot/scripts/upgrade_data.gd.uid",
+    "bytes": 19,
+    "sha256": "cd928500ab8d77da115fadbbcedc641666e1df43b73b38df5cf3bb4eb04ea05e"
+  },
+  {
+    "path": "Amahara_Godot/scripts/world.gd",
+    "bytes": 13722,
+    "sha256": "1862eff8bd072c31f885115d1bb417f7f4ef16428ee8ffcd01416abd1c3a0a03",
+    "lines": 340
+  },
+  {
+    "path": "Amahara_Godot/scripts/world.gd.uid",
+    "bytes": 19,
+    "sha256": "958327aa0386f53c2cb28153679e73eb4b74be3eb11629c26f25347d3fa8f9e5"
+  },
+  {
+    "path": "Amahara_Godot/tests/advanced_suite.gd",
+    "bytes": 4538,
+    "sha256": "e4fcac9082a45f52ac9639be1fed53e47fb4130ad8f0e0558f3699d4216f2f8e",
+    "lines": 100
+  },
+  {
+    "path": "Amahara_Godot/tests/advanced_suite.gd.uid",
+    "bytes": 20,
+    "sha256": "961ad30050428a7da1173243d0a8b833fd663e958b954c9bf3f1d8e8230aad45"
+  },
+  {
+    "path": "Amahara_Godot/tests/audio_cleanup.gd",
+    "bytes": 377,
+    "sha256": "46448264b5d57a5cc48322d22da34a56f2e1a3fc9796785cc9df67dcdd38f369",
+    "lines": 15
+  },
+  {
+    "path": "Amahara_Godot/tests/audio_cleanup.gd.uid",
+    "bytes": 19,
+    "sha256": "a4c0928ad4dd95ef6120a4f3c15e9eaa079e1477103d148b81ab6e15519bf499"
+  },
+  {
+    "path": "Amahara_Godot/tests/capture.gd",
+    "bytes": 1101,
+    "sha256": "83f2dbcdac9e09e48f5985a10caed28a394670eada36b78b6de3ffc713a89a3b",
+    "lines": 40
+  },
+  {
+    "path": "Amahara_Godot/tests/capture.gd.uid",
+    "bytes": 20,
+    "sha256": "274a2677ee29a7b613838771f7ad3fe27a530110a13d2bf7f2828710f55c575e"
+  },
+  {
+    "path": "Amahara_Godot/tests/foundation_suite.gd",
+    "bytes": 9614,
+    "sha256": "84dd1a8ddb660e59732023821807ed87ce856b1d87418a60cd6449f5d923a302",
+    "lines": 192
+  },
+  {
+    "path": "Amahara_Godot/tests/persistence_probe.gd",
+    "bytes": 647,
+    "sha256": "305ba92caf9f5ec5dc58a94c64530b3c93d996ff7c30b03c53b5ab3a15fc743d",
+    "lines": 11
+  },
+  {
+    "path": "Amahara_Godot/tests/persistence_probe.gd.uid",
+    "bytes": 20,
+    "sha256": "d3d384adf72c1c2760f1c9b087c2b50a8e0e8b2b1e363c08829649771b8a49e6"
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_capture.gd",
+    "bytes": 1225,
+    "sha256": "ffd171f494ce7dab3b17ca1a230868fe0432ab6aecff695507d6542765e3b84e",
+    "lines": 35
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_capture.gd.uid",
+    "bytes": 20,
+    "sha256": "4c903701d816a50bc284adbd8495fa6748426c3e7db0adccf3b9bfeef322deec"
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_suite.gd",
+    "bytes": 13479,
+    "sha256": "c9887fcd531b033a445d62e900e294657589149f6ad5895f01ef6bc158af1cc1",
+    "lines": 317
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_suite.gd.uid",
+    "bytes": 20,
+    "sha256": "1ef6d300edc1055a5658c52f4033a0132bd4fa2d0957d7f719cc0f030e735f2a"
+  },
+  {
+    "path": "Amahara_Godot/tests/playthrough.gd",
+    "bytes": 5726,
+    "sha256": "79da3778d87566741bc86ec1bafa023f592fd8b1400b0895448de55435ad0c72",
+    "lines": 142
+  },
+  {
+    "path": "Amahara_Godot/tests/playthrough.gd.uid",
+    "bytes": 19,
+    "sha256": "aba200e445f8c6470db88673387bd9bfe413d65a84b2ca66a8a2774b346d37d4"
+  },
+  {
+    "path": "Amahara_Godot/tests/sample_suite.gd",
+    "bytes": 10630,
+    "sha256": "8ad2a221adbdc78c6a2675b9d0b6e58223d5fb3a0d39729095ef79dbae970615",
+    "lines": 266
+  },
+  {
+    "path": "Amahara_Godot/tests/sample_suite.gd.uid",
+    "bytes": 19,
+    "sha256": "54b2f897ae63a342861f53d49af0d57e164ce497bea064f2b6982a1d4f111bfd"
+  },
+  {
+    "path": "Amahara_Godot/tests/settings_suite.gd",
+    "bytes": 2146,
+    "sha256": "7e37d96f47cf366400e39fa2ea71c2dc120e4ed6f8266e53efe0406d4dbc45b8",
+    "lines": 41
+  },
+  {
+    "path": "Amahara_Godot/tests/settings_suite.gd.uid",
+    "bytes": 20,
+    "sha256": "966a020835896cbe114801f505e35a46dbc9f4edcd98c9454c91ceaf180770bb"
+  },
+  {
+    "path": "Amahara_Godot/tests/world_state_probe.gd",
+    "bytes": 688,
+    "sha256": "721158b5b7dfdec3cb661ac16619ef7f9e4c3ea3d937aaa28435e34b50a89a01",
+    "lines": 14
+  },
+  {
+    "path": "Amahara_Godot/tools/audit_sources.py",
+    "bytes": 741,
+    "sha256": "2711ec450e786578a15340560ae3ba20c813d21740d196f25edefb8364025c82"
+  },
+  {
+    "path": "Amahara_Godot/tools/create_audio.py",
+    "bytes": 2005,
+    "sha256": "526099211e78593a3e255ec8d7a61a700b429519ef8187f5f70776681b04ac26"
+  },
+  {
+    "path": "Amahara_Godot/tools/create_resources.py",
+    "bytes": 1863,
+    "sha256": "d0e62f3665196bbc45fb89a4699d1de94951f085206c56c981b03c7a3163fc42"
+  },
+  {
+    "path": "Amahara_Godot/tools/delivery_report.py",
+    "bytes": 12599,
+    "sha256": "386e9edfbd6d98c81b012f1c3c4f75d34d8fa5fa41838e3ec80e1ff9774ef5e8"
+  },
+  {
+    "path": "Amahara_Godot/tools/finalize_docs.py",
+    "bytes": 16246,
+    "sha256": "fdc1a951c1252362dff2aa9397fe41c8ab4bd6c9860e0259890fa334beedec26"
+  },
+  {
+    "path": "Amahara_Godot/tools/phase_resources.py",
+    "bytes": 2051,
+    "sha256": "fa8af91d4e0783dcd495e814680e2bbbd855e8f0e78f2fc9f875b68fc916fb13"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/animation_contract.gd",
+    "bytes": 5888,
+    "sha256": "79827ef6abdcc7fafce8fccf1ba52f33ee50b6a135d625b1ae41b1f7f312325d",
+    "lines": 91
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/animation_contract.gd.uid",
+    "bytes": 20,
+    "sha256": "e75a57b4ec3a2addc09b29fed67e43be95c114790f20430e3c4e770bfaca1217"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/combat_factions.gd",
+    "bytes": 682,
+    "sha256": "85f6589c9c4a350b3deed865414679dee8064204f3ba2b2bc51c3f296fc948f4",
+    "lines": 16
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/combat_factions.gd.uid",
+    "bytes": 19,
+    "sha256": "f1077494b44eeb08fded7592f89d3c41129686acdc8b19d0cb008d0e130a3f22"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/combat_hit.gd",
+    "bytes": 1367,
+    "sha256": "ca7346add1de42bf594b534e93a6d3c27b3952a69b1e5b4bfbeb0bcff9b5d787",
+    "lines": 35
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/combat_hit.gd.uid",
+    "bytes": 20,
+    "sha256": "e8f98568f91febab84bf6c4d2910957639df678da260e57d33725ec4815a282a"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/combat_targets.gd",
+    "bytes": 992,
+    "sha256": "fbd7d7c3793d1022af68f9d6ad0510bfab6da009d3a380b86c0411050efcda53",
+    "lines": 32
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/combat_targets.gd.uid",
+    "bytes": 19,
+    "sha256": "16a226fb358fbb253fc7bc47c1f6b51827e8e2ed5e4c084f0bb6a96af2e894fd"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/game_session.gd",
+    "bytes": 2120,
+    "sha256": "9bf8dac5aee344f2962cfc52a348d558a03562713b556f35b44650b23aeb61a2",
+    "lines": 74
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/game_session.gd.uid",
+    "bytes": 20,
+    "sha256": "7775dc0f383126f3d212ec952e2f14b4393fe4155754ebc8ab8b041e5b4a63b6"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/persistent_ids.gd",
+    "bytes": 696,
+    "sha256": "4f618413f7ff3e9d180bc6312bb917a7b34687b1b32394466344fe0bb41f8b37",
+    "lines": 20
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/persistent_ids.gd.uid",
+    "bytes": 20,
+    "sha256": "45ebb149c134d73ac0b65c60494de2c2451a865447a0a4e911582ff39265758b"
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/world_state.gd",
+    "bytes": 1886,
+    "sha256": "8ea9206e1b03380f9dd221cdd83d3f1a38340a95d7829e6238589194d47b3f13",
+    "lines": 46
+  },
+  {
+    "path": "Amahara_Godot/scripts/foundation/world_state.gd.uid",
+    "bytes": 20,
+    "sha256": "6a2fca09614f9eb5c26997e20266fadf2101b70371252af4384cd45bfe54688f"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/01_menu.png",
+    "bytes": 448314,
+    "sha256": "ab5b5d88c50eebf5acbc773f482d922ef854274fd6b0a2d2564d2303bef8ccdf",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/01_menu.png.import",
+    "bytes": 940,
+    "sha256": "4beaf0df6b484463bb43a44a841772b3ef7925557f9b68b8e6a015d6be44147c"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/02_dialogue.png",
+    "bytes": 230060,
+    "sha256": "0055cf8af7e8f228aa4fcfc83d1964a90f775d4450458f431bc159d3cf1730f0",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/02_dialogue.png.import",
+    "bytes": 953,
+    "sha256": "4673fd5a93f19a478c7c8b575ff4949fd97b854cc008a70fdd8aeb22efec8dcd"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/03_village.png",
+    "bytes": 262303,
+    "sha256": "108a5838930f883aa0bbd0ce3dcdda1787cf8af0d8296097cf5530b8b8e98264",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/03_village.png.import",
+    "bytes": 949,
+    "sha256": "cd86a0a5215efed771089e0e875aa22276947f6e5c596efde8e504dc4e77b696"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/04_bridge.png",
+    "bytes": 302960,
+    "sha256": "76301cb7ba58b9a35537e2617fe587841d0cfcd11350f2d7c445f5eb69d5b226",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/04_bridge.png.import",
+    "bytes": 946,
+    "sha256": "6126c34462a4fce45cffa7133a62c523199a1b688b1b680cb3c690d2040cc183"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/05_combat.png",
+    "bytes": 244110,
+    "sha256": "38392d8ca7ef492245505ee2609ff3210960a75508ed31aa7479d8c81a890899",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/05_combat.png.import",
+    "bytes": 947,
+    "sha256": "f6ba919d412cc6121ce9df8a23b7fdae3b35689dc55ffcd1c5bccb97480fef1a"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/06_controls.png",
+    "bytes": 104472,
+    "sha256": "bc595a385089904462429187ce8fd4b32ad738182c3007c839f848cc3127e572",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/06_controls.png.import",
+    "bytes": 953,
+    "sha256": "cf771ebb1cae813a649484f129a9c58f02d6d40a0582e7e547010c685cfb9451"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/capture.log",
+    "bytes": 230,
+    "sha256": "e9bd90fbc0e251abd90c5bcb8a5e54cabb1a36790c815610fbd51ebf34a01bbb"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/qa.log",
+    "bytes": 1423,
+    "sha256": "90b379be9daee9240f9c9555582e3289407bd3b0f467f5d1e6a4dfee618b4a8e"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/sample_qa.json",
+    "bytes": 4509,
+    "sha256": "42c90fcb580b8b5dd48ec47bbf0b154f0232e5c8e8e5fd0304aab681cdb103ec"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/01_menu.png",
+    "bytes": 447313,
+    "sha256": "03fbdf04b4bf9782b626ba155a500044048130eb14da7bae2d012216d0e7b6c2",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/01_menu.png.import",
+    "bytes": 939,
+    "sha256": "cddaf9da562f3c2d63e89b832afd73d9b108b1fa4d3a7573bcdc2a2572f391f9"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/02_village.png",
+    "bytes": 284769,
+    "sha256": "a38099b0e63c203778cab1d239b479c2485abb42770ab1cd7d4eb39d7d632784",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/02_village.png.import",
+    "bytes": 949,
+    "sha256": "6bb13261b9b4c1cc22a5d2557e3e7f11b6df681efbb669136e7fbf692bd1e172"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/03_forest.png",
+    "bytes": 253308,
+    "sha256": "0fa9cd0d3e6b61242742f48e388e28fd09fd74e50ca12651e2dcdee524364f2c",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/03_forest.png.import",
+    "bytes": 946,
+    "sha256": "dc97d44883b12a4405272fadf7126b2369cd008ec721cf2296dad76e6c68ad12"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/04_altar.png",
+    "bytes": 377313,
+    "sha256": "220ecb16f1fafd07998fbfe1f122267d2c511d37b6627fad58c180fbd231bff7",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/04_altar.png.import",
+    "bytes": 943,
+    "sha256": "b964dc18c87c8130dd10067234329f248bb5284aa93daf6b09191e73be1da86b"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/05_corruption.png",
+    "bytes": 332519,
+    "sha256": "a6ed1e29c8508805d648f39272a55363800d668a03adfee7f7930a5c9f40e0b7",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/05_corruption.png.import",
+    "bytes": 958,
+    "sha256": "c022010b9e7bfbb030f9d7b8fe425947bc0e77ec21267dc7f1ea202230c0bf04"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/06_sanctuary.png",
+    "bytes": 353554,
+    "sha256": "788ac4285f4e5b0d5fdabe5ca23d9536759fa8058ca5fc30586edb9c920cbcea",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/06_sanctuary.png.import",
+    "bytes": 955,
+    "sha256": "9d1d51f9f348661a27f5ba8b4261fc193b08663002079111e337d2890efa844e"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/07_jinzo.png",
+    "bytes": 216534,
+    "sha256": "895f25aff743b8256f3ddbc516a8c9943348de0d41e115fc0b05cd2e297ef876",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/07_jinzo.png.import",
+    "bytes": 943,
+    "sha256": "e6e13d42462dbde954c8c9939b1fc9f6ac30f89fbebe05a61df2e82dd669c365"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/08_jinzo_phase2.png",
+    "bytes": 225958,
+    "sha256": "245e250985970a50e4bbc3ba34a30f8905322cac1ef55a2e9f9b4d7fda9ceadb",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/08_jinzo_phase2.png.import",
+    "bytes": 963,
+    "sha256": "f0dad7bc102fe3c8c476be0e6297c97165b8387ba8ad6773c7ca30d9e9092987"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/09_conclusion.png",
+    "bytes": 111747,
+    "sha256": "75c02a8e34931a43a9cdc1757f38f04109de3aa8dbfc01cfce261f4773ba4b5a",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/09_conclusion.png.import",
+    "bytes": 957,
+    "sha256": "8f99c1330411b934f54ced34a08cc26459506a66dbac746138dd8038f26d7263"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/capture.log",
+    "bytes": 376,
+    "sha256": "5536bc29e213505b9f91a0c0851ddc32892bc2d7e1c4f77f5fd6e1cad479b703"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/delivery.json",
+    "bytes": 5634,
+    "sha256": "8e217a9e6ab431ce839978b5cd577c3f315972f46f0112a1f070d8f08179262b"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/playthrough.json",
+    "bytes": 3188,
+    "sha256": "5303f9387d354a7eb5db9e182e6db441b626fa9efe8353180b7ca728c507d729"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/playthrough.log",
+    "bytes": 1231,
+    "sha256": "4a6dbb48bf7ba38164b08d94b9b36f55ba2726cc781f04f88e040ac28a5e34a9"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/preservation.json",
+    "bytes": 105,
+    "sha256": "56f4d3192e06c0352d78b77f6f6f09dad42d8a367a9fd1d12064cf0b3a074370"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/project_manifest.json",
+    "bytes": 9975,
+    "sha256": "ae9c925cbe502ed17d03afa89572dd83388e92d134810d9e5be7d40b54a3aac7"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/verify-save.log",
+    "bytes": 93,
+    "sha256": "d43ad1d7bd8b208c8a6e56ee9b72979e7474dc163082a933f6b338d0a1b87489"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/01_menu.png",
+    "bytes": 447313,
+    "sha256": "03fbdf04b4bf9782b626ba155a500044048130eb14da7bae2d012216d0e7b6c2",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/02_village.png",
+    "bytes": 284769,
+    "sha256": "a38099b0e63c203778cab1d239b479c2485abb42770ab1cd7d4eb39d7d632784",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/03_forest.png",
+    "bytes": 253301,
+    "sha256": "3f12c068067ece7c911ee3ba95391b6d39ab2b142b869ca875e8fd79784b0421",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/04_altar.png",
+    "bytes": 377313,
+    "sha256": "220ecb16f1fafd07998fbfe1f122267d2c511d37b6627fad58c180fbd231bff7",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/05_corruption.png",
+    "bytes": 332707,
+    "sha256": "662539be7556445e1a3fb8acc79cafd376ac4480c89318cfcae53f1fb98d8d5b",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/06_sanctuary.png",
+    "bytes": 353356,
+    "sha256": "f787ab84fb05f3e24a33039698255a0970edec0a3b677da37eeaf2bb6a183213",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/07_jinzo.png",
+    "bytes": 216534,
+    "sha256": "895f25aff743b8256f3ddbc516a8c9943348de0d41e115fc0b05cd2e297ef876",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/08_jinzo_phase2.png",
+    "bytes": 225959,
+    "sha256": "90d213a09ec513b997d6b9de407ec7d0827280543bc75ed71624f3dfe12dd140",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/09_conclusion.png",
+    "bytes": 111747,
+    "sha256": "1d71e229cc0c17db97fd48c60e8eaa9b0e38c4bca2428bcd92ad0f1a3884980e",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/advanced.log",
+    "bytes": 930,
+    "sha256": "a70291eff48236de65ed8c58f073b23da9be3a0d423e00c4d741e56f7f95b6e4"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/advanced_qa.json",
+    "bytes": 2408,
+    "sha256": "a83a59a5b6e3dea4adecf4ba18bb290c687de39fbf03d2c2182a63f83997a72a"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/capture.log",
+    "bytes": 376,
+    "sha256": "5536bc29e213505b9f91a0c0851ddc32892bc2d7e1c4f77f5fd6e1cad479b703"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/phase_qa.json",
+    "bytes": 9882,
+    "sha256": "b81b5a4447de96d09ac8ee47fc9efb2be66c9e854e6ce97f8399c2dfb470f062"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/playthrough.json",
+    "bytes": 3416,
+    "sha256": "999c968568c33799b3e9fa780a9355da096dbcd0c96d804417804675deb6fd6d"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/playthrough.log",
+    "bytes": 1455,
+    "sha256": "9d48ae905e60bfbaa0acfc9bb9fd0981028166776b9f946f8c7a2f4277a08aba"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/qa.log",
+    "bytes": 3284,
+    "sha256": "7b7ff57fbf2f0dd1db9d60a4c27a9ff89e0324955f60504d80ae4c2c37ed9d49"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/reopen.json",
+    "bytes": 171,
+    "sha256": "05d46580a8f36abd4962ba1a63b4ae9570c2626bd9c003952dfff0773c9a5f02"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_0.png",
+    "bytes": 262400,
+    "sha256": "8e9a4624493a3f86fded43ba4df067003913c69631cbf18dc50a0f00b241bcfe",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_1.png",
+    "bytes": 251869,
+    "sha256": "06e14ba73791e5054a2923b7eed5eff7277a3bbab3693dab54b19f8f8d251e1f",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_2.png",
+    "bytes": 273031,
+    "sha256": "253315cba4c619ffa6ba6b7c225c3d850728e879f4631f7c18da844aa1143114",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_3.png",
+    "bytes": 385783,
+    "sha256": "5eb4f1bce063f8cc9b679295db0768895215b32623b0b9166027733e220f11f8",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_4.png",
+    "bytes": 385242,
+    "sha256": "3ced7be7f9a31e523b2a35ee61ca67f6de431a41d56491e09a37ec15f17a64a4",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_5.png",
+    "bytes": 354290,
+    "sha256": "f6b7342e95d1a2676e50e3bfc59949607ee41ca37c5cf9ae977901d8c55d306b",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_victory.png",
+    "bytes": 111152,
+    "sha256": "2b6275fcf0cd290c789eec7e152bf215863b1eb39f17131be669716cffb5e845",
+    "dimensions": [
+      640,
+      360
+    ]
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/settings-qa.log",
+    "bytes": 101,
+    "sha256": "ddb23c327af2c0c1ff29d871464a311539bdbf9afcde15ea142292c0c09dbcf3"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/settings_qa.json",
+    "bytes": 419,
+    "sha256": "a50cca41be8fa3a7e64932d0e24de4256702290f492b200efe190d54c0a1e1cb"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/verify-save.log",
+    "bytes": 93,
+    "sha256": "d43ad1d7bd8b208c8a6e56ee9b72979e7474dc163082a933f6b338d0a1b87489"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/00_SOURCE_AUDIT.md",
+    "bytes": 4488,
+    "sha256": "a759b9b5be3d9998edd150a400ce89fc6084ad1cb90088f0aca613b4def6c655"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/01_MIGRATION.md",
+    "bytes": 1502,
+    "sha256": "1f046698e2a4934fd2dc838edae3364c7d26a345f7afa1861d83e7947bf8099b"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/02_RESEARCH.md",
+    "bytes": 3316,
+    "sha256": "9daa2420d2d4c636e8efcb7c8a6cd53ff78dcc4f7239ed96ead839f507bfa277"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/03_GAME_DESIGN.md",
+    "bytes": 1025,
+    "sha256": "e2fb4e6b6e1ee42f555f6e25de713a058521fcd20937fd96881221a6eb831762"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/04_STORY_AND_LORE.md",
+    "bytes": 1031,
+    "sha256": "d1b4973aea02ae42bd0db4765e08002e3f6c64e3813c677c5d61c174bafed2d9"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/05_COMBAT.md",
+    "bytes": 1684,
+    "sha256": "60f1043ed28f4281f409e27136b2a7031736f8ec7fa2f15170d0348223fa8d93"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/06_ENEMIES.md",
+    "bytes": 900,
+    "sha256": "2bb7208e68e94549d94dfe4befcf817040a56ca8ea074135a55d9f5bceb0991d"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/07_LEVEL_01.md",
+    "bytes": 1079,
+    "sha256": "bfca10bcb8fe8d25279102b702ac343b8e8838efbefa1dd688e799f3313e4541"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/08_BOSS.md",
+    "bytes": 818,
+    "sha256": "6a82bc39a0279e371b09e8c457b1c5b145c58cdc286242d1fcda865425f58efd"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/09_ART_DIRECTION.md",
+    "bytes": 2662,
+    "sha256": "afc2e52c57a51796d202d087fc8022675d2ccea5a8d339aea9a28a88bb617121"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/10_ARCHITECTURE.md",
+    "bytes": 2041,
+    "sha256": "fe8798fc070529c4dc9990b94f9c35eea03cc6562f5fc62b56027eb48f2bece7"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/11_TEST_REPORT.md",
+    "bytes": 3902,
+    "sha256": "908fd259ade6760d7416faa5c1f18e8f42d068934271f93f7b5562f7d86bd7f1"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/12_MILESTONE_REPORT.md",
+    "bytes": 3596,
+    "sha256": "285e3f38ac704dd38f8df8563bbbd4881dc6e59899e25f3ab6bc75a15520bf6c"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/boss.wav",
+    "bytes": 1058444,
+    "sha256": "53892500fc8dabe0f5c4fa7e80309355f736af235d172449d6cfc9fe7e38a007"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/boss.wav.import",
+    "bytes": 483,
+    "sha256": "3e87d9b0f51af79b2e3f9d8ccd470a8a006b9de0cd51036242f4991294d86a16"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/dash.wav",
+    "bytes": 8864,
+    "sha256": "97c5c314779dbe8f5110e4ad5ede75715499ae66eb46c2db5d0d0a2f32b6ee57"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/dash.wav.import",
+    "bytes": 483,
+    "sha256": "9007a51d60b120aed27f5afd59e57040ca2e97e6b7e959e4fb4dbbd85b620910"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/heavy.wav",
+    "bytes": 11068,
+    "sha256": "fa493128d1b8816261e1eaaa3c30a7d82b58f5c6fa14f96861e9fd992658ff54"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/heavy.wav.import",
+    "bytes": 486,
+    "sha256": "3e249e750c0cb7b85f8039d04db09e99dc256e9ee7cb5329e69821fb7820ca3e"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hit.wav",
+    "bytes": 5776,
+    "sha256": "7a59898b91a9c5d8e0d790b32ca7c4ce06a9257fdcd8718f652d7eff1c828988"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hit.wav.import",
+    "bytes": 480,
+    "sha256": "d2c86cb7c25bca71598c7bef9b8a4739b62e86997fe851e2364a9167d998487d"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hurt.wav",
+    "bytes": 10186,
+    "sha256": "b4e642058565769f7c83b47d87c79b255823f3e9e8e0503c6c9982cad67590b7"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hurt.wav.import",
+    "bytes": 483,
+    "sha256": "f076b816f7de1f4737b88bc1f1a6097c7e4f2ab29e6aa90b7ec146ca634d67fa"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic1.wav",
+    "bytes": 17684,
+    "sha256": "a1fbb1aab0bd9cc74f1f63c2970ede46a9ad5100e8b39b9e8b3aae2627c187dd"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic1.wav.import",
+    "bytes": 489,
+    "sha256": "af2fa2bbed18996456a417359de18a0fe5a417311069ed32c20d4d0027ec838c"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic2.wav",
+    "bytes": 26504,
+    "sha256": "11d5ef213c0dcbc6e2315a6cf61e5a33dc17f370dc4fd9706e46324e865e2f08"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic2.wav.import",
+    "bytes": 489,
+    "sha256": "f311ebefe3dee7ccb1decf0e2d80aa92a6bfdea0323f23777bda72a664493826"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/perfect.wav",
+    "bytes": 24298,
+    "sha256": "31889bb6c4b1979f535d291bb1b127d0e6c6789135183d485b10d11ae285021f"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/perfect.wav.import",
+    "bytes": 492,
+    "sha256": "a15ed3b7470f74c5eaf24b5e19f8ad24ad088b6f5618093c3f674e2722e9e904"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/shrine.wav",
+    "bytes": 52964,
+    "sha256": "39f32a99b47934d9a143f798009c37b8398f9e5ccf812e47aad087a88fbe3785"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/shrine.wav.import",
+    "bytes": 489,
+    "sha256": "a8f43b10ce410234416e75f6a7f6e5b28db87be919393ac4c16ff52ab2626fd5"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/slash.wav",
+    "bytes": 7100,
+    "sha256": "b32cc10defc83ca90e28dba50a0db22ec86a53f4fffd9718a73397108710a2d3"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/slash.wav.import",
+    "bytes": 485,
+    "sha256": "558995cd64914f7fcf0002396963cd86fe2465df559d2cfb65618e968dd52f6d"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/ui.wav",
+    "bytes": 3572,
+    "sha256": "c56ab6ad7799ac3e4a1c03c304beba3c6f5e8c806686e90a78a5bd51665ccaf5"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/ui.wav.import",
+    "bytes": 477,
+    "sha256": "7991a7593d814b4573e3ec743684e359577ff957b915b749044bf23d3e4e575b"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/village.wav",
+    "bytes": 1058444,
+    "sha256": "2b2a3065f3cc5236f0225cb0f83fc37b80850b46bcdda30eba42b9b117007f4d"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/village.wav.import",
+    "bytes": 492,
+    "sha256": "ef737f0d5f38e716e9e5d6d286b79ace7171a4b96de6537fb66c68869e3dfcec"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/warn.wav",
+    "bytes": 12392,
+    "sha256": "8dc1f93721cfa60b6e290a5499ec709e006ac42f4dc3923249714964fce8260e"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/warn.wav.import",
+    "bytes": 483,
+    "sha256": "0b45ed8e08af7e846f0817e1fa8ade38b6cc1a80635affc6ac92c67b02154ad2"
+  }
+]

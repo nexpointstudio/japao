@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "foundation_gate_before_stage2": true,
+  "godot": {
+    "legacy_checks": 158,
+    "foundation_checks": 50,
+    "total_each_environment": 208,
+    "project_and_windows_export": true,
+    "playthrough_both": true,
+    "save_v2_and_v3_reopen_both": true
+  },
+  "nexmotion": {
+    "unit_legacy": 160,
+    "unit_2d": 55,
+    "unit_total": 215,
+    "ui2d_checks": 47,
+    "native3d_checks": 47,
+    "full_window_3d_autosave_reload": true,
+    "live_database_unchanged": true,
+    "protected_sources_unchanged": 3272
+  },
+  "known_diagnostics": [
+    "Godot forced --quit-after: ObjectDB/resource cleanup inherited from baseline",
+    "Qt WebEngine DirectComposition interface unsupported: real WebGL checks and captures still pass"
+  ],
+  "stage3": "PENDING_NOT_STARTED",
+  "new_ren": "NOT_STARTED",
+  "git_commit_push": false
+}

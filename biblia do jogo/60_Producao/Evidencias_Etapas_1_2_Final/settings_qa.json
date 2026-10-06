@@ -1,0 +1,30 @@
+{
+	"checks": [
+		{
+			"id": "settings_disk_roundtrip",
+			"pass": true
+		},
+		{
+			"id": "directional_actions_and_death",
+			"pass": true
+		},
+		{
+			"id": "controls_keyboard_focus",
+			"pass": true
+		},
+		{
+			"id": "options_keyboard_focus",
+			"pass": true
+		},
+		{
+			"id": "reject_out_of_order_progress",
+			"pass": true
+		},
+		{
+			"id": "reject_duplicate_upgrade",
+			"pass": true
+		}
+	],
+	"fail": 0,
+	"pass": 6
+}

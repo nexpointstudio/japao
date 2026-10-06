@@ -1,0 +1,27 @@
+[
+  {
+    "name": "export_probe_dispatch",
+    "command": [
+      "D:/NexStudio/tools/godot-4.6.1/Godot_v4.6.1-stable_win64_console.exe",
+      "--headless",
+      "--path",
+      "D:\\NexStudio\\projetos\\japao\\.git\\etapa1_final\\Amahara_Godot",
+      "--export-release",
+      "Windows Desktop",
+      "D:\\NexStudio\\projetos\\japao\\.git\\etapa1_final\\Amahara_Baseline.exe"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "export_world_reopen_verified",
+    "command": [
+      "D:\\NexStudio\\projetos\\japao\\.git\\etapa1_final\\Amahara_Baseline.exe",
+      "--headless",
+      "--",
+      "--verify-save",
+      "--verify-world",
+      "--evidence-dir=D:\\NexStudio\\projetos\\japao\\biblia do jogo\\60_Producao\\Evidencias_Etapa_1\\final\\export"
+    ],
+    "exit": 0
+  }
+]

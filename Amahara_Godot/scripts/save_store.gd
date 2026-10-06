@@ -4,6 +4,36 @@ extends RefCounted
 const PATH := "user://amahara_save.json"
 static var override_path: String = ""
 static var recovered_backup := false
+const WORLD_PATH := "user://kuroyomi_world_v3.json"
+static var world_recovered_backup := false
+
+static func read_world(file_path: String = WORLD_PATH) -> Dictionary:
+	world_recovered_backup = false
+	for candidate in [file_path, file_path+".bak"]:
+		if not FileAccess.file_exists(candidate): continue
+		var parser := JSON.new()
+		if parser.parse(FileAccess.get_file_as_string(candidate)) != OK: continue
+		var value = parser.data
+		if PersistentWorldState.validate(value):
+			world_recovered_backup = candidate.ends_with(".bak")
+			return value
+	return {}
+
+static func write_world(data: Dictionary, file_path: String = WORLD_PATH) -> bool:
+	if not PersistentWorldState.validate(data): return false
+	var file := FileAccess.open(file_path+".tmp", FileAccess.WRITE)
+	if not file: return false
+	file.store_string(JSON.stringify(data, "\t", true))
+	file.flush()
+	file.close()
+	if not PersistentWorldState.validate(JSON.parse_string(FileAccess.get_file_as_string(file_path+".tmp"))): return false
+	if FileAccess.file_exists(file_path):
+		var parser := JSON.new()
+		parser.parse(FileAccess.get_file_as_string(file_path))
+		var old = parser.data
+		if PersistentWorldState.validate(old):
+			if DirAccess.copy_absolute(file_path, file_path+".bak") != OK: return false
+	return DirAccess.rename_absolute(file_path+".tmp", file_path) == OK
 
 static func path() -> String:
 	return override_path if not override_path.is_empty() else PATH

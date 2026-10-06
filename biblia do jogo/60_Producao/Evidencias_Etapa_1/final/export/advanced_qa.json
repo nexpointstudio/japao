@@ -1,0 +1,151 @@
+{
+	"checks": [
+		{
+			"detail": "",
+			"id": "hazard_no_damage_before_cue",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "hazard_active_damage",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "hazard_single_hit_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "arrow_blocked_by_water_wall",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_line_of_sight_blocked",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "navigation_around_rock",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "pause_freezes_boss_transition",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_pattern_combo",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_recovery_combo",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_pattern_charge",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_recovery_charge",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_pattern_wide",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_recovery_wide",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_pattern_spirit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_recovery_spirit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_pattern_radial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_recovery_radial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_pattern_summon",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "phase2_recovery_summon",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "transition_still_once",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "actual_boss_death_respawn",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "actual_boss_attempt_reset",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "repeated_checkpoint_idempotent",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "memorial_recovery_and_item",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "memorial_reward_once",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_victory_unlocks",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "victory_ui",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "victory_save_reopen",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "restart_cancels_old_callback",
+			"result": "PASS"
+		}
+	],
+	"fail": 0,
+	"pass": 29
+}

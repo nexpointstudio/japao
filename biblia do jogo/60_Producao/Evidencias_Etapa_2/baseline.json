@@ -1,0 +1,15 @@
+{
+  "command": [
+    "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "Tests",
+    "-v"
+  ],
+  "exit": 1,
+  "seconds": 51.00275210000109,
+  "protected": 3339,
+  "isolation": "D:\\ver anima\u00e7ao\\Cache\\Animation2DQA"
+}

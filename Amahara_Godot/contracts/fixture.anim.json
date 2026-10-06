@@ -1,0 +1,80 @@
+{
+  "animations": [
+    {
+      "animation_id": "fixture.idle",
+      "direction": "",
+      "display_name": "Fixture idle",
+      "duration": 0.2,
+      "events": [
+        {
+          "event_id": "fixture.marker",
+          "frame": 0,
+          "name": "custom_event",
+          "payload": {
+            "hitbox_ref": "fixture.blade"
+          }
+        }
+      ],
+      "fps": 10,
+      "frames": [
+        {
+          "duration": 0.1,
+          "offset": [
+            0,
+            0
+          ],
+          "rect": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "texture_id": "fixture"
+        },
+        {
+          "duration": 0.1,
+          "offset": [
+            0,
+            0
+          ],
+          "rect": [
+            32,
+            0,
+            32,
+            32
+          ],
+          "texture_id": "fixture"
+        }
+      ],
+      "loop": true,
+      "metadata": {},
+      "pivot": [
+        16,
+        28
+      ],
+      "revision": 1,
+      "status": "Draft",
+      "tags": [
+        "technical"
+      ]
+    }
+  ],
+  "character_id": "fixture",
+  "display_name": "Technical fixture",
+  "kind": "fixture",
+  "metadata": {},
+  "revision": 1,
+  "schema_version": 1,
+  "status": "Draft",
+  "tags": [
+    "technical"
+  ],
+  "textures": [
+    {
+      "file": "fixture.png",
+      "height": 32,
+      "texture_id": "fixture",
+      "width": 64
+    }
+  ]
+}

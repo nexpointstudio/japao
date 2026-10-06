@@ -1,0 +1,252 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "type": "integer"
+    },
+    "character_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_.-]{0,127}$"
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "Draft",
+        "Review",
+        "Approved",
+        "Rework"
+      ]
+    },
+    "textures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "texture_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_.-]{0,127}$"
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^[^:\\\\]+\\.png$"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "texture_id",
+          "file",
+          "width",
+          "height"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "animations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "animation_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_.-]{0,127}$"
+          },
+          "display_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "status": {
+            "enum": [
+              "Draft",
+              "Review",
+              "Approved",
+              "Rework"
+            ]
+          },
+          "fps": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 240
+          },
+          "duration": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "loop": {
+            "type": "boolean"
+          },
+          "direction": {
+            "type": "string"
+          },
+          "pivot": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "frames": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "texture_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_.-]{0,127}$"
+                },
+                "rect": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "duration": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "offset": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "pivot": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "metadata": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "texture_id",
+                "rect",
+                "duration",
+                "offset"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "event_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_.-]{0,127}$"
+                },
+                "frame": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "payload": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "event_id",
+                "frame",
+                "name",
+                "payload"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "metadata": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "animation_id",
+          "display_name",
+          "revision",
+          "status",
+          "fps",
+          "duration",
+          "loop",
+          "direction",
+          "pivot",
+          "frames",
+          "events",
+          "tags",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "character_id",
+    "display_name",
+    "kind",
+    "revision",
+    "status",
+    "textures",
+    "animations",
+    "tags",
+    "metadata"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NexMotion 2D interchange v1",
+  "description": "Engine-neutral PNG and JSON. Semantic checks also required: unique IDs, bounds, paths, duration sum, file existence and dimensions."
+}

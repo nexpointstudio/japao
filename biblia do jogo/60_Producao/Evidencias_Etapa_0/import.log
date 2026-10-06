@@ -1,0 +1,120 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Inicialização do Projeto (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Escaneando estrutura de arquivos...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Carregando nomes de classe globais...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verificando GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Criando scripts autoload...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Inicializando plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Iniciando escaneamento de arquivos...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registrando classes globais... (32 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | AttackData[39m[0m
+[   3% ] [90m[1mupdate_scripts_classes[22m | AmaharaAudio[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | GeneralJinzo[39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | BossAttackData[39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | Catalog[39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | EncounterDirector[39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | VillageEnemy[39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | EnemyData[39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | BattleFX[39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | HitboxComponent[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | HostileEffect[39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | HurtboxComponent[39m[0m
+[  39% ] [90m[1mupdate_scripts_classes[22m | InputConfig[39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | WorldInteraction[39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | MagicData[39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | RenPlayer[39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | StoryProgression[39m[0m
+[  54% ] [90m[1mupdate_scripts_classes[22m | CelestialSlash[39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | SaveStore[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | AmaharaUI[39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | UpgradeData[39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | VillageWorld[39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Escaneando ações... (19 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | boss.wav[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | dash.wav[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | heavy.wav[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | hurt.wav[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | magic1.wav[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | magic2.wav[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | perfect.wav[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | shrine.wav[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | slash.wav[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | ui.wav[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | village.wav[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | warn.wav[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | enemies_atlas.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | jinzo_atlas.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | props_atlas.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | ren_actions.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | ren_atlas.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | title.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importando Recursos (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparando arquivos para reimportação...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executando operações pré-reimportação...[39m[0m
+[   0% ] [90m[1mreimport[22m | title.png[39m[0m
+[   5% ] [90m[1mreimport[22m | ren_atlas.png[39m[0m
+[  10% ] [90m[1mreimport[22m | ren_actions.png[39m[0m
+[  15% ] [90m[1mreimport[22m | props_atlas.png[39m[0m
+[  20% ] [90m[1mreimport[22m | jinzo_atlas.png[39m[0m
+[  25% ] [90m[1mreimport[22m | enemies_atlas.png[39m[0m
+[  30% ] [90m[1mreimport[22m | title.png[39m[0m
+[  35% ] [90m[1mreimport[22m | ren_atlas.png[39m[0m
+[  40% ] [90m[1mreimport[22m | ren_actions.png[39m[0m
+[  45% ] [90m[1mreimport[22m | props_atlas.png[39m[0m
+[  50% ] [90m[1mreimport[22m | jinzo_atlas.png[39m[0m
+[  55% ] [90m[1mreimport[22m | enemies_atlas.png[39m[0m
+[  60% ] [90m[1mreimport[22m | warn.wav[39m[0m
+[  65% ] [90m[1mreimport[22m | village.wav[39m[0m
+[  70% ] [90m[1mreimport[22m | ui.wav[39m[0m
+[  75% ] [90m[1mreimport[22m | slash.wav[39m[0m
+[  80% ] [90m[1mreimport[22m | shrine.wav[39m[0m
+[  85% ] [90m[1mreimport[22m | perfect.wav[39m[0m
+[  90% ] [90m[1mreimport[22m | magic2.wav[39m[0m
+[  95% ] [90m[1mreimport[22m | Finalizando Importação de Recursos...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importando Recursos (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executando operações pós-reimportação...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Carregando editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Carregando layout do editor...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Carregando abas...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

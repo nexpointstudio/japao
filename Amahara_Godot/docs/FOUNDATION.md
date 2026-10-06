@@ -1,0 +1,15 @@
+# Foundation — contratos reutilizáveis
+
+Módulos em `scripts/foundation/`; integração mínima ao protótipo existente. Mundo, narrativa, parâmetros, combos, dash, UI e arte continuam de Amahara. O build histórico em `Jogar` não é substituído pela suíte.
+
+- `CombatHit`: origem mundial, atacante/alvo, dano, knockback, stagger, direção, tipo, origem do dano, ID e propriedades. `apply` valida dados e hostilidade; alvo implementa `receive_combat_hit(hit)->bool`. Retorno verdadeiro confirma dano/energia. `receive_hit` antigo é adaptador compatível para fixtures/chamadores legados; não é o filtro de facções. Dedupe permanece em Hitbox por alvo e instância do golpe.
+- `CombatFactions`: PLAYER/ALLY são amigos; ENEMY é hostil a ambos; iguais são amigos; NEUTRAL não vira inimigo automaticamente. `CombatTargetRegistry` guarda referências fracas, remove inválidos e ignora mortos/queue_free. IA e boss consultam nearest sem testar classe Ren. Não é targeting de arco, não tem lock-on/outline.
+- `GameSession`: player genérico, estado, checkpoint, timer de morte, geração de sessão, sinais de reset/respawn/região e interface de persistência. `game.gd` é adaptador do conteúdo antigo: responde ao reset reconstruindo encontros; fornece posição/ID do checkpoint. `current(token)` permite descartar trabalho de sessão anterior. Solicitação de região é contrato, não streaming implementado.
+- `PersistentIds`: `<categoria>.<nome>[.<segmento>]`, minúsculo com underscore, até 128 caracteres; categorias region/checkpoint/boss/shortcut/quest/npc/magic/upgrade/map/secret/flag/story/encounter. Catálogo registra IDs por `claim`, duplicatas retornam false. IDs de instância runtime não são IDs de save. Não reutilizar um ID removido para entidade diferente.
+- `PersistentWorldState`: versão 3/namespace `dark.kuroyomi`; flags booleanas, completed/unlocked/upgrades sem duplicados, progresso inteiro não negativo por ID e checkpoint. Snapshot independente e restore validado antes de mutação. Não implementa as futuras missões/mapa/bosses.
+- `SaveStore`: API v1→v2 de Amahara e path antigo preservados. API `read_world/write_world` usa arquivo distinto `kuroyomi_world_v3.json`, validação, temporário/flush, releitura, backup de principal válido e rename. JSON corrompido tenta backup sem emitir erro de parser esperado. Nenhum save de Amahara é promovido a progresso Kuroyomi. Escrita concorrente/perda de energia real não certificadas.
+- `AnimationContract`: validação de metadata v1 e [contrato](../contracts/ANIMATION_2D.md). Nenhum importador, PNG final ou alteração de animação antiga.
+
+Testes: `--foundation-qa` além de `--qa`, `--advanced`, `--settings-qa`, `--playthrough`, `--verify-save`, sempre com `--evidence-dir` próprio. Casos novos usam atores técnicos sem sprites e paths de save em evidências. O schema de animação também terá validação de arquivos no NexMotion; não confundir aceitação de metadata com pacote completo.
+
+Mundo futuro: cenas de regiões, coordenação de transição, registro de entidades/IDs e persistência de estados locais. Nada disso foi antecipado por reconstrução do mapa atual.

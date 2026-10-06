@@ -1,0 +1,113 @@
+{
+  "animations": [
+    {
+      "animation_id": "idle",
+      "direction": "custom_diagonal",
+      "display_name": "Pulso técnico",
+      "duration": 0.4,
+      "events": [
+        {
+          "event_id": "event.fixture",
+          "frame": 2,
+          "name": "fixture_pulse",
+          "payload": {
+            "channel": "inspection"
+          }
+        },
+        {
+          "event_id": "event.1761c0eca9db40fbbfb5b48f0f4351b5",
+          "frame": 2,
+          "name": "custom_ui_event",
+          "payload": {
+            "edited": true
+          }
+        }
+      ],
+      "fps": 10.0,
+      "frames": [
+        {
+          "duration": 0.1,
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rect": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "texture_id": "tex.00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632"
+        },
+        {
+          "duration": 0.1,
+          "offset": [
+            2.0,
+            0.0
+          ],
+          "rect": [
+            48,
+            0,
+            48,
+            48
+          ],
+          "texture_id": "tex.00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632"
+        },
+        {
+          "duration": 0.1,
+          "offset": [
+            0,
+            0
+          ],
+          "rect": [
+            96,
+            0,
+            48,
+            48
+          ],
+          "texture_id": "tex.00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632"
+        },
+        {
+          "duration": 0.1,
+          "offset": [
+            0,
+            0
+          ],
+          "rect": [
+            144,
+            0,
+            48,
+            48
+          ],
+          "texture_id": "tex.00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632"
+        }
+      ],
+      "loop": true,
+      "metadata": {},
+      "pivot": [
+        23.0,
+        42.0
+      ],
+      "revision": 3,
+      "status": "Approved",
+      "tags": []
+    }
+  ],
+  "character_id": "fixture_marker",
+  "display_name": "Fixture · marcador técnico",
+  "kind": "character",
+  "metadata": {},
+  "revision": 3,
+  "schema_version": 1,
+  "status": "Approved",
+  "tags": [],
+  "textures": [
+    {
+      "file": "textures/00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632.png",
+      "height": 48,
+      "sha256": "00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632",
+      "texture_id": "tex.00940969e26ec740a39065891426169319234f4fc8d0bc9fbc127fcb05595632",
+      "width": 192
+    }
+  ]
+}

@@ -1,0 +1,1837 @@
+[
+  {
+    "path": ".gitattributes",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": ".gitignore",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "AGENTS.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "AMAHARA_BIBLIA_MESTRA_COMPLETA.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "Amahara_Godot/export_presets.cfg",
+    "classification": "B",
+    "note": "adapt project/export/composition later"
+  },
+  {
+    "path": "Amahara_Godot/project.godot",
+    "classification": "B",
+    "note": "adapt project/export/composition later"
+  },
+  {
+    "path": "Amahara_Godot/README.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/index.html",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/README.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/run.bat",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/style.css",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "biblia do jogo/00_INDEX.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/01_ESTADO_ATUAL.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/02_VISAO_DO_JOGO.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/AI_CONTEXT.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/Bem-vindo.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/CHANGELOG.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "Jogar/Amahara.exe",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Jogar/Amahara_Amostra.exe",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Jogar/LEIA-ME.txt",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/app.json",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/appearance.json",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/core-plugins.json",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/graph.json",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/.obsidian/workspace.json",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Antagonista.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Kuroyomi.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Linha_do_Tempo.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Passado_da_Vila.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Premissa.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Ren.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/10_Narrativa/Temas.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Arco.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Combate_Core.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Controles.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Dash_Perfect_Dodge.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Katana.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Mana.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Morte_Checkpoints_Save.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Progressao.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Ambientacao.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Estrutura.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Exploracao.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Mapa.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/30_Mundo/Regioes_e_Fases.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Inimigos.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Missoes_Secundarias.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/NPCs.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/Audio.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/Direcao_Artistica.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/50_Arte_Audio_UI/UI_HUD.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Auditoria_Documental.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Escopo.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Estado_do_Prototipo.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/VALIDACAO.json",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/60_Producao/Validacao_Documental.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D001_Identidade_e_Canon.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D002_Combate_e_Progressao.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D003_Narrativa_e_Bosses.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/D004_Memoria_Modular.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/90_Decisoes/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/Bem-vindo_Original.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/README_Repositorio_Amahara.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/Pesquisa/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/Pesquisa/Referencias_Culturais.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/99_Arquivo_Amahara/Fontes/Brief_Usuario_2026-10-06.txt",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B01_Chefe_da_Vila.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B02_Musico.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B03_Assassino_do_Pai.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B04_Arqueiro.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B05_Tigre.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B06_Pai.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/B07_Final.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Cristal.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Javali.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Madeira.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/Raio.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/40_Conteudo/Bosses/Opcionais/README.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Clones.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Fogo_Azul.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Onda_de_Impacto.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "biblia do jogo/20_Gameplay/Magias/Tornado.md",
+    "classification": "A",
+    "note": "documentation or repository infrastructure; preserve"
+  },
+  {
+    "path": "amahara_vertical_slice/docs/FINAL_REPORT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/docs/RESEARCH.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/docs/TEST_REPORT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/screenshots/boss.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/screenshots/village.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/audio.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/combat.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/game.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/input.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/main.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/utils.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/world.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/tests/cdp_smoke.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/tests/logic_suite.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/data/balance.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/entities/boss.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/entities/enemies.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "amahara_vertical_slice/src/entities/player.js",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/assets/enemies_atlas.png",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/enemies_atlas.png.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/jinzo_atlas.png",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/jinzo_atlas.png.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/props_atlas.png",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/props_atlas.png.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_actions.png",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_actions.png.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_atlas.png",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/ren_atlas.png.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/title.png",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/title.png.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/data/altar.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_charge.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_combo.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_radial.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_spirit.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_summon.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/boss_wide.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/celestial.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_archer.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_heavy.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_runner.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_seal.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_slash.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/enemy_swordsman.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/heavy_1.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/heavy_2.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/heavy_3.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/light_1.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/light_2.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/light_3.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/memorial.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/data/rupture.tres",
+    "classification": "E",
+    "note": "prototype values; Resource types separately classified"
+  },
+  {
+    "path": "Amahara_Godot/docs/00_SOURCE_AUDIT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/01_MIGRATION.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/02_RESEARCH.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/03_GAME_DESIGN.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/04_STORY_AND_LORE.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/05_COMBAT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/06_ENEMIES.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/07_LEVEL_01.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/08_BOSS.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/09_ART_DIRECTION.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/10_ARCHITECTURE.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/11_TEST_REPORT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/12_MILESTONE_REPORT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/ART_PROMPTS.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/source_manifest.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/.gdignore",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/01_menu.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/01_menu.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/02_dialogue.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/02_dialogue.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/03_village.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/03_village.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/04_bridge.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/04_bridge.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/05_combat.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/05_combat.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/06_controls.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/06_controls.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/advanced_qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/audio_cleanup.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/capture.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/delivery.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export_release.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_capture.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_import.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/phase_smoke.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/playthrough.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/probe_cleanup.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/sample_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/sample_qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/settings_qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/scenes/Main.tscn",
+    "classification": "B",
+    "note": "adapt project/export/composition later"
+  },
+  {
+    "path": "Amahara_Godot/scripts/attack_data.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/attack_data.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/audio_system.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/audio_system.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss_attack_data.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/boss_attack_data.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/catalog.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/catalog.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/encounters.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/encounters.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy_data.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/enemy_data.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/fx.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/fx.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/game.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/game.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hitbox.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hitbox.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hostile_effect.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hostile_effect.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hurtbox.gd",
+    "classification": "A",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/hurtbox.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/input_config.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/input_config.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/interaction.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/interaction.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/magic_data.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/magic_data.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/player.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/player.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/progression.gd",
+    "classification": "C",
+    "note": "replace orchestration/authoring; preserve reusable helpers"
+  },
+  {
+    "path": "Amahara_Godot/scripts/progression.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/projectile.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/projectile.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/save_store.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/save_store.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/ui.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/ui.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/upgrade_data.gd",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/upgrade_data.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/scripts/world.gd",
+    "classification": "C",
+    "note": "replace orchestration/authoring; preserve reusable helpers"
+  },
+  {
+    "path": "Amahara_Godot/scripts/world.gd.uid",
+    "classification": "B",
+    "note": "adapt; see per-system matrix"
+  },
+  {
+    "path": "Amahara_Godot/tests/advanced_suite.gd",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/advanced_suite.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/audio_cleanup.gd",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/audio_cleanup.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/capture.gd",
+    "classification": "E",
+    "note": "historical fixture or visual harness; sample helpers still referenced"
+  },
+  {
+    "path": "Amahara_Godot/tests/capture.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/persistence_probe.gd",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/persistence_probe.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_capture.gd",
+    "classification": "E",
+    "note": "historical fixture or visual harness; sample helpers still referenced"
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_capture.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_suite.gd",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/phase_suite.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/playthrough.gd",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/playthrough.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/sample_suite.gd",
+    "classification": "E",
+    "note": "historical fixture or visual harness; sample helpers still referenced"
+  },
+  {
+    "path": "Amahara_Godot/tests/sample_suite.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/settings_suite.gd",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tests/settings_suite.gd.uid",
+    "classification": "B",
+    "note": "adapt tests; evidence does not certify new design"
+  },
+  {
+    "path": "Amahara_Godot/tools/audit_sources.py",
+    "classification": "A",
+    "note": "source preservation check"
+  },
+  {
+    "path": "Amahara_Godot/tools/create_audio.py",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/tools/create_resources.py",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/tools/delivery_report.py",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/tools/finalize_docs.py",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/tools/phase_resources.py",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/01_menu.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/01_menu.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/02_dialogue.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/02_dialogue.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/03_village.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/03_village.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/04_bridge.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/04_bridge.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/05_combat.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/05_combat.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/06_controls.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/06_controls.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/capture.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/export/sample_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/01_menu.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/01_menu.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/02_village.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/02_village.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/03_forest.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/03_forest.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/04_altar.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/04_altar.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/05_corruption.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/05_corruption.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/06_sanctuary.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/06_sanctuary.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/07_jinzo.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/07_jinzo.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/08_jinzo_phase2.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/08_jinzo_phase2.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/09_conclusion.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/09_conclusion.png.import",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/advanced_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/capture.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/delivery.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/phase_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/playthrough.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/playthrough.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/preservation.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/project_manifest.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/reopen.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/settings_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/verify-save.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/01_menu.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/02_village.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/03_forest.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/04_altar.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/05_corruption.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/06_sanctuary.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/07_jinzo.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/08_jinzo_phase2.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/09_conclusion.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/advanced.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/advanced_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/capture.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/phase_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/playthrough.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/playthrough.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/reopen.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_0.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_1.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_2.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_3.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_4.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_stage_5.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/run_victory.png",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/settings-qa.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/settings_qa.json",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/evidence/final/export/verify-save.log",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/00_SOURCE_AUDIT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/01_MIGRATION.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/02_RESEARCH.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/03_GAME_DESIGN.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/04_STORY_AND_LORE.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/05_COMBAT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/06_ENEMIES.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/07_LEVEL_01.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/08_BOSS.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/09_ART_DIRECTION.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/10_ARCHITECTURE.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/11_TEST_REPORT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/docs/history/12_MILESTONE_REPORT.md",
+    "classification": "E",
+    "note": "historical reference"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/boss.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/boss.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/dash.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/dash.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/heavy.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/heavy.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hit.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hit.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hurt.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/hurt.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic1.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic1.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic2.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/magic2.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/perfect.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/perfect.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/shrine.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/shrine.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/slash.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/slash.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/ui.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/ui.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/village.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/village.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/warn.wav",
+    "classification": "E",
+    "note": "prototype asset; not final visual/audio direction"
+  },
+  {
+    "path": "Amahara_Godot/assets/audio/warn.wav.import",
+    "classification": "B",
+    "note": "preserve import metadata; future pipeline adaptation"
+  }
+]

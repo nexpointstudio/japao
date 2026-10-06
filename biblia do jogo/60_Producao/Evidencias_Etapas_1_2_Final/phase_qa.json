@@ -1,0 +1,624 @@
+{
+	"checks": [
+		{
+			"detail": "",
+			"id": "menu_initial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "viewport_640_360",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "native_tilemap",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "resources_loaded",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "input_map_keyboard_gamepad",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "intro_open",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dialogue_freezes_player",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "movement",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "facing",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "diagonal_normalized",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "water_collision",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dash_wall_collision",
+			"result": "PASS"
+		},
+		{
+			"detail": "[\"light_1\", \"light_2\", \"light_3\"]",
+			"id": "light_three_hits",
+			"result": "PASS"
+		},
+		{
+			"detail": "[\"heavy_1\", \"heavy_2\", \"heavy_3\"]",
+			"id": "heavy_three_hits",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "branch_to_heavy_finisher",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "expired_buffer_rejected",
+			"result": "PASS"
+		},
+		{
+			"detail": "HP=37.0",
+			"id": "real_area_hitbox_damage",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "confirmed_hit_energy",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "single_hit_protection",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "no_energy_on_rejected_hit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dash_iframes",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "perfect_dodge_reward",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "perfect_dodge_once",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dash_cooldown",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "magic_no_energy",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "magic_cost",
+			"result": "PASS"
+		},
+		{
+			"detail": "HP=34.0",
+			"id": "projectile_actual_hit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_damage_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_cost",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "hurt_state",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "post_hit_iframes",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "death_state",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "cannot_attack_dead",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "respawn_full_health",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "respawn_group_reset",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "pause_modal",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "controls_modal",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_resource",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_telegraph",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_attack",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_resistance",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_death_releases_token",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "swordsman_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_resource",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_telegraph",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_attack",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_resistance",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_death_releases_token",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "runner_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_resource",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_telegraph",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_attack",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_resistance",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_death_releases_token",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "heavy_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_resource",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_telegraph",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_attack",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_resistance",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_death_releases_token",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "archer_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_resource",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_telegraph",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_attack",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_resistance",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_death_releases_token",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_slots_[\"swordsman\", \"swordsman\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_cleanup_[\"swordsman\", \"swordsman\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_slots_[\"swordsman\", \"runner\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_cleanup_[\"swordsman\", \"runner\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_slots_[\"swordsman\", \"archer\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_cleanup_[\"swordsman\", \"archer\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_slots_[\"heavy\", \"archer\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_cleanup_[\"heavy\", \"archer\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_slots_[\"heavy\", \"runner\", \"archer\", \"seal\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "group_cleanup_[\"heavy\", \"runner\", \"archer\", \"seal\"]",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_telegraph_combo",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_active_combo",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_recovery_combo",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_telegraph_charge",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_active_charge",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_recovery_charge",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_telegraph_wide",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_active_wide",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_recovery_wide",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_telegraph_spirit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_active_spirit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_recovery_spirit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_telegraph_radial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_active_radial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_recovery_radial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_telegraph_summon",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_active_summon",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_recovery_summon",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_summon_limit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_summon_limit_repeat",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_half_transition",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_transition_unique",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_reset_health_phase",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "boss_reset_projectiles_gate",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "checkpoint_restore_stats",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "upgrade_not_duplicated",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "save_write_v2",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "save_read_fields",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "save_backup_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "invalid_content_rejected",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "continue_roundtrip",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "menu_cancels_death_timer",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "new_game_clears_upgrades",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "options_focus",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "checkpoint_route",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "shortcut_route",
+			"result": "PASS"
+		}
+	],
+	"controllers": [],
+	"fail": 0,
+	"pass": 123,
+	"physical_dualsense": "NOT_TESTED",
+	"type": "isolated_fixtures"
+}

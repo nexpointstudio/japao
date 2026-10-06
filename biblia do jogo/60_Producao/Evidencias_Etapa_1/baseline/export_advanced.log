@@ -1,0 +1,32 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS hazard_no_damage_before_cue
+PASS hazard_active_damage
+PASS hazard_single_hit_cleanup
+PASS arrow_blocked_by_water_wall
+PASS archer_line_of_sight_blocked
+PASS navigation_around_rock
+PASS pause_freezes_boss_transition
+PASS phase2_pattern_combo
+PASS phase2_recovery_combo
+PASS phase2_pattern_charge
+PASS phase2_recovery_charge
+PASS phase2_pattern_wide
+PASS phase2_recovery_wide
+PASS phase2_pattern_spirit
+PASS phase2_recovery_spirit
+PASS phase2_pattern_radial
+PASS phase2_recovery_radial
+PASS phase2_pattern_summon
+PASS phase2_recovery_summon
+PASS transition_still_once
+PASS actual_boss_death_respawn
+PASS actual_boss_attempt_reset
+PASS repeated_checkpoint_idempotent
+PASS memorial_recovery_and_item
+PASS memorial_reward_once
+PASS boss_victory_unlocks
+PASS victory_ui
+PASS victory_save_reopen
+PASS restart_cancels_old_callback
+ADVANCED_QA 29 PASS / 0 FAIL

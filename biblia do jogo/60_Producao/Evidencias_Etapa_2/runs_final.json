@@ -1,0 +1,53 @@
+[
+  {
+    "name": "unit_final",
+    "command": [
+      "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "Tests",
+      "-v"
+    ],
+    "exit": 0,
+    "seconds": 15.155
+  },
+  {
+    "name": "ui_final",
+    "command": [
+      "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+      "Tools/animation2d_ui_qa.py"
+    ],
+    "exit": 0,
+    "seconds": 10.414
+  },
+  {
+    "name": "import_ui",
+    "command": [
+      "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+      "Tools/animation2d_import_qa.py"
+    ],
+    "exit": 0,
+    "seconds": 9.074
+  },
+  {
+    "name": "reopen_ui",
+    "command": [
+      "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+      "Tools/animation2d_import_qa.py",
+      "--reopen"
+    ],
+    "exit": 0,
+    "seconds": 6.346
+  },
+  {
+    "name": "native3d_final",
+    "command": [
+      "D:\\ver anima\u00e7ao\\.venv\\Scripts\\python.exe",
+      "Tools/native_editor_qa.py"
+    ],
+    "exit": 0,
+    "seconds": 10.548
+  }
+]

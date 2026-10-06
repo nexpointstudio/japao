@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "documents_checked": 10,
+  "wikilinks": 89,
+  "local_markdown_links": 8,
+  "errors": [],
+  "scope": "new audit and updated routing; long technical report intentionally not subject to old short-note word limit"
+}

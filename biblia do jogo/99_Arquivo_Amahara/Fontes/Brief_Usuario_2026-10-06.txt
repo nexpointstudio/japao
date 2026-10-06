@@ -1,0 +1,1592 @@
+Você está trabalhando no repositório atual do jogo, cujo repositório ainda pode estar nomeado como `japao` e cujo projeto anterior era chamado provisoriamente de `Amahara`.
+
+Sua tarefa agora NÃO é desenvolver gameplay, alterar código do jogo ou expandir conteúdo jogável.
+
+Sua tarefa é reorganizar e criar no Obsidian a NOVA BÍBLIA OFICIAL do projeto, que também funcionará como sistema de memória/contexto para futuras sessões de Codex e outros agentes de IA.
+
+O novo nome do jogo é:
+
+# DARK: KUROYOMI
+
+- `Dark` é o nome pretendido para a franquia.
+- `Kuroyomi` é o subtítulo deste jogo.
+- Amahara é apenas o nome antigo/protótipo e não deve continuar sendo tratado como canon novo.
+- O repositório pode continuar se chamando `japao` por enquanto.
+- Não renomeie o repositório nem o projeto Godot nesta tarefa.
+
+---
+
+# OBJETIVO PRINCIPAL
+
+Criar uma documentação Obsidian profissional, modular e econômica em tokens.
+
+Ela precisa cumprir simultaneamente duas funções:
+
+1. Bíblia de design e narrativa para humanos.
+2. Memória operacional do projeto para IAs.
+
+NÃO crie uma única Bíblia gigantesca que precise ser relida inteira para responder perguntas simples.
+
+Divida a informação por domínio, com arquivos pequenos, claros, interligados e sem duplicação desnecessária.
+
+Um agente que precise saber apenas "como funciona o arco" deve conseguir encontrar isso lendo poucos arquivos.
+
+Um agente que precise trabalhar em um boss não deve precisar carregar toda a lore, arquitetura e direção artística.
+
+---
+
+# PRIMEIRO PASSO — AUDITORIA
+
+Antes de escrever qualquer coisa:
+
+1. Inspecione o repositório.
+2. Localize:
+   - `biblia do jogo/`
+   - documentação atual;
+   - Bíblia antiga de Amahara;
+   - documentação do Godot;
+   - arquivos de design;
+   - README;
+   - qualquer memória/CHANGELOG existente.
+3. Entenda a estrutura atual.
+4. NÃO apague informações antigas.
+5. NÃO considere automaticamente a antiga Bíblia de Amahara como canon.
+
+A documentação antiga deve ser preservada como histórico/referência.
+
+Se necessário, mova ou classifique os documentos antigos dentro de uma área claramente marcada como:
+
+`99_Arquivo_Amahara/`
+
+ou estrutura equivalente apropriada à organização existente.
+
+Não destrua histórico útil.
+
+---
+
+# PRINCÍPIO DE MEMÓRIA
+
+A nova documentação deve seguir esta regra:
+
+> Leia o mínimo necessário para executar a tarefa atual.
+
+Crie um sistema em que exista um arquivo inicial muito curto explicando onde cada informação está.
+
+Exemplo conceitual:
+
+```text
+biblia do jogo/
+│
+├── 00_INDEX.md
+├── 01_ESTADO_ATUAL.md
+├── 02_VISAO_DO_JOGO.md
+│
+├── 10_NARRATIVA/
+├── 20_GAMEPLAY/
+├── 30_MUNDO/
+├── 40_CONTEUDO/
+├── 50_ARTE_AUDIO_UI/
+├── 60_PRODUCAO/
+├── 90_DECISOES/
+└── 99_ARQUIVO/
+```
+
+Você pode melhorar essa estrutura se encontrar uma solução superior, mas preserve o princípio modular.
+
+---
+
+# ARQUIVO DE ENTRADA OBRIGATÓRIO
+
+Crie:
+
+`00_INDEX.md`
+
+Esse arquivo deve ser EXTREMAMENTE econômico.
+
+Ele deve conter:
+
+- nome atual do projeto;
+- descrição do jogo em 2–4 linhas;
+- estado atual;
+- lista dos documentos;
+- quando cada documento deve ser lido;
+- links Obsidian;
+- regra de contexto para IAs.
+
+Exemplo:
+
+```md
+## Para trabalhar em combate
+Leia:
+- [[20_Gameplay/Combate]]
+- [[20_Gameplay/Katana]]
+- [[20_Gameplay/Dash]]
+
+## Para trabalhar no arco
+Leia:
+- [[20_Gameplay/Arco]]
+
+## Para trabalhar em narrativa
+Leia:
+- [[10_Narrativa/Premissa]]
+- [[10_Narrativa/Personagens]]
+```
+
+Não coloque conteúdo detalhado no INDEX.
+
+Ele é um roteador de contexto.
+
+---
+
+# ESTADO ATUAL
+
+Crie também um arquivo curto:
+
+`01_ESTADO_ATUAL.md`
+
+Ele deve responder rapidamente:
+
+- o que está decidido;
+- o que ainda está em aberto;
+- fase atual de produção;
+- decisões recentes;
+- próximos assuntos a desenvolver.
+
+Esse arquivo deve ser atualizado sempre que houver uma mudança relevante de direção.
+
+Ele NÃO deve virar diário gigantesco.
+
+---
+
+# REGRA CONTRA DUPLICAÇÃO
+
+Uma informação deve possuir UMA fonte principal.
+
+Exemplo:
+
+Se os controles estão documentados em:
+
+`20_Gameplay/Controles.md`
+
+outros arquivos devem usar:
+
+`[[20_Gameplay/Controles]]`
+
+em vez de copiar novamente toda a tabela.
+
+Faça isso em toda a Bíblia.
+
+Evite informações conflitantes por duplicação.
+
+---
+
+# FRONTMATTER
+
+Use frontmatter simples quando útil.
+
+Exemplo:
+
+```yaml
+---
+status: canon
+area: gameplay
+updated: 2026-10-06
+read_when:
+  - implementando combate
+  - alterando controles
+---
+```
+
+Estados recomendados:
+
+- `canon`
+- `proposal`
+- `deprecated`
+- `prototype`
+- `needs-decision`
+
+Não complique excessivamente o sistema.
+
+---
+
+# REGISTRO DE DECISÕES
+
+Crie uma área de decisões.
+
+Por exemplo:
+
+`90_Decisoes/`
+
+Cada decisão estrutural importante deve registrar:
+
+- decisão;
+- motivo;
+- consequências;
+- data;
+- status.
+
+Não precisamos criar um arquivo para cada detalhe pequeno.
+
+As grandes decisões devem ficar rastreáveis.
+
+Também mantenha um:
+
+`CHANGELOG.md`
+
+para mudanças relevantes da Bíblia.
+
+---
+
+# NOVO CANON — DARK: KUROYOMI
+
+A nova documentação deve registrar como CANON ATUAL todas as decisões abaixo.
+
+Quando algum detalhe ainda não foi definido, marque explicitamente como `needs-decision`.
+
+NÃO invente respostas apenas para preencher espaços.
+
+---
+
+# IDENTIDADE
+
+Nome atual:
+
+# Dark: Kuroyomi
+
+Estrutura:
+
+- `Dark` = nome pretendido da franquia.
+- `Kuroyomi` = subtítulo deste primeiro jogo.
+- futuros jogos Dark podem ocorrer em outras culturas, épocas e locais;
+- não precisam usar Ren;
+- não precisam se passar no mesmo país;
+- podem explorar fantasia medieval, nórdica ou outras ambientações;
+- a identidade compartilhada da franquia ainda poderá evoluir.
+
+O antigo nome `Amahara` não é mais o nome oficial.
+
+---
+
+# GÊNERO
+
+Jogo 2D top-down.
+
+Base:
+
+- Action Adventure;
+- Hack and Slash;
+- exploração;
+- mundo semiaberto;
+- combate rápido;
+- foco forte em bosses.
+
+Não é RPG tradicional.
+
+Não haverá:
+
+- níveis;
+- XP;
+- grind;
+- árvores enormes de atributos;
+- loot baseado em raridade;
+- progressão do tipo `espada +1/+2/+3`.
+
+O progresso depende principalmente:
+
+1. habilidade do jogador;
+2. ferramentas obtidas pela história;
+3. algumas melhorias permanentes específicas.
+
+---
+
+# PROTAGONISTA
+
+Nome:
+
+# Ren
+
+Ren continuará sendo humano.
+
+Ele NÃO precisa:
+
+- ser semideus;
+- ser escolhido por uma divindade;
+- possuir linhagem divina;
+- possuir justificativa sobrenatural para conseguir lutar.
+
+Sua principal característica deve ser sua habilidade como guerreiro/espadachim.
+
+Arma principal:
+
+- katana.
+
+Também utiliza:
+
+- arco;
+- quatro magias adquiridas durante a campanha.
+
+---
+
+# PREMISSA
+
+O jogo começa de maneira relativamente tranquila.
+
+Ren sai da vila para realizar uma tarefa simples envolvendo javalis que estão causando problemas na região.
+
+Essa sequência também funciona como introdução/tutorial do jogador.
+
+Ao retornar:
+
+a vila foi destruída.
+
+Uma mulher acompanhada por um exército de mortos atacou o local.
+
+Ren perde seu lar e pessoas importantes para ele.
+
+Sua motivação inicial passa a ser:
+
+# vingança.
+
+---
+
+# ANTAGONISTA
+
+A antagonista principal ainda precisa receber nome definitivo.
+
+Ela não destruiu a vila simplesmente por maldade.
+
+No passado, aquela vila participou da destruição de seu clã e da morte de seu pai durante uma época de guerra.
+
+Ela também busca vingança.
+
+Isso cria o principal espelhamento narrativo:
+
+ANTAGONISTA:
+teve sua família destruída → busca vingança.
+
+REN:
+teve sua vila destruída → busca vingança.
+
+A história deve explorar o ciclo de vingança sem transformar automaticamente um dos lados em absolutamente inocente.
+
+A vila de Ren possui um passado que Ren inicialmente desconhece.
+
+---
+
+# KUROYOMI
+
+Kuroyomi é o nome atual do ritual/feitiço proibido usado pela antagonista para trazer os mortos de volta.
+
+É também o subtítulo do jogo.
+
+O ritual consegue trazer mortos novamente ao mundo físico.
+
+Seu preço:
+
+# corrompe progressivamente a alma de quem o utiliza.
+
+A corrupção não precisa transformar visualmente a antagonista durante toda a campanha.
+
+Ela poderá permanecer aparentemente humana por grande parte do jogo.
+
+O verdadeiro preço acumulado do Kuroyomi se manifesta principalmente no final.
+
+Regras exatas do ritual ainda poderão ser desenvolvidas.
+
+Não afirmar detalhes ainda não aprovados.
+
+---
+
+# BOSS FINAL
+
+A antagonista é o boss final.
+
+O confronto possui DUAS fases.
+
+## Fase 1 — Humana
+
+Ela luta como humana/feiticeira.
+
+Essa fase deliberadamente não deve ser o combate mais difícil do jogo.
+
+Ren é superior como combatente direto.
+
+Ela depende mais de magia e do Kuroyomi.
+
+## Fase 2 — Monstro de Ossos
+
+Depois de derrotada como humana, a corrupção acumulada pelo Kuroyomi se manifesta.
+
+Ela se transforma em uma criatura monstruosa composta principalmente por ossos.
+
+Essa segunda fase:
+
+- deve ser visualmente muito mais impactante;
+- representa fisicamente o preço de violar a morte;
+- será o verdadeiro confronto final.
+
+Design exato permanece para etapa posterior.
+
+---
+
+# BOSSES PRINCIPAIS
+
+Existem:
+
+- 6 bosses principais antes do boss final;
+- 1 boss final com duas fases.
+
+Conceitos definidos atualmente:
+
+## Boss 1 — Antigo chefe da vila
+
+Antigo líder da vila de Ren.
+
+Sua ressurreição ajuda Ren a descobrir que a história de sua vila não era tão simples quanto imaginava.
+
+Ele possui relação com a antiga guerra/conflito envolvendo o clã da antagonista.
+
+Detalhes permanecem em desenvolvimento.
+
+---
+
+## Boss 2 — O músico
+
+Inspirado conceitualmente na história japonesa de Mimi-nashi Hōichi.
+
+NÃO copiar diretamente o personagem histórico/lendário.
+
+Criar personagem original.
+
+Pode utilizar música/instrumento para interagir ou comandar manifestações dos mortos.
+
+Sua batalha deve ser mecanicamente bastante diferente das lutas convencionais.
+
+---
+
+## Boss 3 — Quem matou o pai da antagonista
+
+Foi o responsável direto pela morte do pai dela.
+
+Não precisa ser vilão simplista.
+
+A batalha e diálogos devem ajudar Ren a entender melhor os dois lados da guerra antiga.
+
+---
+
+## Boss 4 — Antigo arqueiro famoso
+
+Um guerreiro histórico/lendário dentro do universo do jogo.
+
+Especialista em arco.
+
+Sua batalha deve explorar distância, movimentação e posicionamento.
+
+Criar personagem completamente original.
+
+---
+
+## Boss 5 — Tigre
+
+Um tigre lendário que assombrou uma região/vila durante anos.
+
+Não é apenas um tigre comum.
+
+Pode possuir escala e presença muito maiores.
+
+Faz parte dos mortos trazidos de volta pelo fenômeno principal.
+
+Não confundir com o javali opcional.
+
+---
+
+## Boss 6 — Pai da antagonista
+
+O pai da antagonista é finalmente trazido de volta.
+
+Ele NÃO era simplesmente um homem maligno.
+
+Viveu em época de guerra.
+
+Lutou por seu povo/clã e matou adversários, como muitos naquele período.
+
+Ao retornar:
+
+ele NÃO aprova aquilo que sua filha está fazendo.
+
+Ele entende que os acontecimentos da guerra foram terríveis, mas considera errada a tentativa dela de continuar o ciclo através do Kuroyomi.
+
+Esse encontro deve ser um dos principais pontos emocionais da história.
+
+---
+
+# BOSSES OPCIONAIS
+
+Existem exatamente:
+
+# 4 bosses opcionais.
+
+Eles NÃO estão relacionados diretamente com os mortos da história principal.
+
+São criaturas extraordinárias, lendárias ou inspiradas livremente em mitologia/folclore.
+
+Podem existir naturalmente no mundo.
+
+Eles são opcionais.
+
+Nenhum é necessário para terminar a campanha.
+
+Cada um concede UMA melhoria permanente importante.
+
+Não haverá níveis para essas melhorias.
+
+---
+
+## Boss opcional — Madeira
+
+Criatura/ser inspirado em madeira, raízes, floresta etc.
+
+Recompensa:
+
+# aumento permanente de Vida máxima.
+
+---
+
+## Boss opcional — Raio
+
+Criatura ligada a raio/tempestade/velocidade.
+
+Recompensa:
+
+# melhoria permanente do arco.
+
+A melhoria deve envolver:
+
+- maior velocidade/eficiência;
+- maior força/dano do arco.
+
+Valores ficam para balanceamento.
+
+---
+
+## Boss opcional — Javali Colossal
+
+Javali gigantesco e extraordinário.
+
+Visualmente deve ser muito diferente dos javalis normais enfrentados no começo.
+
+Isso cria contraste entre:
+
+- ameaça banal do prólogo;
+- versão extraordinária encontrada posteriormente.
+
+Recompensa:
+
+# aumento permanente da força/dano da katana.
+
+---
+
+## Boss opcional — Cristal
+
+Criatura formada ou associada a cristais.
+
+Recompensa:
+
+# aumento permanente de Mana máxima.
+
+---
+
+# ESTRUTURA DO JOGO
+
+Meta atual:
+
+aproximadamente 10–12 fases/capítulos.
+
+Não serão 10–12 mapas completamente isolados necessariamente.
+
+O mundo é:
+
+# semiaberto.
+
+O jogador:
+
+- pode explorar;
+- pode voltar a regiões anteriores;
+- pode descobrir conteúdo opcional;
+- pode conversar novamente com NPCs;
+- pode realizar missões secundárias.
+
+Entretanto:
+
+regiões posteriores permanecem bloqueadas até que os objetivos necessários sejam cumpridos.
+
+Esses bloqueios podem envolver:
+
+- boss;
+- desafio;
+- evento;
+- missão;
+- habilidade;
+- condição narrativa.
+
+Nem toda fase possui boss.
+
+Algumas podem ser focadas em:
+
+- exploração;
+- desafios;
+- narrativa;
+- missão;
+- descoberta;
+- travessia;
+- puzzle ambiental;
+- combate normal.
+
+---
+
+# EXPLORAÇÃO
+
+O jogo não deve ser apenas:
+
+andar → lutar → andar → lutar.
+
+O mundo também terá:
+
+- NPCs;
+- diálogos;
+- missões secundárias;
+- desafios;
+- segredos;
+- áreas opcionais;
+- retorno a regiões anteriores;
+- interações utilizando mecânicas já existentes.
+
+NPCs possuem papel importante.
+
+Diálogos ajudam:
+
+- explicar a região;
+- contar histórias locais;
+- contextualizar acontecimentos;
+- revelar o passado;
+- liberar missões secundárias;
+- construir o mundo.
+
+Não transformar isso em excesso de exposição textual.
+
+---
+
+# MISSÕES SECUNDÁRIAS
+
+Devem aproveitar sistemas já existentes.
+
+Evitar criar dezenas de sistemas adicionais apenas para side quests.
+
+Podem envolver:
+
+- combate;
+- arco;
+- magia;
+- exploração;
+- encontrar personagens;
+- investigar locais;
+- atravessar desafios;
+- utilizar o cenário;
+- descobrir segredos.
+
+Os quatro bosses opcionais também podem depender de exploração ou pequenas cadeias de missão para serem encontrados.
+
+---
+
+# CONTROLES — DUALSENSE COMO REFERÊNCIA
+
+DualSense/controle PS5 será a referência primária de design.
+
+Posteriormente adaptar para:
+
+- outros controles;
+- teclado/mouse.
+
+Controles atuais:
+
+## Movimento
+Analógico esquerdo.
+
+## Quadrado
+Ataques rápidos de katana.
+
+## Triângulo
+Ataques pesados de katana.
+
+## Círculo
+Dash/rolamento.
+
+## X
+Interação:
+
+- NPC;
+- cenário;
+- objetos;
+- mecanismos.
+
+## L1 + D-Pad
+Seleciona uma das quatro magias.
+
+## R1
+Executa a magia selecionada.
+
+## L2
+Modo de mira/trava do arco.
+
+## Analógico direito durante mira
+Troca alvo.
+
+## R2
+Dispara o arco.
+
+## Touchpad
+Candidato atual para mapa completo.
+
+L3/R3 permanecem sem função obrigatória por enquanto.
+
+---
+
+# KATANA
+
+Katana é o centro do combate.
+
+Combate deve ser:
+
+- rápido;
+- responsivo;
+- preciso;
+- agressivo;
+- hack and slash;
+- adequado para trocar rapidamente entre vários inimigos.
+
+Não haverá defesa.
+
+Não haverá botão de bloqueio.
+
+Não haverá parry tradicional.
+
+Combos atuais conceituais:
+
+```text
+□ → □ → □
+```
+
+Combo rápido/seguro.
+
+```text
+△ → △
+```
+
+Combo pesado/stagger.
+
+```text
+□ → □ → △
+```
+
+Finalizador pesado.
+
+```text
+□ → △ → □
+```
+
+Combo móvel/reposicionamento.
+
+```text
+△ → □ → △
+```
+
+Sequência agressiva de maior comprometimento.
+
+Também incluir:
+
+```text
+Dash → □
+Dash → △
+```
+
+Ataques após evasão.
+
+O jogador deve conseguir alterar sua direção/alvo entre golpes.
+
+Não implementar lock-on rígido obrigatório para a katana.
+
+Pode existir assistência direcional leve.
+
+Ataques leves podem possuir cancelamento por dash em momentos apropriados.
+
+Ataques mais pesados/finalizadores têm maior comprometimento.
+
+Evitar combos gigantes que exijam decorar 20 comandos.
+
+Profundidade deve vir de:
+
+- sequência;
+- timing;
+- direção;
+- escolha do alvo;
+- posicionamento;
+- combinação com magia e arco.
+
+---
+
+# SISTEMA DEFENSIVO
+
+Não existe defesa.
+
+Não existe bloqueio.
+
+Não existe parry.
+
+O sistema defensivo é baseado em:
+
+- movimentação;
+- posicionamento;
+- dash/rolamento;
+- Perfect Dodge.
+
+---
+
+# PERFECT DODGE
+
+Círculo executa evasão.
+
+Existe janela de invulnerabilidade.
+
+Se o jogador evita um ataque dentro da janela precisa:
+
+# Perfect Dodge.
+
+Principal recompensa:
+
+# recuperar quantidade maior de Mana.
+
+Não precisa gerar contra-ataque automático.
+
+Evitar slow motion excessivo que interrompa o ritmo do hack and slash.
+
+Pode utilizar:
+
+- efeito visual curto;
+- efeito sonoro;
+- feedback claro.
+
+---
+
+# MANA
+
+Mana alimenta as quatro magias.
+
+Filosofia desejada:
+
+o jogador não deve precisar ficar parado esperando mana regenerar.
+
+Mana deve favorecer comportamento agressivo.
+
+Fontes possíveis/atuais:
+
+- acertar ataques de katana;
+- Perfect Dodge, dando uma quantidade maior.
+
+Balanceamento e eventual regeneração passiva ainda precisam ser definidos.
+
+---
+
+# MAGIAS
+
+Existem EXATAMENTE quatro magias principais.
+
+Elas são definitivas.
+
+Não haverá sistema de encontrar 20 magias e equipar quatro.
+
+Elas serão adquiridas progressivamente durante a campanha.
+
+Controle:
+
+- L1 + direção = selecionar;
+- R1 = usar magia selecionada.
+
+Posição sugerida no HUD:
+
+```text
+             ↑
+        FOGO AZUL
+
+CLONES ←             → IMPACTO
+
+           TORNADO
+             ↓
+```
+
+---
+
+## Magia 1 — Fogo Azul
+
+Ren utiliza a katana para lançar uma lâmina/onda de fogo azul.
+
+Características:
+
+- percorre uma distância pelo cenário;
+- dano à distância;
+- pode atingir inimigos;
+- pode aplicar queimadura;
+- pode interagir com elementos inflamáveis.
+
+Também poderá ser usada na exploração.
+
+Exemplos:
+
+- queimar vegetação específica;
+- acender elementos;
+- destruir certas barreiras.
+
+---
+
+## Magia 2 — Onda de Impacto
+
+Explosão/onda de impacto próxima a Ren.
+
+Objetivo principal:
+
+controle de multidões.
+
+Características:
+
+- empurra inimigos;
+- causa pequeno/leve atordoamento;
+- pode interromper determinadas ações;
+- inimigos grandes/bosses resistem ao deslocamento;
+- pode contribuir com stagger.
+
+Também pode possuir interações ambientais apropriadas.
+
+---
+
+## Magia 3 — Tornado
+
+Ren cria um tornado.
+
+Características:
+
+- tornado permanece praticamente parado;
+- causa dano em área;
+- puxa levemente inimigos próximos;
+- agrupa inimigos;
+- funciona muito bem em combinação com katana e outras magias.
+
+Não deve virar um projétil perseguidor.
+
+Bosses podem resistir ao puxão.
+
+---
+
+## Magia 4 — Clones
+
+Cria:
+
+# dois clones de Ren.
+
+Funções:
+
+- distrair inimigos;
+- dividir aggro;
+- atacar inimigos;
+- criar espaço para Ren.
+
+Clones:
+
+- têm pouca vida;
+- causam dano reduzido;
+- usam apenas ataques básicos;
+- não usam magia;
+- não usam arco;
+- não criam novos clones;
+- desaparecem ao morrer ou após duração definida.
+
+Contra bosses:
+
+não devem trivializar completamente a IA.
+
+Essa provavelmente será uma das magias de maior custo.
+
+---
+
+# ARCO
+
+Arco é uma ferramenta secundária importante.
+
+Fluxo:
+
+1. Segurar L2.
+2. Sistema identifica um alvo.
+3. Alvo selecionado recebe contorno/silhueta vermelha.
+4. Analógico direito alterna entre alvos disponíveis.
+5. R2 dispara.
+6. Soltar L2 encerra o modo de mira.
+
+Evitar exigir precisão pixel-perfect em combate rápido.
+
+O arco também pode participar de:
+
+- desafios;
+- cenário;
+- puzzles simples;
+- objetivos de missão.
+
+Munição, tipos especiais de flecha e outros detalhes ainda podem ser decididos posteriormente.
+
+Não inventar sistema complexo sem necessidade.
+
+---
+
+# PROGRESSÃO
+
+Não existe:
+
+- level;
+- XP;
+- grinding.
+
+Ren progride principalmente por:
+
+1. habilidade adquirida pelo jogador;
+2. quatro magias obtidas pela história;
+3. progressão narrativa;
+4. quatro melhorias permanentes dos bosses opcionais;
+5. eventualmente novas técnicas específicas de combate, se aprovadas posteriormente.
+
+Não criar sistema tradicional de RPG sem nova decisão explícita.
+
+---
+
+# CHECKPOINTS
+
+Checkpoint principal do jogo:
+
+# estátuas de meditação.
+
+Ren pode interagir com elas e meditar.
+
+Ao meditar:
+
+- recupera Vida;
+- recupera Mana;
+- define aquele local como checkpoint atual;
+- realiza autosave apropriado.
+
+Ao morrer:
+
+Ren retorna à última estátua/checkpoint ativado.
+
+Também podem existir checkpoints narrativamente equivalentes quando necessário, mas a linguagem principal deve ser a estátua de meditação.
+
+Locais possíveis:
+
+- entrada de cavernas;
+- regiões perigosas;
+- vilas;
+- caminhos;
+- antes de bosses.
+
+Checkpoint de boss deve ficar razoavelmente próximo.
+
+Evitar corrida longa até boss após morte.
+
+---
+
+# SAVE
+
+Além do autosave:
+
+# haverá save manual.
+
+O jogador poderá salvar manualmente através do sistema apropriado/menu.
+
+Save automático deve proteger progresso importante.
+
+Ao morrer:
+
+não perder:
+
+- boss já derrotado;
+- magia conquistada;
+- melhoria permanente;
+- missão concluída;
+- segredo importante já registrado;
+- atalho aberto.
+
+Não haverá sistema Soulslike de recuperar XP/almas no local da morte.
+
+---
+
+# HUD
+
+Direção atual:
+
+## Superior esquerdo
+- Vida.
+- Mana.
+
+## Inferior esquerdo
+Quatro quadrados formando cruz para as magias.
+
+Mostrar claramente:
+
+- selecionada;
+- indisponível;
+- cooldown, caso utilizado;
+- falta de mana.
+
+## Superior direito
+Minimapa.
+
+---
+
+# MAPA
+
+O mapa será revelado progressivamente.
+
+O jogador não recebe tudo pronto.
+
+À medida que:
+
+- explora;
+- passa por regiões;
+- conclui partes relevantes;
+
+novos trechos aparecem.
+
+Minimapa:
+
+superior direito.
+
+Mapa completo:
+
+provavelmente Touchpad.
+
+Pode mostrar:
+
+- áreas descobertas;
+- caminhos;
+- NPCs relevantes quando apropriado;
+- missões;
+- locais importantes;
+- checkpoints;
+- segredos descobertos;
+- bosses conhecidos.
+
+Não revelar automaticamente todo conteúdo secreto.
+
+---
+
+# DIREÇÃO DE COMBATE
+
+O jogo é Hack and Slash.
+
+Encontros devem permitir múltiplos inimigos.
+
+Tipos diferentes devem gerar prioridades diferentes.
+
+Exemplo conceitual:
+
+- inimigo rápido;
+- espadachim;
+- arqueiro;
+- pesado;
+- controlador.
+
+Não considerar esses arquétipos obrigatoriamente canon ainda.
+
+O combate deve favorecer:
+
+- fluxo;
+- agressividade;
+- troca de alvo;
+- uso da arena;
+- dash;
+- katana;
+- magia;
+- arco.
+
+Não transformar cada encontro em duelo 1v1.
+
+Bosses continuam mais focados e elaborados.
+
+---
+
+# ESTRUTURA COMERCIAL / ESCOPO
+
+Direção atual aproximada:
+
+- jogo comercial compacto;
+- cerca de 4–6 horas como alvo conceitual inicial;
+- aproximadamente 10–12 fases/capítulos;
+- 6 bosses principais;
+- 1 boss final com duas formas;
+- 4 bosses opcionais;
+- exploração suficiente para aumentar tempo de quem busca conteúdo adicional.
+
+Esses números são alvo de produção, não promessa imutável.
+
+Marcar como sujeito a validação de escopo.
+
+---
+
+# DIREÇÃO ARTÍSTICA
+
+O projeto atual possui arte de protótipo.
+
+A versão comercial poderá mudar fortemente:
+
+- gráficos;
+- sprites;
+- animações;
+- efeitos;
+- mapas;
+- UI;
+- atmosfera.
+
+Continuará sendo:
+
+- 2D;
+- top-down;
+- pixel art moderna/detalhada;
+- estética inspirada em Japão histórico/fantástico sem copiar Pokémon ou qualquer IP.
+
+Não reutilizar automaticamente todos os assets atuais como direção final.
+
+A versão atual de Amahara serve como:
+
+# protótipo técnico/conceitual.
+
+---
+
+# JAPÃO E INSPIRAÇÕES
+
+O jogo é ambientado em um Japão fictício/fantástico.
+
+Pode se inspirar em:
+
+- história;
+- arquitetura;
+- vestimentas;
+- guerras antigas;
+- folclore;
+- mitologia;
+- lendas.
+
+Mas:
+
+NÃO apresentar ficção criada para o jogo como se fosse mitologia japonesa real.
+
+Os personagens principais e cosmologia devem permanecer originais.
+
+Referências utilizadas anteriormente como inspiração conceitual incluem:
+
+- Yamato Takeru;
+- Minamoto no Yorimitsu/Raikō;
+- Shuten-dōji;
+- Heike Monogatari;
+- Mimi-nashi Hōichi;
+- Takiyasha-hime;
+- Taira no Masakado;
+- Izanagi/Izanami/Yomi;
+- goryō/onryō.
+
+Esses elementos são REFERÊNCIAS, não personagens que necessariamente existirão no jogo.
+
+---
+
+# DOCUMENTAÇÃO DOS BOSSES
+
+Crie estrutura individual para bosses.
+
+Por exemplo:
+
+```text
+40_Conteudo/Bosses/
+    README.md
+    B01_Chefe_da_Vila.md
+    B02_Musico.md
+    B03_Assassino_do_Pai.md
+    B04_Arqueiro.md
+    B05_Tigre.md
+    B06_Pai.md
+    B07_Final.md
+
+    Opcionais/
+        Madeira.md
+        Raio.md
+        Javali.md
+        Cristal.md
+```
+
+Cada arquivo deve começar curto, com:
+
+- status;
+- função narrativa;
+- função gameplay;
+- recompensa, quando houver;
+- relação com história;
+- pontos já definidos;
+- pontos ainda em aberto.
+
+Não invente movesets completos agora.
+
+---
+
+# DOCUMENTAÇÃO DE GAMEPLAY
+
+Criar arquivos independentes como:
+
+```text
+20_Gameplay/
+    Combate_Core.md
+    Katana.md
+    Dash_Perfect_Dodge.md
+    Magias.md
+    Arco.md
+    Controles.md
+    Progressao.md
+    Morte_Checkpoints_Save.md
+```
+
+Se alguma subdivisão melhor fizer sentido, pode ajustar.
+
+---
+
+# DOCUMENTAÇÃO NARRATIVA
+
+Exemplo:
+
+```text
+10_Narrativa/
+    Premissa.md
+    Ren.md
+    Antagonista.md
+    Kuroyomi.md
+    Passado_da_Vila.md
+    Linha_do_Tempo.md
+    Temas.md
+```
+
+Não preencher com invenções não aprovadas.
+
+Use `needs-decision` onde faltar informação.
+
+---
+
+# MUNDO
+
+Criar estrutura preparada para:
+
+- regiões;
+- vilas;
+- cavernas;
+- ambientes;
+- fases;
+- mapa;
+- progressão geográfica.
+
+Ainda não é necessário inventar as 12 fases completas.
+
+Podemos registrar apenas:
+
+- estrutura de 10–12 capítulos;
+- conceito semiaberto;
+- regras de bloqueio;
+- revisitação;
+- exploração.
+
+---
+
+# DIRETRIZES PARA IA / CODEX
+
+Crie um arquivo:
+
+# `AI_CONTEXT.md`
+
+Ele deve ser curto.
+
+Regras:
+
+1. Comece por `00_INDEX.md`.
+2. Leia somente os arquivos necessários para a tarefa.
+3. Não leia toda a Bíblia por padrão.
+4. Antes de modificar uma regra de design, verifique sua fonte canônica.
+5. Não invente canon silenciosamente.
+6. Ideias novas devem começar como `proposal`.
+7. Só alterar para `canon` quando houver decisão explícita.
+8. Não duplicar documentação.
+9. Após uma mudança relevante:
+   - atualizar arquivo canônico correspondente;
+   - atualizar `01_ESTADO_ATUAL.md` quando necessário;
+   - registrar mudança relevante no CHANGELOG.
+10. Documentação deve acompanhar alterações reais no jogo.
+11. Código não deve contradizer deliberadamente a Bíblia sem registrar a mudança.
+12. Testes não executados nunca devem ser marcados como PASS.
+
+Inclua uma tabela do tipo:
+
+| Tarefa | Leia primeiro |
+|---|---|
+| Combate | Combate_Core + Katana + Dash |
+| Magia | Magias |
+| Arco | Arco |
+| Boss específico | arquivo daquele boss + Combate_Core |
+| História | Premissa + personagens envolvidos |
+| Mapa/fase | Mundo + fase específica |
+| UI | UI_HUD |
+| Save | Morte_Checkpoints_Save |
+
+Isso é essencial para economizar tokens futuros.
+
+---
+
+# RESUMOS LOCAIS
+
+Para arquivos grandes, coloque no início:
+
+```md
+## TL;DR para IA
+```
+
+com no máximo alguns bullets essenciais.
+
+A IA deve conseguir decidir se precisa continuar lendo o documento.
+
+Evite TL;DR redundante em documentos muito pequenos.
+
+---
+
+# LINKS OBSIDIAN
+
+Use links internos sempre que possível:
+
+`[[arquivo]]`
+
+Organize relações.
+
+Exemplo:
+
+Boss 6 pode apontar para:
+
+- [[Antagonista]]
+- [[Kuroyomi]]
+- [[Ren]]
+- [[Temas]]
+
+Não copie essas informações inteiras para o arquivo do boss.
+
+---
+
+# PESQUISA VS CANON
+
+Se existirem notas de pesquisa cultural:
+
+separe claramente:
+
+```text
+Pesquisa/
+```
+
+de:
+
+```text
+Canon/
+```
+
+Nunca misturar:
+
+“isto existiu no Japão”
+
+com:
+
+“isto existe no universo de Dark: Kuroyomi”.
+
+Toda adaptação original deve estar claramente identificada.
+
+---
+
+# PROPOSTAS ANTIGAS DE AMAHARA
+
+Elementos da antiga Bíblia NÃO são automaticamente válidos.
+
+Exemplos de conteúdos antigos que podem existir:
+
+- Ren semideus;
+- Estandarte;
+- Mio;
+- Seigan;
+- Guerra dos Sete Estandartes;
+- três sinos;
+- General Jinzō;
+- atributos antigos;
+- estruturas anteriores de campanha.
+
+Considere tudo isso:
+
+`deprecated/prototype`
+
+a menos que tenha sido explicitamente reafirmado nesta especificação.
+
+Não misture esse canon antigo com Dark: Kuroyomi.
+
+Preserve-o apenas como histórico.
+
+---
+
+# README DO OBSIDIAN
+
+Crie um README curto explicando:
+
+- finalidade da Bíblia;
+- organização;
+- como navegar;
+- como adicionar informação;
+- diferença entre canon/proposal/archive;
+- regra de economia de contexto.
+
+---
+
+# VALIDAÇÃO FINAL
+
+Ao terminar:
+
+1. Verifique todos os links principais.
+2. Procure referências contraditórias a Amahara como nome oficial.
+3. Procure elementos antigos tratados erroneamente como canon.
+4. Verifique se Dark: Kuroyomi está como projeto atual.
+5. Verifique se nenhum arquivo essencial ficou isolado.
+6. Verifique se não há duplicações grandes.
+7. Verifique se `00_INDEX.md` realmente permite encontrar rapidamente qualquer domínio.
+8. Verifique se `AI_CONTEXT.md` orienta o Codex a NÃO carregar toda a Bíblia.
+9. Verifique se pontos ainda não definidos estão marcados como abertos/proposta.
+10. Não invente decisões para completar documentos.
+
+Ao final, apresente um relatório curto contendo:
+
+- estrutura criada;
+- arquivos principais;
+- arquivos antigos arquivados/preservados;
+- decisões convertidas para canon;
+- pontos ainda em aberto;
+- quaisquer conflitos encontrados na documentação antiga;
+- validações realizadas.
+
+IMPORTANTE:
+
+Não desenvolver o jogo nesta tarefa.
+
+Não alterar gameplay.
+
+Não gerar novos assets.
+
+Não reescrever código apenas para adequá-lo à nova Bíblia.
+
+O objetivo é construir primeiro uma fonte de verdade modular, confiável e eficiente para todas as próximas etapas de Dark: Kuroyomi.

@@ -1,0 +1,198 @@
+{
+	"checks": [
+		{
+			"id": "hit_accept",
+			"pass": true
+		},
+		{
+			"id": "hit_fields",
+			"pass": true
+		},
+		{
+			"id": "hit_negative_rejected",
+			"pass": true
+		},
+		{
+			"id": "hit_nan_rejected",
+			"pass": true
+		},
+		{
+			"id": "native_hitbox_contract",
+			"pass": true
+		},
+		{
+			"id": "native_single_hit",
+			"pass": true
+		},
+		{
+			"id": "enemy_player_hostile",
+			"pass": true
+		},
+		{
+			"id": "player_ally_friendly",
+			"pass": true
+		},
+		{
+			"id": "friendly_damage_rejected",
+			"pass": true
+		},
+		{
+			"id": "enemy_enemy_friendly",
+			"pass": true
+		},
+		{
+			"id": "nearest_non_ren",
+			"pass": true
+		},
+		{
+			"id": "enemy_targets_ally",
+			"pass": true
+		},
+		{
+			"id": "boss_targets_ally",
+			"pass": true
+		},
+		{
+			"id": "dead_target_excluded",
+			"pass": true
+		},
+		{
+			"id": "neutral_excluded",
+			"pass": true
+		},
+		{
+			"id": "freed_target_pruned",
+			"pass": true
+		},
+		{
+			"id": "id_valid",
+			"pass": true
+		},
+		{
+			"id": "id_duplicate",
+			"pass": true
+		},
+		{
+			"id": "id_bad",
+			"pass": true
+		},
+		{
+			"id": "state_version",
+			"pass": true
+		},
+		{
+			"id": "state_roundtrip",
+			"pass": true
+		},
+		{
+			"id": "state_duplicate_rejected",
+			"pass": true
+		},
+		{
+			"id": "future_save_rejected",
+			"pass": true
+		},
+		{
+			"id": "negative_progress_rejected",
+			"pass": true
+		},
+		{
+			"id": "world_save_write",
+			"pass": true
+		},
+		{
+			"id": "world_disk_read",
+			"pass": true
+		},
+		{
+			"id": "world_backup_write",
+			"pass": true
+		},
+		{
+			"id": "world_backup_recovery",
+			"pass": true
+		},
+		{
+			"id": "bad_state_never_written",
+			"pass": true
+		},
+		{
+			"id": "backup_not_overwritten_by_corrupt_main",
+			"pass": true
+		},
+		{
+			"id": "legacy_v1_migration",
+			"pass": true
+		},
+		{
+			"id": "legacy_v2_roundtrip",
+			"pass": true
+		},
+		{
+			"id": "world_rejects_legacy_namespace",
+			"pass": true
+		},
+		{
+			"id": "animation_fixture_valid",
+			"pass": true
+		},
+		{
+			"id": "animation_bad_schema",
+			"pass": true
+		},
+		{
+			"id": "animation_bad_version",
+			"pass": true
+		},
+		{
+			"id": "animation_invalid_fps",
+			"pass": true
+		},
+		{
+			"id": "animation_invalid_pivot",
+			"pass": true
+		},
+		{
+			"id": "animation_invalid_frames",
+			"pass": true
+		},
+		{
+			"id": "animation_invalid_duration",
+			"pass": true
+		},
+		{
+			"id": "animation_invalid_loop",
+			"pass": true
+		},
+		{
+			"id": "animation_duplicate_id",
+			"pass": true
+		},
+		{
+			"id": "animation_event_bounds",
+			"pass": true
+		},
+		{
+			"id": "animation_texture_bounds",
+			"pass": true
+		},
+		{
+			"id": "session_no_narrative",
+			"pass": true
+		},
+		{
+			"id": "session_reset_invalidates",
+			"pass": true
+		},
+		{
+			"id": "session_persistence",
+			"pass": true
+		},
+		{
+			"id": "session_region_contract",
+			"pass": true
+		}
+	],
+	"fail": 0,
+	"pass": 48
+}

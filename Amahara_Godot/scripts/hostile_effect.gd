@@ -16,7 +16,7 @@ var projectile := false
 
 func _ready() -> void:
 	collision_layer = 0
-	collision_mask = 4 | (1 if projectile else 0)
+	collision_mask = 4 | 8 | (1 if projectile else 0)
 	var c := CollisionShape2D.new()
 	var s := CircleShape2D.new()
 	s.radius = 5 if projectile else radius
@@ -29,7 +29,7 @@ func _ready() -> void:
 	z_index = 3
 
 func _physics_process(dt: float) -> void:
-	if not is_instance_valid(source) or source.dead or game.player.dead:
+	if not is_instance_valid(source) or source.dead or game.targets.hostiles(source).is_empty():
 		queue_free()
 		return
 	age += dt
@@ -40,8 +40,10 @@ func _physics_process(dt: float) -> void:
 			if not projectile: game.audio.sfx("magic2")
 		if not struck:
 			for area in get_overlapping_areas():
-				if area is HurtboxComponent:
-					area.actor.receive_hit(damage,source,60,0)
+				if area is HurtboxComponent and CombatFactions.hostile(source,area.actor):
+					var hit := CombatHit.create(source,area.actor,damage,60,0,"hazard:%d" % get_instance_id())
+					hit.source_kind = &"projectile" if projectile else &"hazard"
+					hit.apply()
 					struck = true
 	if age >= delay+life or (projectile and struck): queue_free()
 	queue_redraw()
