@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BossAttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/boss_attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "charge"
+title = "Marcha do general"
+windup = 0.9
+active = 0.55
+recovery = 1.2
+damage = 18.0
+radius = 38.0
+speed = 230.0
+pose = 3.0

@@ -1,0 +1,284 @@
+{
+	"checks": [
+		{
+			"detail": "",
+			"id": "menu_initial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "viewport_640_360",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "native_tilemap",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "resources_loaded",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "input_map_keyboard_gamepad",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "intro_open",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dialogue_freezes_player",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "movement",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "facing",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "diagonal_normalized",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "water_collision",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dash_wall_collision",
+			"result": "PASS"
+		},
+		{
+			"detail": "[\"light_1\", \"light_2\", \"light_3\"]",
+			"id": "light_three_hits",
+			"result": "PASS"
+		},
+		{
+			"detail": "[\"heavy_1\", \"heavy_2\", \"heavy_3\"]",
+			"id": "heavy_three_hits",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "branch_to_heavy_finisher",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "expired_buffer_rejected",
+			"result": "PASS"
+		},
+		{
+			"detail": "HP=47.0",
+			"id": "real_area_hitbox_damage",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "confirmed_hit_energy",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "single_hit_protection",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "no_energy_on_rejected_hit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dash_iframes",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "perfect_dodge_reward",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "perfect_dodge_once",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dash_cooldown",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "magic_no_energy",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "magic_cost",
+			"result": "PASS"
+		},
+		{
+			"detail": "HP=34.0",
+			"id": "projectile_actual_hit",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_damage_stagger",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "seal_cost",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "hurt_state",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "post_hit_iframes",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "death_state",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "cannot_attack_dead",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "respawn_full_health",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "respawn_single_enemy",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "pause_modal",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "controls_modal",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "route_to_yuna",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "yuna_interaction",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "route_to_combat",
+			"result": "PASS"
+		},
+		{
+			"detail": "seconds=2.26666666666666",
+			"id": "combat_via_input_no_damage_helper",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "dead_enemy_cleanup",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "route_to_memorial",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "memorial_collected",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "route_to_shrine",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "checkpoint_restores",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "route_to_bridge",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "sample_boundary_dialogue",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "save_write",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "save_roundtrip",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "save_backup_recovery",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "continue_checkpoint",
+			"result": "PASS"
+		},
+		{
+			"detail": "",
+			"id": "return_menu",
+			"result": "PASS"
+		}
+	],
+	"controllers": [],
+	"engine": {
+		"build": "official",
+		"hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+		"hex": 263681,
+		"major": 4,
+		"minor": 6,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.6.1-stable (official)",
+		"timestamp": 0
+	},
+	"fail": 0,
+	"pass": 53,
+	"scope": "sample only; integration fixtures plus separate input-driven sample route"
+}

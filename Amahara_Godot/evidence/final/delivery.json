@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-05T21:34:24",
+  "scope": "Fase 1 — O Primeiro Sino",
+  "engine": "Godot 4.6.1",
+  "executable": "D:\\Amahara_Juramento_de_Guerra_vertical_slice\\Jogar\\Amahara.exe",
+  "bytes": 113776800,
+  "sha256": "529b2ed1ff3f61037331a4434d3f1f4444433c94413b661dac8873e677443bc4",
+  "automated_checks": 158,
+  "failures": 0,
+  "rendered_playthrough": {
+    "average_process_fps": 73.814050997026,
+    "boss_patterns_observed": [
+      "combo",
+      "charge",
+      "summon",
+      "combo",
+      "wide",
+      "spirit"
+    ],
+    "boss_transitions": 1,
+    "completed": [
+      "village",
+      "forest",
+      "bridge",
+      "corruption",
+      "elite"
+    ],
+    "deaths": 0,
+    "method": "Menu button and InputMap events only; no teleports or stat edits. Simulation accelerated 3x, 180 physics ticks/s.",
+    "pass": true,
+    "rendered": true,
+    "shortcut": true,
+    "stage": 6,
+    "ticks": 7351,
+    "trace": [
+      {
+        "event": "STAGE 0",
+        "hp": 100.0,
+        "tick": 31,
+        "x": 512.0,
+        "y": 416.0
+      },
+      {
+        "event": "STAGE 1",
+        "hp": 100.0,
+        "tick": 318,
+        "x": 736.4443359375,
+        "y": 535.871948242188
+      },
+      {
+        "event": "INTERACT 1",
+        "hp": 100.0,
+        "tick": 466,
+        "x": 571.586303710938,
+        "y": 442.109405517578
+      },
+      {
+        "event": "STAGE 2",
+        "hp": 100.0,
+        "tick": 512,
+        "x": 571.586303710938,
+        "y": 442.109405517578
+      },
+      {
+        "event": "STEP 2",
+        "hp": 100.0,
+        "tick": 600,
+        "x": 729.4580078125,
+        "y": 440.836608886719
+      },
+      {
+        "event": "STEP 4",
+        "hp": 100.0,
+        "tick": 1200,
+        "x": 1287.03479003906,
+        "y": 402.87841796875
+      },
+      {
+        "event": "INTERACT 4",
+        "hp": 100.0,
+        "tick": 1324,
+        "x": 1456.02746582031,
+        "y": 282.18115234375
+      },
+      {
+        "event": "STEP 5",
+        "hp": 64.0,
+        "tick": 1800,
+        "x": 1617.99365234375,
+        "y": 414.255767822266
+      },
+      {
+        "event": "STEP 5",
+        "hp": 69.0,
+        "tick": 2400,
+        "x": 1886.10388183594,
+        "y": 280.164825439453
+      },
+      {
+        "event": "STEP 5",
+        "hp": 74.0,
+        "tick": 3000,
+        "x": 1966.48767089844,
+        "y": 327.153839111328
+      },
+      {
+        "event": "INTERACT 6",
+        "hp": 74.0,
+        "tick": 3368,
+        "x": 1692.81188964844,
+        "y": 675.939514160156
+      },
+      {
+        "event": "STEP 7",
+        "hp": 74.0,
+        "tick": 3600,
+        "x": 1752.23547363281,
+        "y": 371.026336669922
+      },
+      {
+        "event": "STAGE 3",
+        "hp": 74.0,
+        "tick": 3940,
+        "x": 2121.701171875,
+        "y": 437.806610107422
+      },
+      {
+        "event": "INTERACT 10",
+        "hp": 74.0,
+        "tick": 3980,
+        "x": 2188.4296875,
+        "y": 427.624237060547
+      },
+      {
+        "event": "STAGE 4",
+        "hp": 100.0,
+        "tick": 3982,
+        "x": 2188.4296875,
+        "y": 427.624237060547
+      },
+      {
+        "event": "INTERACT 11",
+        "hp": 100.0,
+        "tick": 4158,
+        "x": 1928.69152832031,
+        "y": 557.757202148438
+      },
+      {
+        "event": "STEP 12",
+        "hp": 100.0,
+        "tick": 4200,
+        "x": 1985.40405273438,
+        "y": 520.846984863281
+      },
+      {
+        "event": "STEP 12",
+        "hp": 49.0,
+        "tick": 4800,
+        "x": 2392.38598632813,
+        "y": 374.943939208984
+      },
+      {
+        "event": "STAGE 5",
+        "hp": 44.0,
+        "tick": 5201,
+        "x": 2415.8994140625,
+        "y": 488.587982177734
+      },
+      {
+        "event": "INTERACT 12",
+        "hp": 44.0,
+        "tick": 5365,
+        "x": 2226.66137695313,
+        "y": 425.947296142578
+      },
+      {
+        "event": "STEP 13",
+        "hp": 100.0,
+        "tick": 5400,
+        "x": 2280.78955078125,
+        "y": 438.675262451172
+      },
+      {
+        "event": "INTERACT 14",
+        "hp": 100.0,
+        "tick": 5568,
+        "x": 2227.18872070313,
+        "y": 424.674499511719
+      },
+      {
+        "event": "STEP 16",
+        "hp": 87.0,
+        "tick": 6000,
+        "x": 2761.46508789063,
+        "y": 437.295532226563
+      },
+      {
+        "event": "STEP 16",
+        "hp": 87.0,
+        "tick": 6600,
+        "x": 2767.6416015625,
+        "y": 432.083251953125
+      },
+      {
+        "event": "STEP 16",
+        "hp": 74.0,
+        "tick": 7200,
+        "x": 2787.6748046875,
+        "y": 435.619934082031
+      }
+    ],
+    "upgrades": [
+      "memorial",
+      "altar"
+    ],
+    "wall_seconds": 41.022
+  },
+  "save_reopen": {
+    "max_energy": 125.0,
+    "method": "New operating-system process reading save left by playthrough",
+    "pass": true,
+    "stage": 6,
+    "upgrades": [
+      "memorial",
+      "altar"
+    ]
+  },
+  "preserved_original_files": 23,
+  "logs_clean": [
+    "qa.log",
+    "advanced.log",
+    "settings-qa.log",
+    "playthrough.log",
+    "verify-save.log",
+    "capture.log"
+  ],
+  "physical_dualsense": "NOT_TESTED",
+  "human_balance": "NOT_TESTED",
+  "git": "not a repository; no init, commit or push",
+  "art_assets": [
+    "title.png",
+    "ren_atlas.png",
+    "ren_actions.png",
+    "props_atlas.png",
+    "enemies_atlas.png",
+    "jinzo_atlas.png"
+  ]
+}

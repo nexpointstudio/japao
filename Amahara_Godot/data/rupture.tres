@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MagicData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/magic_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rupture"
+title = "Selo de Ruptura"
+cost = 35.0
+damage = 18.0
+cooldown = 5.0
+radius = 62.0
+speed = 0.0
+stagger = 38.0

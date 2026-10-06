@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "enemy_slash"
+title = "Corte do morto"
+damage = 10.0
+startup = 0.58
+active = 0.16
+recovery = 0.85
+reach = 26.0
+size = Vector2(36, 28)
+knockback = 65.0
+stagger = 10.0
+step_speed = 20.0
+animation = "slash"
+next_light = ""
+next_heavy = ""
+cancel_time = 0.79
+hitstop = 0.025

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "heavy_1"
+title = "Passo de Ferro"
+damage = 15.0
+startup = 0.17
+active = 0.15
+recovery = 0.25
+reach = 27.0
+size = Vector2(38, 30)
+knockback = 65.0
+stagger = 24.0
+step_speed = 80.0
+animation = "slash"
+next_light = ""
+next_heavy = "heavy_2"
+cancel_time = 0.37
+hitstop = 0.065

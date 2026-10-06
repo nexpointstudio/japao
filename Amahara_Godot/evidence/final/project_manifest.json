@@ -1,0 +1,306 @@
+[
+  {
+    "path": "assets\\audio\\boss.wav",
+    "sha256": "53892500fc8dabe0f5c4fa7e80309355f736af235d172449d6cfc9fe7e38a007"
+  },
+  {
+    "path": "assets\\audio\\dash.wav",
+    "sha256": "97c5c314779dbe8f5110e4ad5ede75715499ae66eb46c2db5d0d0a2f32b6ee57"
+  },
+  {
+    "path": "assets\\audio\\heavy.wav",
+    "sha256": "fa493128d1b8816261e1eaaa3c30a7d82b58f5c6fa14f96861e9fd992658ff54"
+  },
+  {
+    "path": "assets\\audio\\hit.wav",
+    "sha256": "7a59898b91a9c5d8e0d790b32ca7c4ce06a9257fdcd8718f652d7eff1c828988"
+  },
+  {
+    "path": "assets\\audio\\hurt.wav",
+    "sha256": "b4e642058565769f7c83b47d87c79b255823f3e9e8e0503c6c9982cad67590b7"
+  },
+  {
+    "path": "assets\\audio\\magic1.wav",
+    "sha256": "a1fbb1aab0bd9cc74f1f63c2970ede46a9ad5100e8b39b9e8b3aae2627c187dd"
+  },
+  {
+    "path": "assets\\audio\\magic2.wav",
+    "sha256": "11d5ef213c0dcbc6e2315a6cf61e5a33dc17f370dc4fd9706e46324e865e2f08"
+  },
+  {
+    "path": "assets\\audio\\perfect.wav",
+    "sha256": "31889bb6c4b1979f535d291bb1b127d0e6c6789135183d485b10d11ae285021f"
+  },
+  {
+    "path": "assets\\audio\\shrine.wav",
+    "sha256": "39f32a99b47934d9a143f798009c37b8398f9e5ccf812e47aad087a88fbe3785"
+  },
+  {
+    "path": "assets\\audio\\slash.wav",
+    "sha256": "b32cc10defc83ca90e28dba50a0db22ec86a53f4fffd9718a73397108710a2d3"
+  },
+  {
+    "path": "assets\\audio\\ui.wav",
+    "sha256": "c56ab6ad7799ac3e4a1c03c304beba3c6f5e8c806686e90a78a5bd51665ccaf5"
+  },
+  {
+    "path": "assets\\audio\\village.wav",
+    "sha256": "2b2a3065f3cc5236f0225cb0f83fc37b80850b46bcdda30eba42b9b117007f4d"
+  },
+  {
+    "path": "assets\\audio\\warn.wav",
+    "sha256": "8dc1f93721cfa60b6e290a5499ec709e006ac42f4dc3923249714964fce8260e"
+  },
+  {
+    "path": "assets\\enemies_atlas.png",
+    "sha256": "0dcdaa2c84de087dc95aeffb5441135dcd765ed7fe6abe9e9a6f91ad410fec55"
+  },
+  {
+    "path": "assets\\jinzo_atlas.png",
+    "sha256": "5c7989f773c086d3fa590e4f625b9583e27fb99015bd04cb1421b8f9f129195a"
+  },
+  {
+    "path": "assets\\props_atlas.png",
+    "sha256": "d446e15baeb50aaea399575ce5dfeb9eba4e96d8677a6884943bfdbb33a0a8f9"
+  },
+  {
+    "path": "assets\\ren_actions.png",
+    "sha256": "8b4739ea25b8016967a74e8423933982a88cbc4aee81cec572159c9895d0d597"
+  },
+  {
+    "path": "assets\\ren_atlas.png",
+    "sha256": "c898dfe95a0761c1442191b53e071c7c965a02aaa668969b9dfc4dc98962a1a1"
+  },
+  {
+    "path": "assets\\title.png",
+    "sha256": "47c80c20dd6b447a0e481d01bb227354a899f819dfdea22cc84292f457510a31"
+  },
+  {
+    "path": "data\\altar.tres",
+    "sha256": "20562b621160c4a9e24b00e48c6ebf0a43bed33ab84e0395654b7a818232f297"
+  },
+  {
+    "path": "data\\boss_charge.tres",
+    "sha256": "e00c330de1348b51fd4e045740a63533eb25edb7bbb8de6e8dd3cb5894cb3d5f"
+  },
+  {
+    "path": "data\\boss_combo.tres",
+    "sha256": "cf09f5552284f25340ba1e7c1bec68db0fd49ca016c07655a272b184f4e448e6"
+  },
+  {
+    "path": "data\\boss_radial.tres",
+    "sha256": "334f89fe0a3a25d4534132a75ed11802b1956adb1736663ea4535701a6664d40"
+  },
+  {
+    "path": "data\\boss_spirit.tres",
+    "sha256": "02339b22672be4539983dfb412b24879c5d2fb089774c9da6edb0de170d2018e"
+  },
+  {
+    "path": "data\\boss_summon.tres",
+    "sha256": "4f18e0b1666d63640ad1d5f1f5897ba503fa1ca78b2e0bb4ce4bdfce25e69d96"
+  },
+  {
+    "path": "data\\boss_wide.tres",
+    "sha256": "5c893f4e4a2ae59dca5d9bfbfe85b13f693f9a12224f77e206496d55c90d8421"
+  },
+  {
+    "path": "data\\celestial.tres",
+    "sha256": "3b949037a13a3751a0c555cbd385f80c3b6f5f363a923747d9cd58f692758e54"
+  },
+  {
+    "path": "data\\enemy_archer.tres",
+    "sha256": "56753c0bd9b7027c8d61dae8476fc654b032cb4d51837e2d59812e720cde7d63"
+  },
+  {
+    "path": "data\\enemy_heavy.tres",
+    "sha256": "48007c1b1411911d65ed4f77644defe69eea1782419b62906a2e48f5bd204d8b"
+  },
+  {
+    "path": "data\\enemy_runner.tres",
+    "sha256": "cd9b7a0e7944e930a88b35600a10a412fffb5b274a355089f8cd5743867f02a2"
+  },
+  {
+    "path": "data\\enemy_seal.tres",
+    "sha256": "b020aa3630f15f0ffa0b4e2df71c67dead34d0958e0d2b3bb86e5ba258199186"
+  },
+  {
+    "path": "data\\enemy_slash.tres",
+    "sha256": "bbb8a53790831bfbb54130b18a6249304d63a8d925edc5c39e1b56f1771dfd2b"
+  },
+  {
+    "path": "data\\enemy_swordsman.tres",
+    "sha256": "76f6a37849e9a25d5fd2d8a18d5915d850f5b207e31fb51dc7153d20fb64c2bc"
+  },
+  {
+    "path": "data\\heavy_1.tres",
+    "sha256": "79c9aebe8d5d4da42dbf2b30b4790a98637eef9f7a6679e0afeb0e340e308146"
+  },
+  {
+    "path": "data\\heavy_2.tres",
+    "sha256": "3bad0d475b1c53dae431379d9202ede7630cc3d93f041cc404cc2f64eff780d8"
+  },
+  {
+    "path": "data\\heavy_3.tres",
+    "sha256": "42f8fe034796fe191f9fb5c93b9ff7882d705a0f86d9b60c576a9274d9822692"
+  },
+  {
+    "path": "data\\light_1.tres",
+    "sha256": "20c62507989ff90d1dfb220bbfa146d2e06366153b53281e8f3dee9da8ff4f07"
+  },
+  {
+    "path": "data\\light_2.tres",
+    "sha256": "c51a4814925a6adda8fe4f28142f1ae57a9353c0efa2d0788218078f64ece5ff"
+  },
+  {
+    "path": "data\\light_3.tres",
+    "sha256": "3ce1a02531ad8c3ade5823b3bd3ea1e90b8e2728020cdfced7948c12f4e6244e"
+  },
+  {
+    "path": "data\\memorial.tres",
+    "sha256": "f14dcec3e031d4f0f6410743642c509ecc119165ee32fa987fba58e65c79be2f"
+  },
+  {
+    "path": "data\\rupture.tres",
+    "sha256": "7e97f353b34c2a62b9efcebafe2ff0e810c37511ae94c300ce640b992e887fbd"
+  },
+  {
+    "path": "export_presets.cfg",
+    "sha256": "f39a86959f43ef469c0aa5980bd5b73ceb198c358a9c3823a4cbe9cf7146fe73"
+  },
+  {
+    "path": "project.godot",
+    "sha256": "71678bcf248a7d53875c04d72dcad14cd6953de8a325c2518d54259d94e3d668"
+  },
+  {
+    "path": "scenes\\Main.tscn",
+    "sha256": "69e934017239c3cfeb61c0fd8bc7998940a765979f0d033a4aa2534b4a6db657"
+  },
+  {
+    "path": "scripts\\attack_data.gd",
+    "sha256": "2af9fdc8bee18add9ea6a468a07709ca5f0bd1e259103dc4a40b6351247ff4d4"
+  },
+  {
+    "path": "scripts\\audio_system.gd",
+    "sha256": "b4cc8724f67d7b80b498e8536494ad5bed1607b127a708e9e00fd0ecec2bdaa7"
+  },
+  {
+    "path": "scripts\\boss.gd",
+    "sha256": "09ae13db1f7792dbbf3ff45551c3d5f7ed91f8c299a051a83ab6e5bf448e9bf6"
+  },
+  {
+    "path": "scripts\\boss_attack_data.gd",
+    "sha256": "bf31582e6119db6d759f6f530d3d6fd95b045985a2db6821f90aa0aef1e33b0f"
+  },
+  {
+    "path": "scripts\\catalog.gd",
+    "sha256": "200cc1f58f03edfcb999dad2d60536af9963a1f39205ed66cb7e5e07e0fd3489"
+  },
+  {
+    "path": "scripts\\encounters.gd",
+    "sha256": "cfc241726c5ae4c094d344d9ed5940b27810af33687264a4dacd4565e11c4604"
+  },
+  {
+    "path": "scripts\\enemy.gd",
+    "sha256": "4ce4bbe2a660931f100edf8d6afb60e850c9b79ad1b59eb383cb9fe37a0cd525"
+  },
+  {
+    "path": "scripts\\enemy_data.gd",
+    "sha256": "7b88e80e6a16adbc18f185afc86ac7b3e1a703b2f3eedd963def5d3c363258c2"
+  },
+  {
+    "path": "scripts\\fx.gd",
+    "sha256": "33c95803189a8b101b3eb0dd4e7921a0e2ed9b2edaf125d38b1b4cfcd2ee42d2"
+  },
+  {
+    "path": "scripts\\game.gd",
+    "sha256": "ea37b5c87ea05fb4ba2ffc05ae67985e52d11c38ee244564b1882c71abb0dd64"
+  },
+  {
+    "path": "scripts\\hitbox.gd",
+    "sha256": "8d128038687a11671b9ad0ca59213f0ac7232f861ef5db740f416b2c33ef7158"
+  },
+  {
+    "path": "scripts\\hostile_effect.gd",
+    "sha256": "811bb0733ae31444817f96c202bb28b82cb350bb7d56f631274155ed03a0dfb1"
+  },
+  {
+    "path": "scripts\\hurtbox.gd",
+    "sha256": "6bb3152373a2f315c4ab6e7d7ee0a2f970af8c7d0b4bf6512738471a7c4f0fe4"
+  },
+  {
+    "path": "scripts\\input_config.gd",
+    "sha256": "10f7ea3b7679626f1fc6ee838a13540cd8d743638863784c109a875ce8e36874"
+  },
+  {
+    "path": "scripts\\interaction.gd",
+    "sha256": "56ede376e57a5a3084c41a9a6f650091224c2c141d33da088417446ddce622c1"
+  },
+  {
+    "path": "scripts\\magic_data.gd",
+    "sha256": "8fafcc4b58bbeae1a0b30c49978671bd994ba840919790d8053260dd8b601913"
+  },
+  {
+    "path": "scripts\\player.gd",
+    "sha256": "f565b2b3af1ab2dd3033079746b742bbf12dea6da0827a535566000ba1324952"
+  },
+  {
+    "path": "scripts\\progression.gd",
+    "sha256": "ce8e39f0c06a92fd779d012249081b1f66facce1c0066ee8721880abd09da17d"
+  },
+  {
+    "path": "scripts\\projectile.gd",
+    "sha256": "c42d3b4803f823afc37690a151b3850aa87f9747486f505de397f1474ee2da75"
+  },
+  {
+    "path": "scripts\\save_store.gd",
+    "sha256": "137137b0ea86b004492ba53af7ea4c142a4826ea0a6fb3e7e462a5301d6c1654"
+  },
+  {
+    "path": "scripts\\ui.gd",
+    "sha256": "ec12890bd5342636331190136005851843b3d0e45a7750d04aeecdc7016b7b0d"
+  },
+  {
+    "path": "scripts\\upgrade_data.gd",
+    "sha256": "1bf35fe71e62a6eebad9d5333cff45eda46ed220080e064358d45ade61b916a6"
+  },
+  {
+    "path": "scripts\\world.gd",
+    "sha256": "1862eff8bd072c31f885115d1bb417f7f4ef16428ee8ffcd01416abd1c3a0a03"
+  },
+  {
+    "path": "tests\\advanced_suite.gd",
+    "sha256": "e4fcac9082a45f52ac9639be1fed53e47fb4130ad8f0e0558f3699d4216f2f8e"
+  },
+  {
+    "path": "tests\\audio_cleanup.gd",
+    "sha256": "46448264b5d57a5cc48322d22da34a56f2e1a3fc9796785cc9df67dcdd38f369"
+  },
+  {
+    "path": "tests\\capture.gd",
+    "sha256": "83f2dbcdac9e09e48f5985a10caed28a394670eada36b78b6de3ffc713a89a3b"
+  },
+  {
+    "path": "tests\\persistence_probe.gd",
+    "sha256": "305ba92caf9f5ec5dc58a94c64530b3c93d996ff7c30b03c53b5ab3a15fc743d"
+  },
+  {
+    "path": "tests\\phase_capture.gd",
+    "sha256": "ffd171f494ce7dab3b17ca1a230868fe0432ab6aecff695507d6542765e3b84e"
+  },
+  {
+    "path": "tests\\phase_suite.gd",
+    "sha256": "c9887fcd531b033a445d62e900e294657589149f6ad5895f01ef6bc158af1cc1"
+  },
+  {
+    "path": "tests\\playthrough.gd",
+    "sha256": "79da3778d87566741bc86ec1bafa023f592fd8b1400b0895448de55435ad0c72"
+  },
+  {
+    "path": "tests\\sample_suite.gd",
+    "sha256": "8ad2a221adbdc78c6a2675b9d0b6e58223d5fb3a0d39729095ef79dbae970615"
+  },
+  {
+    "path": "tests\\settings_suite.gd",
+    "sha256": "7e37d96f47cf366400e39fa2ea71c2dc120e4ed6f8266e53efe0406d4dbc45b8"
+  }
+]

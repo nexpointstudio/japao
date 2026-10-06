@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "light_3"
+title = "Corte Descendente"
+damage = 19.0
+startup = 0.13
+active = 0.14
+recovery = 0.27
+reach = 28.0
+size = Vector2(40, 30)
+knockback = 110.0
+stagger = 22.0
+step_speed = 45.0
+animation = "finish"
+next_light = ""
+next_heavy = ""
+cancel_time = 0.32
+hitstop = 0.025

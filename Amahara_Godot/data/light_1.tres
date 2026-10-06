@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "light_1"
+title = "Corte Horizontal"
+damage = 11.0
+startup = 0.07
+active = 0.12
+recovery = 0.15
+reach = 24.0
+size = Vector2(34, 28)
+knockback = 45.0
+stagger = 10.0
+step_speed = 35.0
+animation = "slash"
+next_light = "light_2"
+next_heavy = ""
+cancel_time = 0.24
+hitstop = 0.025

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "heavy_3"
+title = "Lamina do Estandarte"
+damage = 29.0
+startup = 0.25
+active = 0.18
+recovery = 0.38
+reach = 32.0
+size = Vector2(46, 36)
+knockback = 150.0
+stagger = 42.0
+step_speed = 100.0
+animation = "finish"
+next_light = ""
+next_heavy = ""
+cancel_time = 0.48
+hitstop = 0.065

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Amahara: Juramento de Guerra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="frame">
+    <canvas id="game" width="480" height="270" aria-label="Amahara: Juramento de Guerra"></canvas>
+    <section id="menu" class="panel active">
+      <div class="crest">戦</div>
+      <h1>AMAHARA</h1>
+      <p class="subtitle">JURAMENTO DE GUERRA</p>
+      <button id="playBtn">JOGAR</button>
+      <button id="controlsBtn">CONTROLES</button>
+      <small>Vertical slice — Fase 1: O Estandarte Oco</small>
+    </section>
+    <section id="controls" class="panel hidden compact">
+      <h2>CONTROLES</h2>
+      <div class="controls-grid">
+        <b>Movimento</b><span>WASD / Setas · Analógico / D-Pad</span>
+        <b>Katana rápida</b><span>J · Quadrado</span>
+        <b>Katana pesada</b><span>K · Triângulo</span>
+        <b>Dash</b><span>Espaço · Círculo</span>
+        <b>Corte Celeste</b><span>Q · L1</span>
+        <b>Selo de Ruptura</b><span>E · R1</span>
+        <b>Interagir</b><span>F · X</span>
+        <b>Pausa</b><span>Esc · Options</span>
+      </div>
+      <button data-close="controls">VOLTAR</button>
+    </section>
+    <section id="pause" class="panel hidden compact">
+      <h2>PAUSADO</h2>
+      <button id="resumeBtn">CONTINUAR</button>
+      <button id="pauseControlsBtn">CONTROLES</button>
+      <button id="restartBtn">REINICIAR FASE</button>
+      <button id="menuBtn">MENU</button>
+    </section>
+    <section id="dialogue" class="dialogue hidden">
+      <div id="speaker"></div>
+      <div id="dialogueText"></div>
+      <div class="prompt">F / X — continuar</div>
+    </section>
+    <section id="victory" class="panel hidden victory">
+      <div class="crest">破</div>
+      <h2>O ESTANDARTE CAIU</h2>
+      <p>Amahara respira outra vez — mas os mortos marcharam por ordem de alguém.</p>
+      <p class="hook">Ao norte, três sinos respondem de santuários que deveriam estar vazios.</p>
+      <button id="victoryRestartBtn">JOGAR NOVAMENTE</button>
+      <button id="victoryMenuBtn">MENU</button>
+    </section>
+    <div id="toast" class="toast hidden"></div>
+  </main>
+  <script defer src="src/data/balance.js"></script>
+  <script defer src="src/utils.js"></script>
+  <script defer src="src/audio.js"></script>
+  <script defer src="src/input.js"></script>
+  <script defer src="src/combat.js"></script>
+  <script defer src="src/world.js"></script>
+  <script defer src="src/entities/player.js"></script>
+  <script defer src="src/entities/enemies.js"></script>
+  <script defer src="src/entities/boss.js"></script>
+  <script defer src="src/game.js"></script>
+  <script defer src="src/main.js"></script>
+</body>
+</html>

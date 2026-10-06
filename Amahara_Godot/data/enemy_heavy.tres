@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/enemy_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "heavy"
+title = "Guarda de ferro"
+hp = 90.0
+speed = 30.0
+damage = 18.0
+posture = 66.0
+windup = 0.9
+recovery = 1.15
+preferred_distance = 44.0
+detection = 225.0

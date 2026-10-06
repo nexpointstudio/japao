@@ -1,0 +1,24 @@
+﻿AMAHARA — JURAMENTO DE GUERRA
+FASE 1: O PRIMEIRO SINO
+
+Execute Amahara.exe. Amahara_Amostra.exe é o marco visual anterior, preservado.
+
+WASD / Setas: mover
+J: combo leve | K: combo pesado | Espaço: esquiva
+Q: Corte Celeste | E: Selo de Ruptura
+F: interagir / avançar diálogo | Esc: pausa | F11: tela cheia
+Controle: analógico/direcional, Quadrado, Triângulo, Círculo, L1, R1, X e Options.
+Vibração opcional nas configurações. DualSense físico ainda não validado.
+
+Defenda a praça ao sul, volte a Yuna e siga pela ponte para leste.
+Nas pedras da encosta, contorne pelo norte até o santuário.
+Firme o checkpoint, vença a elite e entre na arena de Jinzō.
+Há um memorial ao norte, um altar ao sul e um atalho destravável pelo leste.
+
+Ataque perto do fim da animação para encadear. Pesados quebram postura.
+Cada grupo derrotado restaura 18 de vida. Santuários restauram vida e energia.
+Continuar recupera o checkpoint e seu progresso. Novo jogo substitui o save.
+
+Projeto editável e relatório: ../Amahara_Godot/
+Capturas e testes: ../Amahara_Godot/evidence/final/
+Godot 4.6.1 / Windows x64. Não é necessário instalar a engine para jogar.

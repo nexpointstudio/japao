@@ -1,0 +1,16 @@
+{
+  "milestone": "visual_playable_sample_01",
+  "full_phase_complete": false,
+  "awaiting": "user visual review required by approved plan",
+  "executable": "Jogar\\Amahara_Amostra.exe",
+  "bytes": 109599848,
+  "sha256": "8e0dfaf61dab4e2f426d80a5130ee1fa6f81b0de64fee003247b40d906ff84f5",
+  "engine": "4.6.1",
+  "project_checks": 53,
+  "export_checks": 53,
+  "failures": 0,
+  "originals_preserved": 23,
+  "physical_controller": "BLOCKED - no connected controllers",
+  "git": "not a repository; no init, commit or push",
+  "images": "builtin imagegen; original PNGs preserved in assets; prompts in docs/ART_PROMPTS.md"
+}

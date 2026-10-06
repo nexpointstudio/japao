@@ -1,0 +1,12 @@
+# Godot regenerates its local import/editor cache from source assets.
+**/.godot/
+
+# Windows builds stay on disk; distribute them separately from source history.
+/Jogar/*.exe
+/Jogar/*.pck
+/Jogar/*.zip
+
+# Per-machine editor layout and Python bytecode are not project sources.
+**/.obsidian/workspace*.json
+**/__pycache__/
+*.pyc

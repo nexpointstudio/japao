@@ -1,0 +1,56 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS menu_initial
+PASS viewport_640_360
+PASS native_tilemap
+PASS resources_loaded
+PASS input_map_keyboard_gamepad
+PASS intro_open
+PASS dialogue_freezes_player
+PASS movement
+PASS facing
+PASS diagonal_normalized
+PASS water_collision
+PASS dash_wall_collision
+PASS light_three_hits / ["light_1", "light_2", "light_3"]
+PASS heavy_three_hits / ["heavy_1", "heavy_2", "heavy_3"]
+PASS branch_to_heavy_finisher
+PASS expired_buffer_rejected
+PASS real_area_hitbox_damage / HP=47.0
+PASS confirmed_hit_energy
+PASS single_hit_protection
+PASS no_energy_on_rejected_hit
+PASS dash_iframes
+PASS perfect_dodge_reward
+PASS perfect_dodge_once
+PASS dash_cooldown
+PASS magic_no_energy
+PASS magic_cost
+PASS projectile_actual_hit / HP=34.0
+PASS seal_damage_stagger
+PASS seal_cost
+PASS hurt_state
+PASS post_hit_iframes
+PASS death_state
+PASS cannot_attack_dead
+PASS respawn_full_health
+PASS respawn_single_enemy
+PASS pause_modal
+PASS controls_modal
+PASS route_to_yuna
+PASS yuna_interaction
+PASS route_to_combat
+PASS combat_via_input_no_damage_helper / seconds=2.26666666666666
+PASS dead_enemy_cleanup
+PASS route_to_memorial
+PASS memorial_collected
+PASS route_to_shrine
+PASS checkpoint_restores
+PASS route_to_bridge
+PASS sample_boundary_dialogue
+PASS save_write
+PASS save_roundtrip
+PASS save_backup_recovery
+PASS continue_checkpoint
+PASS return_menu
+SAMPLE_QA: 53 PASS / 0 FAIL

@@ -1,0 +1,117 @@
+[
+  {
+    "path": "AMAHARA_BIBLIA_MESTRA_COMPLETA.md",
+    "bytes": 184156,
+    "sha256": "98a0426cc985489a30437085464410adb960d28dde0e657c6aaaf91ba3b63825"
+  },
+  {
+    "path": "amahara_vertical_slice\\docs\\FINAL_REPORT.md",
+    "bytes": 5104,
+    "sha256": "de3f740979fce6692a6523cb5662cad7bb8c1b74d27c0730f5b078cfc7d53280"
+  },
+  {
+    "path": "amahara_vertical_slice\\docs\\RESEARCH.md",
+    "bytes": 3302,
+    "sha256": "9926958b1f00ba40b3dce6418ea3db3031d9d711df74cb75aa8806294634dc4c"
+  },
+  {
+    "path": "amahara_vertical_slice\\docs\\TEST_REPORT.md",
+    "bytes": 8875,
+    "sha256": "006685a76638e36f88c9a5c7cd50735e093d45fb9fc445bc7eb9685c97a3d724"
+  },
+  {
+    "path": "amahara_vertical_slice\\index.html",
+    "bytes": 2868,
+    "sha256": "c6f57b03d27e531a06a8ad786d3226d86bf4cb7fd84ebf41555d066e6829a661"
+  },
+  {
+    "path": "amahara_vertical_slice\\README.md",
+    "bytes": 1651,
+    "sha256": "9c65405335a79067fbf41cc854ee08b0e5ebd49e60b6e289941dcacdff56b961"
+  },
+  {
+    "path": "amahara_vertical_slice\\run.bat",
+    "bytes": 233,
+    "sha256": "ab4499b3c8cf04e0a7053c067c2a378d7263316b31645dcea32ed49ed27d0f62"
+  },
+  {
+    "path": "amahara_vertical_slice\\screenshots\\boss.png",
+    "bytes": 13735,
+    "sha256": "01868ed897f4c7d1b5f13ffc4ba34a558c21145ecce88ac5ef95c68de72348b4"
+  },
+  {
+    "path": "amahara_vertical_slice\\screenshots\\village.png",
+    "bytes": 12492,
+    "sha256": "be6383ea5aa379b9771b1e9da14fbd960f0e0845dad924097a6a3d43e1cbeb12"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\audio.js",
+    "bytes": 2209,
+    "sha256": "56168c7a511882e95e240b0f9da55999af26f079bab815057980fb19ccd9e99b"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\combat.js",
+    "bytes": 845,
+    "sha256": "f876d78bd144f91225e761ae56ca56451f1afabd22abf07668c17f7f496a61d8"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\data\\balance.js",
+    "bytes": 1832,
+    "sha256": "d1e7fa1f5ea0b48b47944b39a40117210f8a8ba208052c86b401825bc8b4d80a"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\entities\\boss.js",
+    "bytes": 4959,
+    "sha256": "1873919e5449330660c07f9ee50a23755628dfec7ddda2fd0d3e2177e9970e09"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\entities\\enemies.js",
+    "bytes": 4644,
+    "sha256": "4eba0616a37eb84caac79833f442d078bbb956bf4f9166350727fb97e66a561d"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\entities\\player.js",
+    "bytes": 8114,
+    "sha256": "e346bc8d59f5a24b119b33df39c28acef06228bd0563456535433ce052039076"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\game.js",
+    "bytes": 16883,
+    "sha256": "2a8a674446dd96651b3658ea15b143966a160abf7bde66177d03849308575024"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\input.js",
+    "bytes": 1836,
+    "sha256": "31e94831a4745f4ef84dafbca43987ef27d67ce710469b635706dc2a4391636d"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\main.js",
+    "bytes": 180,
+    "sha256": "471adbecebd52fff040ffa5240e54bcfee12aedba2053d4dd423c692c934641b"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\utils.js",
+    "bytes": 605,
+    "sha256": "a53a56dc3387926a537045cea00c4003480d385837350c0f1f1a20c808390e31"
+  },
+  {
+    "path": "amahara_vertical_slice\\src\\world.js",
+    "bytes": 9251,
+    "sha256": "b525607872bf5293259c6dbe864a7069ed315e67b214ee17bf39470051008221"
+  },
+  {
+    "path": "amahara_vertical_slice\\style.css",
+    "bytes": 2769,
+    "sha256": "00e30801c7cb3e712911769419323c922c928a33165157146d42503ceba81484"
+  },
+  {
+    "path": "amahara_vertical_slice\\tests\\cdp_smoke.js",
+    "bytes": 6362,
+    "sha256": "71fdf29f1bdca59c0871c0b6738ef08aebec2779afb79b63f9d43f3864bbf3fb"
+  },
+  {
+    "path": "amahara_vertical_slice\\tests\\logic_suite.js",
+    "bytes": 11235,
+    "sha256": "cdf1fc54b429862a8e69a93ba02039c707eb24a17f4287a5f0a9e2c799e957c0"
+  }
+]

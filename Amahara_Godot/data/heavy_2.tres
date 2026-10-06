@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "heavy_2"
+title = "Ombro da Guerra"
+damage = 18.0
+startup = 0.18
+active = 0.16
+recovery = 0.25
+reach = 28.0
+size = Vector2(40, 32)
+knockback = 85.0
+stagger = 30.0
+step_speed = 95.0
+animation = "reverse"
+next_light = ""
+next_heavy = "heavy_3"
+cancel_time = 0.38999999999999996
+hitstop = 0.065
